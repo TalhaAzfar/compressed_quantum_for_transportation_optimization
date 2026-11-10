@@ -1,0 +1,108 @@
+{
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "fit_max_evaluations": 500,
+  "fit_maxiter": 400,
+  "fit_ftol": 1e-11,
+  "fit_gtol": 1e-06,
+  "minimum_evaluations_if_not_converged": 100,
+  "minimum_target_fidelity": 0.999,
+  "contraction_repeats": 16,
+  "aggregate_rss_limit_bytes": 35000000000,
+  "system_reserve_bytes": 8000000000,
+  "parallel_workers": 3,
+  "physical_cores_per_worker": 6,
+  "numerical_threads_per_worker": 4,
+  "worker_rss_limit_bytes": 9000000000,
+  "worker_address_gib": 12,
+  "schema": "fresh-instance-two-day-reproduction-v1",
+  "output_dir": "outputs/reproducibility_2026_10",
+  "cases": [
+    {
+      "id": "flp20_new1",
+      "problem": "flp",
+      "seed": 106201,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "flp20_new2",
+      "problem": "flp",
+      "seed": 106202,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "flp20_new3",
+      "problem": "flp",
+      "seed": 106203,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "tsp16_new1",
+      "problem": "tsp",
+      "seed": 106401,
+      "nodes": 5
+    },
+    {
+      "id": "tsp16_new2",
+      "problem": "tsp",
+      "seed": 106402,
+      "nodes": 5
+    },
+    {
+      "id": "tsp16_new3",
+      "problem": "tsp",
+      "seed": 106403,
+      "nodes": 5
+    }
+  ],
+  "annealing_time": 2.0,
+  "steps": 12,
+  "fit_seconds_small": 1800,
+  "fit_seconds_large": 7200,
+  "new_native_depth_caps": [
+    32,
+    64
+  ],
+  "native_starts": 3,
+  "product_starts": 3,
+  "start_perturbations": [
+    0,
+    0.03,
+    0.1
+  ],
+  "parameter_seed": 106001,
+  "patch_seed": 106002,
+  "ordering_seed": 106003,
+  "target_bond": 256,
+  "max_tensor_bytes": 536870912,
+  "max_slice_write_bytes": 3000000000,
+  "max_slices": 32,
+  "screen_blocks": 2,
+  "screen_shots": 2048,
+  "confirmation_days": 2,
+  "confirmation_blocks": 2,
+  "confirmation_shots": 4096,
+  "minimum_confirmation_separation_seconds": 86400,
+  "maximum_calendar_wait_days": 7,
+  "hardware_max_jobs": 12,
+  "hardware_max_total_shots": 614400,
+  "hardware_max_execution_seconds_per_job": 300,
+  "selection_rule": "Same feasibility Wilson-lower-bound selection as the depth-refinement release, with depth/count/ID tie breaks. Pool: source, best-fidelity product, fixed best-fidelity L2, and highest-fidelity/highest-ideal-feasibility entangling candidates within base/32/64 depth budgets. Preserve all shallower fits. Deduplicate identical logical circuits.",
+  "confirmation_methods": [
+    "selected_native",
+    "fixed_shallow",
+    "refined_product",
+    "source"
+  ],
+  "primary_inference": "72 jointly Holm-corrected two-sided block-conditional exact tests: 6 cases x 2 days x 2 events x 3 references. A case/event/reference is replicated only if the selected circuit has a corrected positive difference on both days. Zero or sparse counts remain unresolved. Identical-circuit arms are self-controls with p=1.",
+  "secondary_inference": "36 pooled-over-days contrasts corrected separately and explicitly secondary; pooled significance is not replication. Both day-specific effects are always reported.",
+  "reproduction_scope": "Fresh cost instances at the previously promising FLP20/TSP16 settings. Select once using independent screening, then repeat the same fixed logical and ISA circuits on two dates at least 24 hours apart with distinct calibration timestamps. No reoptimization, rerouting or reselection between confirmation days. Fixed-shallow control is the best three-start fresh L2 fit, not a historical-instance circuit.",
+  "software": "Quimb with PyTorch autodiff and bounded v2 contraction planning; exact-reference-assisted MPS target, exact final-state checks. This is not an end-to-end scalable tensor-network construction claim.",
+  "prior_results_seen": true,
+  "new_hardware_outcomes_seen": false
+}

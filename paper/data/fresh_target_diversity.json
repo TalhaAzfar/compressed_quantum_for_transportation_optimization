@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-08T05:38:35.389211+00:00",
+  "rows": [
+    {
+      "family": "flp",
+      "case_a": "flp20_new1",
+      "case_b": "flp20_new2",
+      "exact_overlap": 0.9998707308311032
+    },
+    {
+      "family": "flp",
+      "case_a": "flp20_new1",
+      "case_b": "flp20_new3",
+      "exact_overlap": 0.999723021879735
+    },
+    {
+      "family": "flp",
+      "case_a": "flp20_new2",
+      "case_b": "flp20_new3",
+      "exact_overlap": 0.9997446038091005
+    },
+    {
+      "family": "tsp",
+      "case_a": "tsp16_new1",
+      "case_b": "tsp16_new2",
+      "exact_overlap": 0.9996170392318814
+    },
+    {
+      "family": "tsp",
+      "case_a": "tsp16_new1",
+      "case_b": "tsp16_new3",
+      "exact_overlap": 0.9998403971672013
+    },
+    {
+      "family": "tsp",
+      "case_a": "tsp16_new2",
+      "case_b": "tsp16_new3",
+      "exact_overlap": 0.999819998954957
+    }
+  ],
+  "interpretation": "Fresh costs on a fixed constraint graph do not imply broadly different state targets. Report the overlaps alongside instance-level replication."
+}

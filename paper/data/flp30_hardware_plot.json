@@ -1,0 +1,619 @@
+{
+  "scope": "One FLP30 instance, five customers and five facilities, complete p=2 QAOA output. Hardware results from Nighthawk. Separate from complete-annealing studies.",
+  "depth_choice": "The qubit-width plots show the depth-16 comparison descriptively; its choice is retrospective. All four compressed depths and both treatment arms appear in the depth-feasibility figure. No new significance test or circuit selection.",
+  "intervals": "Pointwise 95% Wilson-based additive-variance block means; differences use MOVER, equal weights 1/2. Intervals do not account for retrospective depth choice or multiplicity.",
+  "backend": "ibm_rensselaer",
+  "processor": {
+    "family": "Nighthawk",
+    "revision": "1"
+  },
+  "raw_count_sets_independently_decoded": 24,
+  "rates": [
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "method": "original",
+      "cz_depth": 292,
+      "shots": 12288,
+      "feasible_count": 3,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        3,
+        0
+      ],
+      "p_feasible_percent": 0.0244140625,
+      "ci_low_percent": 0.008303663528841642,
+      "ci_high_percent": 0.08111923726797554
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "method": "product",
+      "cz_depth": 0,
+      "shots": 12288,
+      "feasible_count": 52,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        31,
+        21
+      ],
+      "p_feasible_percent": 0.42317708333333337,
+      "ci_low_percent": 0.3281589944057479,
+      "ci_high_percent": 0.561802039946067
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "method": "compressed_l2",
+      "cz_depth": 16,
+      "shots": 12288,
+      "feasible_count": 93,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        45,
+        48
+      ],
+      "p_feasible_percent": 0.7568359375,
+      "ci_low_percent": 0.6238657567580516,
+      "ci_high_percent": 0.9333148616408514
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "method": "compressed_l6",
+      "cz_depth": 48,
+      "shots": 12288,
+      "feasible_count": 41,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        23,
+        18
+      ],
+      "p_feasible_percent": 0.3336588541666667,
+      "ci_low_percent": 0.2512929132653364,
+      "ci_high_percent": 0.45983341913681036
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "method": "compressed_l12",
+      "cz_depth": 96,
+      "shots": 12288,
+      "feasible_count": 31,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        12,
+        19
+      ],
+      "p_feasible_percent": 0.2522786458333333,
+      "ci_low_percent": 0.18274488573047598,
+      "ci_high_percent": 0.3655011254127154
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "method": "compressed_l24",
+      "cz_depth": 192,
+      "shots": 12288,
+      "feasible_count": 13,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        8,
+        5
+      ],
+      "p_feasible_percent": 0.10579427083333333,
+      "ci_low_percent": 0.06611936286431894,
+      "ci_high_percent": 0.1892985933710984
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "method": "original",
+      "cz_depth": 292,
+      "shots": 12288,
+      "feasible_count": 2,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        1,
+        1
+      ],
+      "p_feasible_percent": 0.016276041666666664,
+      "ci_low_percent": 0.006798786439975728,
+      "ci_high_percent": 0.06992225246394713
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "method": "product",
+      "cz_depth": 0,
+      "shots": 12288,
+      "feasible_count": 41,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        22,
+        19
+      ],
+      "p_feasible_percent": 0.33365885416666663,
+      "ci_low_percent": 0.2513223048354208,
+      "ci_high_percent": 0.4598552209693839
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "method": "compressed_l2",
+      "cz_depth": 16,
+      "shots": 12288,
+      "feasible_count": 75,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        31,
+        44
+      ],
+      "p_feasible_percent": 0.6103515625,
+      "ci_low_percent": 0.49270279372896975,
+      "ci_high_percent": 0.7714770615306445
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "method": "compressed_l6",
+      "cz_depth": 48,
+      "shots": 12288,
+      "feasible_count": 32,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        12,
+        20
+      ],
+      "p_feasible_percent": 0.2604166666666667,
+      "ci_low_percent": 0.18946909513854795,
+      "ci_high_percent": 0.3749826220604109
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "method": "compressed_l12",
+      "cz_depth": 96,
+      "shots": 12288,
+      "feasible_count": 5,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        1,
+        4
+      ],
+      "p_feasible_percent": 0.040690104166666664,
+      "ci_low_percent": 0.019699796365816633,
+      "ci_high_percent": 0.1043257839681051
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "method": "compressed_l24",
+      "cz_depth": 192,
+      "shots": 12288,
+      "feasible_count": 3,
+      "optimal_count": 0,
+      "block_feasible_counts": [
+        3,
+        0
+      ],
+      "p_feasible_percent": 0.0244140625,
+      "ci_low_percent": 0.008303663528841642,
+      "ci_high_percent": 0.08111923726797554
+    }
+  ],
+  "effects": [
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "event": "feasible",
+      "reference": "source",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.732421875,
+      "ci_low_pp": 0.5878654991045968,
+      "ci_high_pp": 0.9096346161359643,
+      "compiled_count": 93,
+      "reference_count": 3,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "event": "optimal",
+      "reference": "source",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.044183338167649314,
+      "ci_high_pp": 0.044183338167649314,
+      "compiled_count": 0,
+      "reference_count": 0,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "event": "feasible",
+      "reference": "refined_product",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.33365885416666663,
+      "ci_low_pp": 0.14157046939957899,
+      "ci_high_pp": 0.5340915059212222,
+      "compiled_count": 93,
+      "reference_count": 52,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "raw",
+      "event": "optimal",
+      "reference": "refined_product",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.044183338167649314,
+      "ci_high_pp": 0.044183338167649314,
+      "compiled_count": 0,
+      "reference_count": 0,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "event": "feasible",
+      "reference": "source",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.5940755208333333,
+      "ci_low_pp": 0.4647729735798256,
+      "ci_high_pp": 0.7554795009716995,
+      "compiled_count": 75,
+      "reference_count": 2,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "event": "optimal",
+      "reference": "source",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.044183338167649314,
+      "ci_high_pp": 0.044183338167649314,
+      "compiled_count": 0,
+      "reference_count": 0,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "event": "feasible",
+      "reference": "refined_product",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.2766927083333333,
+      "ci_low_pp": 0.10416225946257512,
+      "ci_high_pp": 0.45763671567718245,
+      "compiled_count": 75,
+      "reference_count": 41,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    },
+    {
+      "study": "qaoa_output",
+      "case_id": "flp30",
+      "family": "FLP",
+      "n_qubits": 30,
+      "arm": "suppressed",
+      "event": "optimal",
+      "reference": "refined_product",
+      "compiled_method": "compressed_l2",
+      "cz_depth": 16,
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.044183338167649314,
+      "ci_high_pp": 0.044183338167649314,
+      "compiled_count": 0,
+      "reference_count": 0,
+      "shots_per_method": 12288,
+      "retrospective_depth_choice": true
+    }
+  ],
+  "by_block": [
+    {
+      "arm": "raw",
+      "method": "compressed_l6",
+      "block": 0,
+      "job_id": "daqut4db46qs73a1qvj0",
+      "shots": 6144,
+      "feasible_count": 23,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l12",
+      "block": 0,
+      "job_id": "daqut4db46qs73a1qvj0",
+      "shots": 6144,
+      "feasible_count": 12,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l2",
+      "block": 0,
+      "job_id": "daqut4db46qs73a1qvj0",
+      "shots": 6144,
+      "feasible_count": 45,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "product",
+      "block": 0,
+      "job_id": "daqut4db46qs73a1qvj0",
+      "shots": 6144,
+      "feasible_count": 31,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "original",
+      "block": 0,
+      "job_id": "daqut4db46qs73a1qvj0",
+      "shots": 6144,
+      "feasible_count": 3,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l24",
+      "block": 0,
+      "job_id": "daqut4db46qs73a1qvj0",
+      "shots": 6144,
+      "feasible_count": 8,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l6",
+      "block": 0,
+      "job_id": "daqut6lb46qs73a1qvm0",
+      "shots": 6144,
+      "feasible_count": 12,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "product",
+      "block": 0,
+      "job_id": "daqut6lb46qs73a1qvm0",
+      "shots": 6144,
+      "feasible_count": 22,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "original",
+      "block": 0,
+      "job_id": "daqut6lb46qs73a1qvm0",
+      "shots": 6144,
+      "feasible_count": 1,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l12",
+      "block": 0,
+      "job_id": "daqut6lb46qs73a1qvm0",
+      "shots": 6144,
+      "feasible_count": 1,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l24",
+      "block": 0,
+      "job_id": "daqut6lb46qs73a1qvm0",
+      "shots": 6144,
+      "feasible_count": 3,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l2",
+      "block": 0,
+      "job_id": "daqut6lb46qs73a1qvm0",
+      "shots": 6144,
+      "feasible_count": 31,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l12",
+      "block": 1,
+      "job_id": "daqut8db46qs73a1qvr0",
+      "shots": 6144,
+      "feasible_count": 19,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "product",
+      "block": 1,
+      "job_id": "daqut8db46qs73a1qvr0",
+      "shots": 6144,
+      "feasible_count": 21,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "original",
+      "block": 1,
+      "job_id": "daqut8db46qs73a1qvr0",
+      "shots": 6144,
+      "feasible_count": 0,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l2",
+      "block": 1,
+      "job_id": "daqut8db46qs73a1qvr0",
+      "shots": 6144,
+      "feasible_count": 48,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l6",
+      "block": 1,
+      "job_id": "daqut8db46qs73a1qvr0",
+      "shots": 6144,
+      "feasible_count": 18,
+      "optimal_count": 0
+    },
+    {
+      "arm": "raw",
+      "method": "compressed_l24",
+      "block": 1,
+      "job_id": "daqut8db46qs73a1qvr0",
+      "shots": 6144,
+      "feasible_count": 5,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "original",
+      "block": 1,
+      "job_id": "daqutamekp0c73arbrlg",
+      "shots": 6144,
+      "feasible_count": 1,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l12",
+      "block": 1,
+      "job_id": "daqutamekp0c73arbrlg",
+      "shots": 6144,
+      "feasible_count": 4,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l24",
+      "block": 1,
+      "job_id": "daqutamekp0c73arbrlg",
+      "shots": 6144,
+      "feasible_count": 0,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l6",
+      "block": 1,
+      "job_id": "daqutamekp0c73arbrlg",
+      "shots": 6144,
+      "feasible_count": 20,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "product",
+      "block": 1,
+      "job_id": "daqutamekp0c73arbrlg",
+      "shots": 6144,
+      "feasible_count": 19,
+      "optimal_count": 0
+    },
+    {
+      "arm": "suppressed",
+      "method": "compressed_l2",
+      "block": 1,
+      "job_id": "daqutamekp0c73arbrlg",
+      "shots": 6144,
+      "feasible_count": 44,
+      "optimal_count": 0
+    }
+  ],
+  "input_sha256": {
+    "outputs/aqc_tensor_qaoa_v2/cases/flp30.json": "3fec3a67eff814e329e3692baee122cc736167b73c5ffdaf0ce5ce3bd0473079",
+    "outputs/depth200_optimum_study/jobs.json": "7c423dd4fd3963a67a3f580d722a9aee2349830b2b25a2667bcfa987e6268bd2",
+    "outputs/depth200_optimum_study/hardware_plan.json": "7fb97cbbee0c03ae5ddd00acfb3db5ceb116d57cb91273475849c31a10f9f65e",
+    "outputs/depth200_optimum_study/hardware_by_block.csv": "e3d98cda6a79bb0417caade64db1c8d56b07156165c7c8c7adce1991d7e98fc5",
+    "outputs/depth200_optimum_study/hardware_analysis.json": "96f44e0eea7b08e6aec7814ad3593c3847595af5fe11c3c6bbab841902cf0bb6",
+    "outputs/hardware_width_figures_2026/plot_data.csv": "a69fb0a75f9d6f97d22468b6a7576bb4b6d8544d14a0af8d1d60cafccdefbbd8",
+    "outputs/depth200_optimum_study/raw_counts/b0_raw.json": "183c23aa796c97f0abe03ef491a72383c2eb1e478cf4f361d8f4bf51e7f9db20",
+    "outputs/depth200_optimum_study/raw_counts/b0_suppressed.json": "143f745af24787d5928b2ac8e9b18f35521e1fc85a8f33f943d723f243733531",
+    "outputs/depth200_optimum_study/raw_counts/b1_raw.json": "ed7cf1cb485574725018727e1a817c886c4c9d473f876149440ab2be0a8d96f6",
+    "outputs/depth200_optimum_study/raw_counts/b1_suppressed.json": "60410a0255616a42efb69c326328680d0dd386d7e9b38be658b13460d7de943f"
+  },
+  "all_saved_counts_reproduced": true,
+  "all_eight_difference_estimates_and_intervals_match_prior_export": true
+}

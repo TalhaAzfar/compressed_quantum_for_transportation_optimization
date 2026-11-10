@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this research code."
+type: software
+title: "Hardware-Native Compression of Quantum Annealing States for Transportation Optimization Models"
+repository-code: "https://github.com/TalhaAzfar/hardware-aware-transport-qaoa"
+authors:
+  - family-names: Azfar
+    given-names: Talha
+  - family-names: Ke
+    given-names: Ruimin
+  - family-names: He
+    given-names: Sean
+  - family-names: Wang
+    given-names: Cara
+  - family-names: Holguín-Veras
+    given-names: José

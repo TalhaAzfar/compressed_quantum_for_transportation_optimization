@@ -1,0 +1,73 @@
+{
+  "schema_version": "corrected-flp-pilot-v1",
+  "description": "Frozen local simulation pilot; no hardware jobs or claimed prospective hardware confirmation.",
+  "customer_counts": [
+    2,
+    3,
+    4
+  ],
+  "facility_count": 2,
+  "instance_seeds": [
+    11,
+    23,
+    37,
+    51,
+    79
+  ],
+  "service_cost_range_inclusive": [
+    1,
+    20
+  ],
+  "opening_cost_range_inclusive": [
+    10,
+    30
+  ],
+  "annealing_times": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "trotter_steps": [
+    8,
+    16,
+    32
+  ],
+  "driver_coefficients": [
+    -1.0,
+    1.0
+  ],
+  "primary_gap_tolerance": 0.05,
+  "compression": {
+    "annealing_time": 2.0,
+    "num_steps": 16,
+    "prefix_steps": 8,
+    "target_refinement": 2,
+    "shallow_prefix_steps": 3,
+    "maxiter": 100,
+    "stopping_fidelity": 0.999,
+    "mps_max_bond_dimension": 128
+  },
+  "qaoa": {
+    "depths": [
+      1,
+      2
+    ],
+    "initialization_seeds": [
+      102,
+      208
+    ],
+    "max_function_evaluations_per_start": 100,
+    "optimizer": "COBYLA",
+    "training_objective": "exact_mean_normalized_penalized_energy"
+  },
+  "circuit_resource_basis": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "resource_connectivity": "all_to_all_logical_not_device_transpiled",
+  "transpiler_seed": 1234,
+  "output_dir": "outputs/revision_2026/corrected_simulation"
+}

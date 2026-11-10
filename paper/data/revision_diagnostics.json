@@ -1,0 +1,4510 @@
+{
+  "scope": "Descriptive analyses of existing experiments; no new significance tests.",
+  "runtime_scope": "Optimizer elapsed times summed across fits; not CPU time or parallel campaign duration. Target construction, MPS conversion, validation, compilation and hardware screening are additional costs.",
+  "runtime": [
+    {
+      "family": "FLP",
+      "n_qubits": 6,
+      "fits": 36,
+      "median_fit_seconds": 11.94512119423598,
+      "maximum_fit_seconds": 69.41740872105584,
+      "sum_fit_hours": 0.22393288997648697
+    },
+    {
+      "family": "FLP",
+      "n_qubits": 10,
+      "fits": 36,
+      "median_fit_seconds": 44.94645653502084,
+      "maximum_fit_seconds": 92.43589663784951,
+      "sum_fit_hours": 0.43110304328250804
+    },
+    {
+      "family": "FLP",
+      "n_qubits": 14,
+      "fits": 36,
+      "median_fit_seconds": 53.08460081391968,
+      "maximum_fit_seconds": 139.50959194917232,
+      "sum_fit_hours": 0.5718940623675007
+    },
+    {
+      "family": "FLP",
+      "n_qubits": 20,
+      "fits": 36,
+      "median_fit_seconds": 145.31133327097632,
+      "maximum_fit_seconds": 1804.1033292957582,
+      "sum_fit_hours": 5.383646232376988
+    },
+    {
+      "family": "TSP",
+      "n_qubits": 9,
+      "fits": 36,
+      "median_fit_seconds": 38.720071081770584,
+      "maximum_fit_seconds": 89.86715773306787,
+      "sum_fit_hours": 0.39771354976330053
+    },
+    {
+      "family": "TSP",
+      "n_qubits": 16,
+      "fits": 36,
+      "median_fit_seconds": 67.40183656685986,
+      "maximum_fit_seconds": 192.41820245608687,
+      "sum_fit_hours": 0.7686817763757426
+    },
+    {
+      "family": "TSP",
+      "n_qubits": 25,
+      "fits": 36,
+      "median_fit_seconds": 125.38785448670387,
+      "maximum_fit_seconds": 7220.671061354224,
+      "sum_fit_hours": 18.697169113086613
+    },
+    {
+      "family": "VRP",
+      "n_qubits": 12,
+      "fits": 36,
+      "median_fit_seconds": 48.502104316372424,
+      "maximum_fit_seconds": 118.42117620119825,
+      "sum_fit_hours": 0.5257727250709043
+    },
+    {
+      "family": "VRP",
+      "n_qubits": 20,
+      "fits": 36,
+      "median_fit_seconds": 224.48478023381904,
+      "maximum_fit_seconds": 1803.0531695359387,
+      "sum_fit_hours": 5.87909808586468
+    }
+  ],
+  "total_optimizer_hours": 32.87901147816473,
+  "budget_scope": "Exact random subsampling without replacement from each finite observed pool. Expected minimum gap is conditional on at least one feasible outcome. Group summaries take the median of instance-specific expectations, not the minimum across different instances. No chronological order or future hardware model is assumed.",
+  "budget": [
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "product",
+      "full_shots": 131072,
+      "budget_fraction": 0.25,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9995770720548027,
+      "conditional_expected_best_gap_pct": 162.23463784009815
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "product",
+      "full_shots": 131072,
+      "budget_fraction": 0.5,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.9999999925693488,
+      "conditional_expected_best_gap_pct": 136.60936896860528
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "product",
+      "full_shots": 131072,
+      "budget_fraction": 1.0,
+      "budget_shots": 131072,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 112.7659574468085
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "selected_native",
+      "full_shots": 131072,
+      "budget_fraction": 0.25,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9943644833154102,
+      "conditional_expected_best_gap_pct": 199.16545525785224
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "selected_native",
+      "full_shots": 131072,
+      "budget_fraction": 0.5,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.9999961897536165,
+      "conditional_expected_best_gap_pct": 185.22657171180683
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "selected_native",
+      "full_shots": 131072,
+      "budget_fraction": 1.0,
+      "budget_shots": 131072,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 176.59574468085106
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "shallow",
+      "full_shots": 131072,
+      "budget_fraction": 0.25,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9998996742280668,
+      "conditional_expected_best_gap_pct": 184.5946108901541
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "shallow",
+      "full_shots": 131072,
+      "budget_fraction": 0.5,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.999999999768049,
+      "conditional_expected_best_gap_pct": 174.88472114207428
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "shallow",
+      "full_shots": 131072,
+      "budget_fraction": 1.0,
+      "budget_shots": 131072,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 165.95744680851064
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "source",
+      "full_shots": 131072,
+      "budget_fraction": 0.25,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "source",
+      "full_shots": 131072,
+      "budget_fraction": 0.5,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "flp42",
+      "group": "FLP42",
+      "case_id": "flp42",
+      "method": "source",
+      "full_shots": 131072,
+      "budget_fraction": 1.0,
+      "budget_shots": 131072,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9957753941757793,
+      "conditional_expected_best_gap_pct": 21.615209516389587
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999980976230367,
+      "conditional_expected_best_gap_pct": 9.83782920567274
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 3.398629555088889
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999925116866,
+      "conditional_expected_best_gap_pct": 3.0199506023001317
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.5096922978579614
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999999999982,
+      "conditional_expected_best_gap_pct": 1.124094181123947
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.21651285853560756
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r1",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9995774495864145,
+      "conditional_expected_best_gap_pct": 7.3681999556297155
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999999925892329,
+      "conditional_expected_best_gap_pct": 2.7939618571459954
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.999899800769445,
+      "conditional_expected_best_gap_pct": 8.223273149351302
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999999997689257,
+      "conditional_expected_best_gap_pct": 4.156122660964677
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 1.923845051609803
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999822328332,
+      "conditional_expected_best_gap_pct": 7.652876269390847
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 5.937567605455779
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 4.491068477239091
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r2",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9996831307291,
+      "conditional_expected_best_gap_pct": 18.314044482718625
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999999962961437,
+      "conditional_expected_best_gap_pct": 12.052462429554891
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 9.867555309031959
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.999999999999999,
+      "conditional_expected_best_gap_pct": 5.60311440784741
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 4.638046559230867
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 4.468333636831388
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999999999999,
+      "conditional_expected_best_gap_pct": 4.936515346045471
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 4.632274499826184
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 4.468333636831388
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "TSP25",
+      "case_id": "tsp25_r3",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 0.0,
+      "conditional_expected_best_gap_pct": null
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999899832517809,
+      "conditional_expected_best_gap_pct": 7.488240063888009
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999999999991013,
+      "conditional_expected_best_gap_pct": 4.471870806966526
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999990028509,
+      "conditional_expected_best_gap_pct": 5.685524752191749
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 3.2281987315937433
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999968440514,
+      "conditional_expected_best_gap_pct": 7.290386938174768
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 6.094760550687108
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 5.719199789937259
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.25,
+      "conditional_expected_best_gap_pct": 18.526947036440216
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.5,
+      "conditional_expected_best_gap_pct": 18.526947036440216
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r1",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 18.526947036440216
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999436565742184,
+      "conditional_expected_best_gap_pct": 2.214989523165757
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999999999422887,
+      "conditional_expected_best_gap_pct": 0.11888157184220675
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 1.5900545121085463e-14
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999999976491,
+      "conditional_expected_best_gap_pct": 1.5148749050930852
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.050214059329324164
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 1.5900545121085463e-14
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999999994434,
+      "conditional_expected_best_gap_pct": 0.330452458263374
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.00801055917465983
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 1.5900545121085463e-14
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.43750286106660563,
+      "conditional_expected_best_gap_pct": 25.57745588319937
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.7500038147554742,
+      "conditional_expected_best_gap_pct": 25.373457641283707
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r2",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 24.65945912535843
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.999762381906581,
+      "conditional_expected_best_gap_pct": 13.578868761241964
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.9999999981488634,
+      "conditional_expected_best_gap_pct": 12.94661575594621
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "product",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 12.807912559785075
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999999986788,
+      "conditional_expected_best_gap_pct": 5.427260362386617
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 1.6010745282417531
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "selected_native",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.9999999683944594,
+      "conditional_expected_best_gap_pct": 13.24566709755849
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 12.911601711610775
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "shallow",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 12.807912559785075
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.25,
+      "budget_shots": 16384,
+      "empirical_feasible_hit_probability": 0.25,
+      "conditional_expected_best_gap_pct": 28.67961530676154
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 0.5,
+      "budget_shots": 32768,
+      "empirical_feasible_hit_probability": 0.5,
+      "conditional_expected_best_gap_pct": 28.67961530676154
+    },
+    {
+      "study": "longer",
+      "group": "VRP20",
+      "case_id": "vrp20_r3",
+      "method": "source",
+      "full_shots": 65536,
+      "budget_fraction": 1.0,
+      "budget_shots": 65536,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 28.67961530676154
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999586386110464,
+      "conditional_expected_best_gap_pct": 119.02782172619744
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 0.9999999999729434,
+      "conditional_expected_best_gap_pct": 86.31226669571812
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 44.18604651162791
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999999999845065,
+      "conditional_expected_best_gap_pct": 104.2678492525435
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 87.53887996194644
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 65.11627906976744
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999999053605089,
+      "conditional_expected_best_gap_pct": 119.49610483141768
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 101.10227699654307
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 76.74418604651163
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.8221301374196026,
+      "conditional_expected_best_gap_pct": 180.27838144500248
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 0.9844036032403081,
+      "conditional_expected_best_gap_pct": 173.38497963654825
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r1",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 162.7906976744186
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999995968332878,
+      "conditional_expected_best_gap_pct": 70.93011327924663
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 0.9999999999999997,
+      "conditional_expected_best_gap_pct": 57.715975423913115
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 45.614035087719294
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999999987834223,
+      "conditional_expected_best_gap_pct": 59.54763821944116
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 46.66738425821055
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999999470114732,
+      "conditional_expected_best_gap_pct": 62.40408718677523
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 45.666147509537346
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 33.33333333333333
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.25,
+      "conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 0.5,
+      "conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r2",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.999999698256384,
+      "conditional_expected_best_gap_pct": 59.663444779158475
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 0.9999999999999998,
+      "conditional_expected_best_gap_pct": 49.066696400753855
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "product",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 42.1875
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999999999792695,
+      "conditional_expected_best_gap_pct": 34.62429965676284
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 26.635216594314443
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "selected_native",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 18.75
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.9999999875794452,
+      "conditional_expected_best_gap_pct": 44.87458306643024
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 39.076789164695164
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "shallow",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 35.9375
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 0.25,
+      "budget_shots": 2048,
+      "empirical_feasible_hit_probability": 0.925025309249168,
+      "conditional_expected_best_gap_pct": 42.194956356608735
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 0.5,
+      "budget_shots": 4096,
+      "empirical_feasible_hit_probability": 0.9980554481145727,
+      "conditional_expected_best_gap_pct": 24.532742478546872
+    },
+    {
+      "study": "main",
+      "group": "FLP20",
+      "case_id": "flp20_r3",
+      "method": "source",
+      "full_shots": 8192,
+      "budget_fraction": 1.0,
+      "budget_shots": 8192,
+      "empirical_feasible_hit_probability": 1.0,
+      "conditional_expected_best_gap_pct": 14.0625
+    }
+  ],
+  "budget_summary": [
+    {
+      "group": "FLP20",
+      "method": "product",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 2048,
+      "minimum_feasible_hit_probability": 0.9999586386110464,
+      "median_conditional_expected_best_gap_pct": 70.93011327924663
+    },
+    {
+      "group": "FLP20",
+      "method": "product",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 4096,
+      "minimum_feasible_hit_probability": 0.9999999999729434,
+      "median_conditional_expected_best_gap_pct": 57.715975423913115
+    },
+    {
+      "group": "FLP20",
+      "method": "product",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 8192,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 44.18604651162791
+    },
+    {
+      "group": "FLP20",
+      "method": "selected_native",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 2048,
+      "minimum_feasible_hit_probability": 0.9999999987834223,
+      "median_conditional_expected_best_gap_pct": 59.54763821944116
+    },
+    {
+      "group": "FLP20",
+      "method": "selected_native",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 4096,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 46.66738425821055
+    },
+    {
+      "group": "FLP20",
+      "method": "selected_native",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 8192,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "group": "FLP20",
+      "method": "shallow",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 2048,
+      "minimum_feasible_hit_probability": 0.9999999053605089,
+      "median_conditional_expected_best_gap_pct": 62.40408718677523
+    },
+    {
+      "group": "FLP20",
+      "method": "shallow",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 4096,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 45.666147509537346
+    },
+    {
+      "group": "FLP20",
+      "method": "shallow",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 8192,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 35.9375
+    },
+    {
+      "group": "FLP20",
+      "method": "source",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 2048,
+      "minimum_feasible_hit_probability": 0.25,
+      "median_conditional_expected_best_gap_pct": 42.194956356608735
+    },
+    {
+      "group": "FLP20",
+      "method": "source",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 4096,
+      "minimum_feasible_hit_probability": 0.5,
+      "median_conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "group": "FLP20",
+      "method": "source",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 8192,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 38.59649122807017
+    },
+    {
+      "group": "FLP42",
+      "method": "product",
+      "fraction": 0.25,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.9995770720548027,
+      "median_conditional_expected_best_gap_pct": 162.23463784009815
+    },
+    {
+      "group": "FLP42",
+      "method": "product",
+      "fraction": 0.5,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 0.9999999925693488,
+      "median_conditional_expected_best_gap_pct": 136.60936896860528
+    },
+    {
+      "group": "FLP42",
+      "method": "product",
+      "fraction": 1.0,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 131072,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 112.7659574468085
+    },
+    {
+      "group": "FLP42",
+      "method": "selected_native",
+      "fraction": 0.25,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.9943644833154102,
+      "median_conditional_expected_best_gap_pct": 199.16545525785224
+    },
+    {
+      "group": "FLP42",
+      "method": "selected_native",
+      "fraction": 0.5,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 0.9999961897536165,
+      "median_conditional_expected_best_gap_pct": 185.22657171180683
+    },
+    {
+      "group": "FLP42",
+      "method": "selected_native",
+      "fraction": 1.0,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 131072,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 176.59574468085106
+    },
+    {
+      "group": "FLP42",
+      "method": "shallow",
+      "fraction": 0.25,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.9998996742280668,
+      "median_conditional_expected_best_gap_pct": 184.5946108901541
+    },
+    {
+      "group": "FLP42",
+      "method": "shallow",
+      "fraction": 0.5,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 0.999999999768049,
+      "median_conditional_expected_best_gap_pct": 174.88472114207428
+    },
+    {
+      "group": "FLP42",
+      "method": "shallow",
+      "fraction": 1.0,
+      "instances": 1,
+      "instances_with_feasible": 1,
+      "budget_shots_per_instance": 131072,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 165.95744680851064
+    },
+    {
+      "group": "FLP42",
+      "method": "source",
+      "fraction": 0.25,
+      "instances": 1,
+      "instances_with_feasible": 0,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.0,
+      "median_conditional_expected_best_gap_pct": null
+    },
+    {
+      "group": "FLP42",
+      "method": "source",
+      "fraction": 0.5,
+      "instances": 1,
+      "instances_with_feasible": 0,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 0.0,
+      "median_conditional_expected_best_gap_pct": null
+    },
+    {
+      "group": "FLP42",
+      "method": "source",
+      "fraction": 1.0,
+      "instances": 1,
+      "instances_with_feasible": 0,
+      "budget_shots_per_instance": 131072,
+      "minimum_feasible_hit_probability": 0.0,
+      "median_conditional_expected_best_gap_pct": null
+    },
+    {
+      "group": "TSP25",
+      "method": "product",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.9957753941757793,
+      "median_conditional_expected_best_gap_pct": 18.314044482718625
+    },
+    {
+      "group": "TSP25",
+      "method": "product",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.9999980976230367,
+      "median_conditional_expected_best_gap_pct": 9.83782920567274
+    },
+    {
+      "group": "TSP25",
+      "method": "product",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 3.398629555088889
+    },
+    {
+      "group": "TSP25",
+      "method": "selected_native",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.999899800769445,
+      "median_conditional_expected_best_gap_pct": 5.60311440784741
+    },
+    {
+      "group": "TSP25",
+      "method": "selected_native",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.9999999997689257,
+      "median_conditional_expected_best_gap_pct": 4.156122660964677
+    },
+    {
+      "group": "TSP25",
+      "method": "selected_native",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 1.923845051609803
+    },
+    {
+      "group": "TSP25",
+      "method": "shallow",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.9999999822328332,
+      "median_conditional_expected_best_gap_pct": 4.936515346045471
+    },
+    {
+      "group": "TSP25",
+      "method": "shallow",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 4.632274499826184
+    },
+    {
+      "group": "TSP25",
+      "method": "shallow",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 4.468333636831388
+    },
+    {
+      "group": "TSP25",
+      "method": "source",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 0,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.0,
+      "median_conditional_expected_best_gap_pct": null
+    },
+    {
+      "group": "TSP25",
+      "method": "source",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 0,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.0,
+      "median_conditional_expected_best_gap_pct": null
+    },
+    {
+      "group": "TSP25",
+      "method": "source",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 0,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 0.0,
+      "median_conditional_expected_best_gap_pct": null
+    },
+    {
+      "group": "VRP20",
+      "method": "product",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.999762381906581,
+      "median_conditional_expected_best_gap_pct": 7.488240063888009
+    },
+    {
+      "group": "VRP20",
+      "method": "product",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.9999999981488634,
+      "median_conditional_expected_best_gap_pct": 4.471870806966526
+    },
+    {
+      "group": "VRP20",
+      "method": "product",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 1.5900545121085463e-14
+    },
+    {
+      "group": "VRP20",
+      "method": "selected_native",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.9999999990028509,
+      "median_conditional_expected_best_gap_pct": 5.427260362386617
+    },
+    {
+      "group": "VRP20",
+      "method": "selected_native",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 1.6010745282417531
+    },
+    {
+      "group": "VRP20",
+      "method": "selected_native",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 0.0
+    },
+    {
+      "group": "VRP20",
+      "method": "shallow",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.9999999683944594,
+      "median_conditional_expected_best_gap_pct": 7.290386938174768
+    },
+    {
+      "group": "VRP20",
+      "method": "shallow",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 6.094760550687108
+    },
+    {
+      "group": "VRP20",
+      "method": "shallow",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 5.719199789937259
+    },
+    {
+      "group": "VRP20",
+      "method": "source",
+      "fraction": 0.25,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 16384,
+      "minimum_feasible_hit_probability": 0.25,
+      "median_conditional_expected_best_gap_pct": 25.57745588319937
+    },
+    {
+      "group": "VRP20",
+      "method": "source",
+      "fraction": 0.5,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 32768,
+      "minimum_feasible_hit_probability": 0.5,
+      "median_conditional_expected_best_gap_pct": 25.373457641283707
+    },
+    {
+      "group": "VRP20",
+      "method": "source",
+      "fraction": 1.0,
+      "instances": 3,
+      "instances_with_feasible": 3,
+      "budget_shots_per_instance": 65536,
+      "minimum_feasible_hit_probability": 1.0,
+      "median_conditional_expected_best_gap_pct": 24.65945912535843
+    }
+  ],
+  "variability_scope": "Absolute difference in feasible rates between two blocks. Descriptive; not a drift estimator or a corrected test of heterogeneity.",
+  "block_variability": [
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "method": "product",
+      "feasible_counts": [
+        14,
+        13
+      ],
+      "shots": [
+        65536,
+        65536
+      ],
+      "absolute_difference_pp": 0.00152587890625
+    },
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "method": "selected_native",
+      "feasible_counts": [
+        4,
+        14
+      ],
+      "shots": [
+        65536,
+        65536
+      ],
+      "absolute_difference_pp": 0.0152587890625
+    },
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "method": "shallow",
+      "feasible_counts": [
+        17,
+        15
+      ],
+      "shots": [
+        65536,
+        65536
+      ],
+      "absolute_difference_pp": 0.0030517578125
+    },
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        65536,
+        65536
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "method": "product",
+      "feasible_counts": [
+        12,
+        7
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0152587890625
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        32,
+        33
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0030517578125
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        63,
+        55
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "method": "product",
+      "feasible_counts": [
+        15,
+        12
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0091552734375
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        10,
+        22
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.03662109375
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        44,
+        18
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.079345703125
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "method": "product",
+      "feasible_counts": [
+        17,
+        11
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.018310546875
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        65,
+        55
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.030517578125
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        72,
+        55
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0518798828125
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "method": "product",
+      "feasible_counts": [
+        19,
+        21
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.006103515625
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        12,
+        60
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        36,
+        32
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.01220703125
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        1
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0030517578125
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "method": "product",
+      "feasible_counts": [
+        16,
+        18
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.006103515625
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        42,
+        51
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0274658203125
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        52,
+        46
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.018310546875
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "method": "source",
+      "feasible_counts": [
+        1,
+        1
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "method": "product",
+      "feasible_counts": [
+        15,
+        14
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0030517578125
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        76,
+        19
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.1739501953125
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        46,
+        14
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        1
+      ],
+      "shots": [
+        32768,
+        32768
+      ],
+      "absolute_difference_pp": 0.0030517578125
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "method": "product",
+      "feasible_counts": [
+        114,
+        99
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        156,
+        204
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.171875
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        198,
+        195
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "method": "source",
+      "feasible_counts": [
+        24,
+        28
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "method": "product",
+      "feasible_counts": [
+        96,
+        101
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        194,
+        197
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        190,
+        199
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2197265625
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "method": "source",
+      "feasible_counts": [
+        32,
+        24
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1953125
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "method": "product",
+      "feasible_counts": [
+        94,
+        94
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        186,
+        139
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.1474609375
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        203,
+        218
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "method": "source",
+      "feasible_counts": [
+        17,
+        35
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.439453125
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "method": "product",
+      "feasible_counts": [
+        30,
+        34
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        71,
+        73
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        82,
+        65
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.4150390625
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "method": "source",
+      "feasible_counts": [
+        9,
+        13
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "method": "product",
+      "feasible_counts": [
+        24,
+        39
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        58,
+        80
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.537109375
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        72,
+        65
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "method": "source",
+      "feasible_counts": [
+        16,
+        16
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "method": "product",
+      "feasible_counts": [
+        24,
+        24
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        71,
+        56
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        71,
+        58
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3173828125
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "method": "source",
+      "feasible_counts": [
+        11,
+        4
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "method": "product",
+      "feasible_counts": [
+        21,
+        14
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        40,
+        46
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        34,
+        22
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.29296875
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "method": "source",
+      "feasible_counts": [
+        4,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "method": "product",
+      "feasible_counts": [
+        24,
+        27
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        34,
+        37
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        33,
+        25
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1953125
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "method": "source",
+      "feasible_counts": [
+        1,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "method": "product",
+      "feasible_counts": [
+        21,
+        31
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.244140625
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        41,
+        44
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        30,
+        33
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "method": "source",
+      "feasible_counts": [
+        4,
+        5
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "method": "product",
+      "feasible_counts": [
+        441,
+        394
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.1474609375
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        660,
+        659
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        681,
+        634
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.1474609375
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "method": "source",
+      "feasible_counts": [
+        364,
+        324
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.9765625
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "method": "product",
+      "feasible_counts": [
+        442,
+        381
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.4892578125
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        699,
+        634
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.5869140625
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        661,
+        662
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "method": "source",
+      "feasible_counts": [
+        346,
+        326
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.48828125
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "method": "product",
+      "feasible_counts": [
+        425,
+        441
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.390625
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        634,
+        658
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.5859375
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        627,
+        683
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.3671875
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "method": "source",
+      "feasible_counts": [
+        348,
+        322
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.634765625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "method": "product",
+      "feasible_counts": [
+        13,
+        14
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        20,
+        18
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        10,
+        20
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.244140625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "method": "source",
+      "feasible_counts": [
+        3,
+        9
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "method": "product",
+      "feasible_counts": [
+        5,
+        4
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        21,
+        29
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1953125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        19,
+        21
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "method": "source",
+      "feasible_counts": [
+        6,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "method": "product",
+      "feasible_counts": [
+        13,
+        11
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        25,
+        18
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        13,
+        24
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2685546875
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "method": "source",
+      "feasible_counts": [
+        5,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "method": "product",
+      "feasible_counts": [
+        2,
+        4
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        2,
+        6
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        5,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "method": "product",
+      "feasible_counts": [
+        4,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        0,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        1,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "method": "product",
+      "feasible_counts": [
+        2,
+        4
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        4,
+        1
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        0,
+        6
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "method": "product",
+      "feasible_counts": [
+        73,
+        85
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.29296875
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        173,
+        198
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.6103515625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        141,
+        133
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1953125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "method": "source",
+      "feasible_counts": [
+        85,
+        80
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "method": "product",
+      "feasible_counts": [
+        75,
+        87
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.29296875
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        128,
+        184
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.3671875
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        140,
+        150
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.244140625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "method": "source",
+      "feasible_counts": [
+        88,
+        64
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.5859375
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "method": "product",
+      "feasible_counts": [
+        78,
+        80
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        164,
+        123
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 1.0009765625
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        159,
+        147
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.29296875
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "method": "source",
+      "feasible_counts": [
+        69,
+        60
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2197265625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "method": "product",
+      "feasible_counts": [
+        16,
+        7
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2197265625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        12,
+        11
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        9,
+        10
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "method": "source",
+      "feasible_counts": [
+        8,
+        5
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "method": "product",
+      "feasible_counts": [
+        10,
+        12
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        9,
+        18
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2197265625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        13,
+        11
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "method": "source",
+      "feasible_counts": [
+        6,
+        11
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "method": "product",
+      "feasible_counts": [
+        10,
+        13
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        13,
+        14
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        16,
+        18
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "method": "source",
+      "feasible_counts": [
+        5,
+        4
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "method": "product",
+      "feasible_counts": [
+        1,
+        3
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "method": "selected_native",
+      "feasible_counts": [
+        1,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "method": "shallow",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        1
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "method": "product",
+      "feasible_counts": [
+        2,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "method": "selected_native",
+      "feasible_counts": [
+        0,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "method": "shallow",
+      "feasible_counts": [
+        1,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "method": "product",
+      "feasible_counts": [
+        2,
+        1
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "method": "selected_native",
+      "feasible_counts": [
+        1,
+        1
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "method": "shallow",
+      "feasible_counts": [
+        2,
+        1
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "method": "source",
+      "feasible_counts": [
+        0,
+        0
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new1",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        26,
+        31
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new1",
+      "method": "refined_product",
+      "feasible_counts": [
+        18,
+        29
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2685546875
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new1",
+      "method": "selected_native",
+      "feasible_counts": [
+        34,
+        28
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new1",
+      "method": "source",
+      "feasible_counts": [
+        2,
+        3
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new2",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        53,
+        44
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2197265625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new2",
+      "method": "refined_product",
+      "feasible_counts": [
+        23,
+        21
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new2",
+      "method": "selected_native",
+      "feasible_counts": [
+        25,
+        37
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.29296875
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new2",
+      "method": "source",
+      "feasible_counts": [
+        5,
+        3
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new3",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        29,
+        40
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2685546875
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new3",
+      "method": "refined_product",
+      "feasible_counts": [
+        28,
+        20
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1953125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new3",
+      "method": "selected_native",
+      "feasible_counts": [
+        38,
+        23
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "flp20_new3",
+      "method": "source",
+      "feasible_counts": [
+        6,
+        4
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new1",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        29,
+        24
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new1",
+      "method": "refined_product",
+      "feasible_counts": [
+        14,
+        15
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new1",
+      "method": "selected_native",
+      "feasible_counts": [
+        19,
+        24
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new1",
+      "method": "source",
+      "feasible_counts": [
+        2,
+        3
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new2",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        18,
+        22
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new2",
+      "method": "refined_product",
+      "feasible_counts": [
+        13,
+        13
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new2",
+      "method": "selected_native",
+      "feasible_counts": [
+        33,
+        19
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.341796875
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new2",
+      "method": "source",
+      "feasible_counts": [
+        1,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new3",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        12,
+        13
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new3",
+      "method": "refined_product",
+      "feasible_counts": [
+        9,
+        10
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new3",
+      "method": "selected_native",
+      "feasible_counts": [
+        9,
+        24
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "replication_day_0",
+      "case_id": "tsp16_new3",
+      "method": "source",
+      "feasible_counts": [
+        5,
+        3
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new1",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        18,
+        19
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new1",
+      "method": "refined_product",
+      "feasible_counts": [
+        24,
+        20
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new1",
+      "method": "selected_native",
+      "feasible_counts": [
+        26,
+        19
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new1",
+      "method": "source",
+      "feasible_counts": [
+        2,
+        9
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new2",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        25,
+        29
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.09765625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new2",
+      "method": "refined_product",
+      "feasible_counts": [
+        29,
+        21
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1953125
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new2",
+      "method": "selected_native",
+      "feasible_counts": [
+        28,
+        25
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new2",
+      "method": "source",
+      "feasible_counts": [
+        2,
+        2
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new3",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        29,
+        22
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new3",
+      "method": "refined_product",
+      "feasible_counts": [
+        19,
+        16
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new3",
+      "method": "selected_native",
+      "feasible_counts": [
+        15,
+        6
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2197265625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "flp20_new3",
+      "method": "source",
+      "feasible_counts": [
+        4,
+        3
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new1",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        26,
+        13
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.3173828125
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new1",
+      "method": "refined_product",
+      "feasible_counts": [
+        8,
+        13
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1220703125
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new1",
+      "method": "selected_native",
+      "feasible_counts": [
+        11,
+        17
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.146484375
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new1",
+      "method": "source",
+      "feasible_counts": [
+        5,
+        5
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new2",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        16,
+        16
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new2",
+      "method": "refined_product",
+      "feasible_counts": [
+        7,
+        14
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.1708984375
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new2",
+      "method": "selected_native",
+      "feasible_counts": [
+        27,
+        16
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.2685546875
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new2",
+      "method": "source",
+      "feasible_counts": [
+        2,
+        5
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new3",
+      "method": "fixed_shallow",
+      "feasible_counts": [
+        13,
+        14
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new3",
+      "method": "refined_product",
+      "feasible_counts": [
+        8,
+        5
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0732421875
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new3",
+      "method": "selected_native",
+      "feasible_counts": [
+        13,
+        14
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.0244140625
+    },
+    {
+      "study": "replication_day_1",
+      "case_id": "tsp16_new3",
+      "method": "source",
+      "feasible_counts": [
+        3,
+        5
+      ],
+      "shots": [
+        4096,
+        4096
+      ],
+      "absolute_difference_pp": 0.048828125
+    }
+  ],
+  "block_variability_summary": [
+    {
+      "study": "flp42",
+      "preparations": 4,
+      "median_absolute_difference_pp": 0.002288818359375,
+      "maximum_absolute_difference_pp": 0.0152587890625
+    },
+    {
+      "study": "longer",
+      "preparations": 24,
+      "median_absolute_difference_pp": 0.01373291015625,
+      "maximum_absolute_difference_pp": 0.1739501953125
+    },
+    {
+      "study": "main",
+      "preparations": 108,
+      "median_absolute_difference_pp": 0.09765625,
+      "maximum_absolute_difference_pp": 1.5869140625
+    },
+    {
+      "study": "replication_day_0",
+      "preparations": 24,
+      "median_absolute_difference_pp": 0.10986328125,
+      "maximum_absolute_difference_pp": 0.3662109375
+    },
+    {
+      "study": "replication_day_1",
+      "preparations": 24,
+      "median_absolute_difference_pp": 0.08544921875,
+      "maximum_absolute_difference_pp": 0.3173828125
+    }
+  ],
+  "inputs_sha256": {
+    "/home/ta/anigravity_stuff/aqc revision/AQC_two_column/data/fit_runtime_records.csv": "344e3166b04790c1e0eb0757bbd8dbd3d92c1ff9010251d216f13946c3f9ba8e",
+    "/home/ta/anigravity_stuff/aqc revision/AQC_two_column/data/candidate_quality_weighted_cost_distributions.csv": "454cec3600e7e92ddcdd630518e32ef2d824b45f1b4f8c55596b11f10d6e1aa9",
+    "/home/ta/anigravity_stuff/aqc revision/AQC_two_column/data/candidate_quality_per_case_summary.csv": "646b0be59a0b7e22f696e0beb03e3fe104c2767ad98241fa60c540d83e0e13d8",
+    "/home/ta/anigravity_stuff/aqc revision/AQC_two_column/data/candidate_quality_by_block.csv": "ce71c3848a5c16f7e7c3e04cba510b5f4c9b6780549e62e70fda52758a377c87",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d0_FLP_b0.json": "ca0de07f7cb6ed0d361106969f64cad374f7638594d04395006c625bab1adc6a",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d0_FLP_b1.json": "2ca0d87274b338e9f577c511c1ce1c2ffa4f7fab9b54d42a2c858ba4bc9a14d8",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d0_TSP_b0.json": "966a0c31a2c7f805ea6662ea62c8c72838c57b2c4699994228372961fe1f76a1",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d0_TSP_b1.json": "07e50158839835f893c13d21de1816ee3086a40650dc1df652c23335a0d312f1",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d1_FLP_b0.json": "4a7f63356eb90151a1d492f2496aa01018555413d99a9a580d66e318ba0cfe0a",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d1_FLP_b1.json": "2a611c7ff4a0b6f83eb31ebd10bf1ad20b8d6cab95fc4447bd70dff6275f38a2",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d1_TSP_b0.json": "bcaf55f8d60463014e4032b19e4ceeb08dd288bdcecba822d5690b1af6493c70",
+    "/home/ta/anigravity_stuff/aqc revision/outputs/reproducibility_2026_10/raw_counts/confirm_d1_TSP_b1.json": "bb89c4767ebf2789650c56f508c813fab20ed9b585483dec16aff131bc14ad1c",
+    "/home/ta/anigravity_stuff/aqc revision/AQC_two_column/data/replication_block_counts.csv": "f1c4065bc079663214a96459f3b4b60d786416ba2b9948e555bc1d886154d210"
+  }
+}

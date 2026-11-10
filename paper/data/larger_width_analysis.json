@@ -1,0 +1,209 @@
+{
+  "outcomes": [
+    {
+      "method": "selected_native",
+      "shots": 131072,
+      "feasible_count": 18,
+      "optimal_count": 0,
+      "cz_depth": 54,
+      "cz_count": 648,
+      "fidelity_to_mps_target": 0.30152225150339024,
+      "ideal_p_feasible": 0.00020556748032088013,
+      "ideal_p_optimal": 5.766621391965937e-11,
+      "p_feasible": 0.0001373291015625,
+      "ci_low": 9.029243495857492e-05,
+      "ci_high": 0.00022423186973383378,
+      "block0_count": 4,
+      "block1_count": 14
+    },
+    {
+      "method": "source",
+      "shots": 131072,
+      "feasible_count": 0,
+      "optimal_count": 0,
+      "cz_depth": 2815,
+      "cz_count": 13044,
+      "fidelity_to_mps_target": null,
+      "ideal_p_feasible": 0.00019805415445339286,
+      "ideal_p_optimal": 9.499143959421921e-10,
+      "p_feasible": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 4.1445348681052016e-05,
+      "block0_count": 0,
+      "block1_count": 0
+    },
+    {
+      "method": "product",
+      "shots": 131072,
+      "feasible_count": 27,
+      "optimal_count": 0,
+      "cz_depth": 0,
+      "cz_count": 0,
+      "fidelity_to_mps_target": 0.19960908985622688,
+      "ideal_p_feasible": 0.0002607736904219448,
+      "ideal_p_optimal": 1.612747432395884e-10,
+      "p_feasible": 0.00020599365234375,
+      "ci_low": 0.00014630000965410865,
+      "ci_high": 0.00030710892605689,
+      "block0_count": 14,
+      "block1_count": 13
+    },
+    {
+      "method": "shallow",
+      "shots": 131072,
+      "feasible_count": 32,
+      "optimal_count": 0,
+      "cz_depth": 18,
+      "cz_count": 216,
+      "fidelity_to_mps_target": 0.2716001686461721,
+      "ideal_p_feasible": 0.00021279011848235297,
+      "ideal_p_optimal": 5.659463559477513e-11,
+      "p_feasible": 0.000244140625,
+      "ci_low": 0.00017776601938039745,
+      "ci_high": 0.0003519212117464458,
+      "block0_count": 17,
+      "block1_count": 15
+    }
+  ],
+  "comparisons": [
+    {
+      "case_id": "flp42_r1",
+      "family": "FLP",
+      "n_qubits": 42,
+      "event": "feasible",
+      "reference": "source",
+      "improvement_pp": 0.01373291015625,
+      "ci_low_pp": 0.007463807403460905,
+      "ci_high_pp": 0.02242318697338338,
+      "conservative_low_pp": -0.0023138047032929196,
+      "conservative_high_pp": 0.029503829094260244,
+      "p_value": 7.6237499220611e-06,
+      "identical_circuit_self_control": false,
+      "study": "larger_width",
+      "holm_family_size": 6,
+      "holm_p_value": 4.57424995323666e-05
+    },
+    {
+      "case_id": "flp42_r1",
+      "family": "FLP",
+      "n_qubits": 42,
+      "event": "feasible",
+      "reference": "refined_product",
+      "improvement_pp": -0.006866455078125,
+      "ci_low_pp": -0.01801847130089478,
+      "ci_high_pp": 0.0036765151359082135,
+      "conservative_low_pp": -0.03382886134726122,
+      "conservative_high_pp": 0.020242084690395862,
+      "p_value": 0.23265227446513603,
+      "identical_circuit_self_control": false,
+      "study": "larger_width",
+      "holm_family_size": 6,
+      "holm_p_value": 0.9306090978605441
+    },
+    {
+      "case_id": "flp42_r1",
+      "family": "FLP",
+      "n_qubits": 42,
+      "event": "feasible",
+      "reference": "fixed_shallow",
+      "improvement_pp": -0.01068115234375,
+      "ci_low_pp": -0.022440872954639073,
+      "ci_high_pp": 0.0002539651165237383,
+      "conservative_low_pp": -0.03884339444808488,
+      "conservative_high_pp": 0.017661550565660072,
+      "p_value": 0.06488305628345048,
+      "identical_circuit_self_control": false,
+      "study": "larger_width",
+      "holm_family_size": 6,
+      "holm_p_value": 0.3244152814172524
+    },
+    {
+      "case_id": "flp42_r1",
+      "family": "FLP",
+      "n_qubits": 42,
+      "event": "optimal",
+      "reference": "source",
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.0041445348681052015,
+      "ci_high_pp": 0.0041445348681052015,
+      "conservative_low_pp": -0.007743800822481903,
+      "conservative_high_pp": 0.007743800822481903,
+      "p_value": 1.0,
+      "identical_circuit_self_control": false,
+      "study": "larger_width",
+      "holm_family_size": 6,
+      "holm_p_value": 1.0
+    },
+    {
+      "case_id": "flp42_r1",
+      "family": "FLP",
+      "n_qubits": 42,
+      "event": "optimal",
+      "reference": "refined_product",
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.0041445348681052015,
+      "ci_high_pp": 0.0041445348681052015,
+      "conservative_low_pp": -0.007743800822481903,
+      "conservative_high_pp": 0.007743800822481903,
+      "p_value": 1.0,
+      "identical_circuit_self_control": false,
+      "study": "larger_width",
+      "holm_family_size": 6,
+      "holm_p_value": 1.0
+    },
+    {
+      "case_id": "flp42_r1",
+      "family": "FLP",
+      "n_qubits": 42,
+      "event": "optimal",
+      "reference": "fixed_shallow",
+      "improvement_pp": 0.0,
+      "ci_low_pp": -0.0041445348681052015,
+      "ci_high_pp": 0.0041445348681052015,
+      "conservative_low_pp": -0.007743800822481903,
+      "conservative_high_pp": 0.007743800822481903,
+      "p_value": 1.0,
+      "identical_circuit_self_control": false,
+      "study": "larger_width",
+      "holm_family_size": 6,
+      "holm_p_value": 1.0
+    }
+  ],
+  "target_validation": {
+    "status": "converged",
+    "selected_bond": 512,
+    "comparisons": [
+      {
+        "low_bond": 128,
+        "high_bond": 256,
+        "overlap": 0.9972369258892119,
+        "relative_event_changes": {
+          "p_feasible": 0.008761109776582853,
+          "p_good": 0.07052868802879657,
+          "p_optimal": 0.07052868802879657
+        },
+        "accepted": false
+      },
+      {
+        "low_bond": 256,
+        "high_bond": 512,
+        "overlap": 0.9998825126470633,
+        "relative_event_changes": {
+          "p_feasible": 0.0005243778633157401,
+          "p_good": 0.019550280418079567,
+          "p_optimal": 0.019550280418079567
+        },
+        "accepted": true
+      }
+    ],
+    "interpretation": "Numerical MPS convergence; no exact-state certificate.",
+    "completed_utc": "2026-10-14T01:47:21.956252+00:00"
+  },
+  "source": "larger_width_feasibility_2026_10",
+  "scope": "One independently evaluated 42-qubit FLP instance; a separate six-test Holm family.",
+  "raw_sha256": {
+    "outputs/larger_width_feasibility_2026_10/raw_counts/confirm_b0.json": "7678912e76f72db59c901073adf35450d90080dce0cd248e5f9420576807c9d6",
+    "outputs/larger_width_feasibility_2026_10/raw_counts/confirm_b1.json": "0ff510019780385cb63bf53af8611eecdc8257a1f4c4112aa471674acd90074a"
+  },
+  "exported_utc": "2026-10-14T07:08:50.564040+00:00"
+}

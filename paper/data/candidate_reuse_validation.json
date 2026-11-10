@@ -1,0 +1,10 @@
+{
+  "all_input_hashes_verified": true,
+  "original_analysis_source_hash_verified": true,
+  "new_cost_scenarios": 60,
+  "rescored_rows_verified_with_bit_decoder": 720,
+  "all_controls_reported": true,
+  "feasibility_invariant": true,
+  "additional_hardware_runs": 0,
+  "verifier_sha256": "b4ec9d4045ffd6e209406f1ff775531fa49c594a38891c55cf37ed8c068f010c"
+}

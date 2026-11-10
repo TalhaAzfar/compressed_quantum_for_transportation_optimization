@@ -1,0 +1,245 @@
+{
+  "schema": "prospective-width-sweep-v1",
+  "output_dir": "outputs/hardware_width_sweep_2026",
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "cases": [
+    {
+      "id": "flp6_r1",
+      "problem": "flp",
+      "seed": 100101,
+      "customers": 2,
+      "facilities": 2
+    },
+    {
+      "id": "flp6_r2",
+      "problem": "flp",
+      "seed": 100102,
+      "customers": 2,
+      "facilities": 2
+    },
+    {
+      "id": "flp6_r3",
+      "problem": "flp",
+      "seed": 100103,
+      "customers": 2,
+      "facilities": 2
+    },
+    {
+      "id": "flp10_r1",
+      "problem": "flp",
+      "seed": 100201,
+      "customers": 4,
+      "facilities": 2
+    },
+    {
+      "id": "flp10_r2",
+      "problem": "flp",
+      "seed": 100202,
+      "customers": 4,
+      "facilities": 2
+    },
+    {
+      "id": "flp10_r3",
+      "problem": "flp",
+      "seed": 100203,
+      "customers": 4,
+      "facilities": 2
+    },
+    {
+      "id": "flp14_r1",
+      "problem": "flp",
+      "seed": 100301,
+      "customers": 6,
+      "facilities": 2
+    },
+    {
+      "id": "flp14_r2",
+      "problem": "flp",
+      "seed": 100302,
+      "customers": 6,
+      "facilities": 2
+    },
+    {
+      "id": "flp14_r3",
+      "problem": "flp",
+      "seed": 100303,
+      "customers": 6,
+      "facilities": 2
+    },
+    {
+      "id": "flp20_r1",
+      "problem": "flp",
+      "seed": 100401,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "flp20_r2",
+      "problem": "flp",
+      "seed": 100402,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "flp20_r3",
+      "problem": "flp",
+      "seed": 100403,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "tsp9_r1",
+      "problem": "tsp",
+      "seed": 100501,
+      "nodes": 4
+    },
+    {
+      "id": "tsp9_r2",
+      "problem": "tsp",
+      "seed": 100502,
+      "nodes": 4
+    },
+    {
+      "id": "tsp9_r3",
+      "problem": "tsp",
+      "seed": 100503,
+      "nodes": 4
+    },
+    {
+      "id": "tsp16_r1",
+      "problem": "tsp",
+      "seed": 100601,
+      "nodes": 5
+    },
+    {
+      "id": "tsp16_r2",
+      "problem": "tsp",
+      "seed": 100602,
+      "nodes": 5
+    },
+    {
+      "id": "tsp16_r3",
+      "problem": "tsp",
+      "seed": 100603,
+      "nodes": 5
+    },
+    {
+      "id": "tsp25_r1",
+      "problem": "tsp",
+      "seed": 100701,
+      "nodes": 6
+    },
+    {
+      "id": "tsp25_r2",
+      "problem": "tsp",
+      "seed": 100702,
+      "nodes": 6
+    },
+    {
+      "id": "tsp25_r3",
+      "problem": "tsp",
+      "seed": 100703,
+      "nodes": 6
+    },
+    {
+      "id": "vrp12_r1",
+      "problem": "vrp",
+      "seed": 100801,
+      "nodes": 4,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp12_r2",
+      "problem": "vrp",
+      "seed": 100802,
+      "nodes": 4,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp12_r3",
+      "problem": "vrp",
+      "seed": 100803,
+      "nodes": 4,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp20_r1",
+      "problem": "vrp",
+      "seed": 100901,
+      "nodes": 5,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp20_r2",
+      "problem": "vrp",
+      "seed": 100902,
+      "nodes": 5,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp20_r3",
+      "problem": "vrp",
+      "seed": 100903,
+      "nodes": 5,
+      "vehicles": 2
+    }
+  ],
+  "annealing_time": 2.0,
+  "steps": 12,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "fit_maxiter": 120,
+  "fit_seconds": 60,
+  "fit_bond": 128,
+  "target_bonds": [
+    128,
+    256
+  ],
+  "minimum_target_fidelity": 0.999,
+  "objective_check_tolerance": 2e-05,
+  "patch_seed": 100001,
+  "fit_seed": 100002,
+  "transpiler_seed": 100003,
+  "ordering_seed": 100004,
+  "blocks": 2,
+  "shots_per_method_per_block": 4096,
+  "max_jobs": 6,
+  "max_total_shots": 900000,
+  "max_execution_seconds_per_job": 300,
+  "parallel_workers": 3,
+  "worker_address_gib": 10,
+  "aggregate_rss_gib": 30,
+  "reserve_gib": 8,
+  "worker_seconds": 2400,
+  "methods": [
+    "source",
+    "product",
+    "aqc_l2",
+    "aqc_l6"
+  ],
+  "primary_method": "aqc_l2",
+  "primary_reference": "source",
+  "primary_events": [
+    "feasible",
+    "optimal"
+  ],
+  "primary_test_family": "54 block-stratified two-sided conditional exact tests: 27 cases x two events; Holm corrected together. Depth6 and product contrasts separate secondary family.",
+  "inference": "Show each instance separately with 95% block-MOVER shot intervals and conservative CP sensitivity intervals; no population scaling-law fit. All cases, depths, failures and zero counts retained. No hardware-based selection.",
+  "preparation": "12 midpoint steps over complete normalized-cost anneal, T=2. Product fit followed by native L2 and L6 via identity extension plus fixed perturbation. One start, identical 120-iteration/60-second caps for each depth. Physical induced patch chosen by live calibration only, same patch for all methods at a width. Independent exact statevector fidelity and event checks up to 25 qubits. Large VRP includes customer 2-cycle penalty and exhaustive encoding verification.",
+  "execution": "Raw SamplerV2 only; DD and gate/measurement twirling off. Two randomized blocks, one job per family per block. All methods share shot budgets; no postselection or error mitigation. No outcome-dependent stopping.",
+  "prior_results_seen": true,
+  "new_hardware_results_seen": false,
+  "dense_target_min_qubits": 20,
+  "dense_target_check_bonds": [
+    128,
+    256,
+    512
+  ],
+  "large_native_fit_seconds": 600
+}

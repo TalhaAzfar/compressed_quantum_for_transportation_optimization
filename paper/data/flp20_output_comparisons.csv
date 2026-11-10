@@ -1,0 +1,9 @@
+layers,arm,event,p,status,stratified_p,left,right,left_count,right_count,left_shots,right_shots,difference,holm_p,stratified_holm_p
+2,raw,feasible,9.705884023778114e-08,evaluated,9.709962338304439e-08,full_aqc_qaoa_l2,full_product_qaoa_l2,968,752,16384,16384,0.01318359375,7.764707219022491e-07,7.767969870643551e-07
+2,raw,good,1.0,evaluated,1.0,full_aqc_qaoa_l2,full_product_qaoa_l2,1,0,16384,16384,6.103515625e-05,1.0,1.0
+2,suppressed,feasible,0.1627086639050414,evaluated,0.16270762969003008,full_aqc_qaoa_l2,full_product_qaoa_l2,910,852,16384,16384,0.0035400390625,1.0,1.0
+2,suppressed,good,1.0,evaluated,1.0,full_aqc_qaoa_l2,full_product_qaoa_l2,0,0,16384,16384,0.0,1.0,1.0
+5,raw,feasible,1.0,evaluated,1.0,full_aqc_qaoa_l5,full_product_qaoa_l5,339,340,16384,16384,-6.103515625e-05,1.0,1.0
+5,raw,good,1.0,evaluated,1.0,full_aqc_qaoa_l5,full_product_qaoa_l5,0,0,16384,16384,0.0,1.0,1.0
+5,suppressed,feasible,0.23810264920912613,evaluated,0.238092081996593,full_aqc_qaoa_l5,full_product_qaoa_l5,586,546,16384,16384,0.00244140625,1.0,1.0
+5,suppressed,good,1.0,evaluated,1.0,full_aqc_qaoa_l5,full_product_qaoa_l5,0,1,16384,16384,-6.103515625e-05,1.0,1.0

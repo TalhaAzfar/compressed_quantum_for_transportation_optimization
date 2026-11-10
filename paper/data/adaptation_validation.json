@@ -1,0 +1,56 @@
+{
+  "verified_utc": "2026-10-12T03:14:11.570639+00:00",
+  "fits_exact_fidelity_recomputed": 36,
+  "selected_circuits_reconstructed": 18,
+  "selected_ideal_events_independently_decoded": 18,
+  "raw_hardware_rows_independently_decoded": 36,
+  "total_shots": 294912,
+  "inference_contrasts_recomputed": 36,
+  "source_and_input_hashes_verified": true,
+  "native_connectivity_and_measurement_maps_verified": true,
+  "all_cz_depths": 16,
+  "equal_new_cost_fit_budgets_verified": true,
+  "historical_training_cost_excluded_from_new_cost_budget": true,
+  "minimum_training_source_overlap": 0.9996375231877318,
+  "maximum_training_source_overlap": 0.9999721416446009,
+  "summary": [
+    {
+      "reference": "cold",
+      "event": "feasible",
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "reference": "cold",
+      "event": "good",
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "reference": "cold",
+      "event": "optimal",
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "reference": "reuse",
+      "event": "feasible",
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "reference": "reuse",
+      "event": "good",
+      "gains": 0,
+      "losses": 0
+    },
+    {
+      "reference": "reuse",
+      "event": "optimal",
+      "gains": 0,
+      "losses": 0
+    }
+  ],
+  "quantum_seconds": 82,
+  "verifier_sha256": "efdef7c231f72863d23895cc39d94da3fdd58b8405baacff8d8b3f327d124b4e"
+}

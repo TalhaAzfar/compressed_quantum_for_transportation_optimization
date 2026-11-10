@@ -1,0 +1,63 @@
+{
+  "checked_utc": "2026-10-12T06:45:42.043653+00:00",
+  "validated_fits": 72,
+  "screening_selection_reproduced": true,
+  "independent_confirmation_contrasts_reproduced": 36,
+  "all_raw_counts_redecoded": true,
+  "raw_count_files": 8,
+  "confirmation_shots_per_method": 65536,
+  "hardware_jobs": 8,
+  "total_shots": 1695744,
+  "quantum_seconds": 830,
+  "processor": {
+    "backend": "ibm_rensselaer",
+    "family": "Nighthawk",
+    "revision": "1"
+  },
+  "frozen_inputs_verified": true,
+  "analysis_sha256": "5159eb11c91de881147b68e9e95b9347241805c56993da58339ed97371e7d668",
+  "summary": [
+    {
+      "reference": "source",
+      "event": "feasible",
+      "cases": 6,
+      "corrected_gains": 6,
+      "corrected_losses": 0
+    },
+    {
+      "reference": "source",
+      "event": "optimal",
+      "cases": 6,
+      "corrected_gains": 0,
+      "corrected_losses": 0
+    },
+    {
+      "reference": "refined_product",
+      "event": "feasible",
+      "cases": 6,
+      "corrected_gains": 4,
+      "corrected_losses": 0
+    },
+    {
+      "reference": "refined_product",
+      "event": "optimal",
+      "cases": 6,
+      "corrected_gains": 0,
+      "corrected_losses": 0
+    },
+    {
+      "reference": "fixed_shallow",
+      "event": "feasible",
+      "cases": 6,
+      "corrected_gains": 0,
+      "corrected_losses": 0
+    },
+    {
+      "reference": "fixed_shallow",
+      "event": "optimal",
+      "cases": 6,
+      "corrected_gains": 0,
+      "corrected_losses": 0
+    }
+  ]
+}

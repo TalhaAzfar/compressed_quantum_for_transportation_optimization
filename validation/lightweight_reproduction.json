@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "offline": true,
+  "hardware_jobs_submitted": 0,
+  "generated_figures": [
+    "paper/figs/new_candidate_quality.pdf",
+    "paper/figs/new_candidate_quality.png",
+    "paper/figs/new_depth_feasibility.pdf",
+    "paper/figs/new_depth_feasibility.png",
+    "paper/figs/new_feasible_vs_product.pdf",
+    "paper/figs/new_feasible_vs_product.png",
+    "paper/figs/new_feasible_vs_source.pdf",
+    "paper/figs/new_feasible_vs_source.png",
+    "paper/figs/new_hardware_validation.pdf",
+    "paper/figs/new_hardware_validation.png",
+    "paper/figs/new_larger_source_diagnosis.pdf",
+    "paper/figs/new_optimal_vs_product.pdf",
+    "paper/figs/new_optimal_vs_product.png",
+    "paper/figs/new_optimal_vs_source.pdf",
+    "paper/figs/new_optimal_vs_source.png"
+  ],
+  "archive_verified": false,
+  "quantitative_diagnostics_match_bundled_data": true,
+  "generated_files_in_upload": false
+}

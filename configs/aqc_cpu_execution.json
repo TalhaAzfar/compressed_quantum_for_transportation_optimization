@@ -1,0 +1,13 @@
+{
+  "scope": "Default resource profile for new independent AQC task batches; frozen study protocols retain their original execution settings.",
+  "physical_cores": 4,
+  "independent_workers": 4,
+  "numerical_threads_per_worker": 1,
+  "hard_address_space_gib_per_process": 4,
+  "aggregate_rss_watchdog_gib": 3,
+  "system_memory_reserve_gib": 12,
+  "parallel_unit": "Independent case or restart; preserve dependencies between depths and optimizer iterations.",
+  "benchmark": "outputs/cpu_scaling_20260923/summary.json",
+  "guard_module": "revision.cpu_memory_guard",
+  "qualification": "A shared supervisor must enclose the entire batch. Do not give four jobs separate 3 GiB RAM budgets. More workers improve task throughput, not automatically the convergence of an individual fit."
+}

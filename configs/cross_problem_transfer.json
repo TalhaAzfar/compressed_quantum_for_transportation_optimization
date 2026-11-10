@@ -1,0 +1,33 @@
+{
+  "schema_version": "cross-problem-transfer-v2",
+  "output_dir": "outputs/cross_problem_transfer",
+  "source_selection_rule": "outputs/endpoint_selection/selection_rule.json",
+  "source_config": "configs/endpoint_selection.json",
+  "target_snapshot": "outputs/nighthawk_validation/target_snapshot.pkl",
+  "cases": [
+    {
+      "problem": "tsp",
+      "nodes": 4,
+      "seeds": [
+        71021,
+        71022,
+        71023
+      ]
+    },
+    {
+      "problem": "routing",
+      "nodes": 4,
+      "vehicles": 2,
+      "seeds": [
+        72021,
+        72022,
+        72023
+      ]
+    }
+  ],
+  "primary_gap_tolerance": 0.05,
+  "incumbent_tolerance": 0.05,
+  "noise_seed": 73001,
+  "transpilation_verification": "Require squared fidelity within 1e-8 of one. Attempt the original level-3 compiler; if its state check fails, retry at level 1 with identical basis, graph, seed, and routing policy. Record fallback use. This pre-evaluation engineering correction is documented in outputs/cross_problem_transfer_preflight.",
+  "scope": "Prospective local transfer diagnostic on fresh TSP and uncapacitated fixed-fleet routing instances, using the FLP-trained rule and candidate budgets without retuning. Three instances per model, two disclosed synthetic noise profiles; no new hardware data or confirmatory population inference."
+}

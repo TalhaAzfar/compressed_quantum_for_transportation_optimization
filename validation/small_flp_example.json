@@ -1,0 +1,15 @@
+{
+  "problem": "flp",
+  "n_qubits": 6,
+  "source_steps": 12,
+  "source_duration": 2.0,
+  "layers": 2,
+  "iterations": 25,
+  "fidelity": 0.9617456246550987,
+  "ideal_source_p_feasible": 0.16370934087320732,
+  "ideal_compiled_p_feasible": 0.1488689504287186,
+  "source_cz_depth": 126,
+  "compiled_cz_depth": 8,
+  "hardware_jobs_submitted": 0,
+  "scope": "Small correctness example. These are ideal probabilities, not hardware results."
+}

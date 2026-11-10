@@ -1,0 +1,55 @@
+{
+  "schema_version": "complete-state-compression-mitigation-v1",
+  "output_dir": "outputs/full_circuit_mitigation",
+  "parent_dir": "outputs/aqc_steps_10_12_bounded",
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "targets": [
+    "aqc_qaoa",
+    "product_qaoa"
+  ],
+  "layers": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "hardware_layers": [
+    2,
+    5
+  ],
+  "fit_seeds": [
+    94001,
+    94002
+  ],
+  "target_bonds": [
+    64,
+    128,
+    256
+  ],
+  "convergence_min": 0.999,
+  "ansatz_bond": 64,
+  "ansatz_check_bond": 128,
+  "fit_maxiter": 120,
+  "fit_seconds_cap": 90,
+  "target_seconds_cap": 600,
+  "hardware_blocks": 2,
+  "hardware_shots": 8192,
+  "calibration_shots": 4096,
+  "hardware_max_jobs": 4,
+  "hardware_max_shots": 250000,
+  "hardware_max_seconds_per_job": 180,
+  "bootstrap_replicates": 200,
+  "bootstrap_seed": 94003,
+  "worker_address_space_gib": 4,
+  "worker_rss_gib": 3,
+  "minimum_available_ram_gib": 12,
+  "scope": "Exploratory mechanism follow-up on the previously studied FLP20 case. Recompile the entire saved AQC-plus-QAOA and product-plus-QAOA preparations at their fixed saved angles. This is state-specific compilation, not a replacement parameterized QAOA unitary, new instance validation, or a scalability claim.",
+  "selection": "At each predeclared hardware layer count, select the highest independently verified exact target fidelity for each source, before viewing any new hardware counts. Require complete target MPS fidelity >=0.999 to exact source and ansatz MPS checks. Both members of a matched pair must be valid. No fidelity threshold is imposed on successful fits; low fidelity is an outcome. Retain all fits and failures. Hardware includes the two original full circuits as references.",
+  "hardware_design": "Two randomized blocks, each with raw and gate-twirling-plus-XX-dynamical-decoupling arms. Reverse arm submission order in block two. Six circuit methods maximum, 8192 shots each. Raw arm adds all-zero/all-one and four held-out mixed-state readout checks, each 4096 shots. No circuit or angle selection from new hardware outcomes. Gate twirling uses 32 randomizations of 256 shots. Measurement twirling stays disabled so the same physical readout calibration applies.",
+  "mitigation": "Tensor-product assignment-matrix inversion applied to feasibility and useful-event indicators, using fresh all-zero/all-one calibrations on the measured physical patch in each block. Mixed states diagnose local-model mismatch. Report signed estimates without clipping or converting them into samples; retain all raw counts. Joint multinomial bootstrap includes shared calibration and raw-sampling uncertainty. Readout correction does not remove gate errors or generate useful bitstrings.",
+  "inference": "Primary raw comparisons: AQC-source versus product-source complete compression at layers 2 and 5, under raw and suppressed execution, for feasible and useful events (8 two-sided Fisher comparisons, one Holm family). Secondary comparisons and all mitigation estimates are exploratory with 95% bootstrap intervals. Blocks are acquisition repeats, not independent days. No causal attribution to an individual noise source from bundled suppression."
+}

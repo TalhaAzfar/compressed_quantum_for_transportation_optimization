@@ -1,0 +1,16 @@
+-r requirements-analysis.txt
+# Python 3.10. Numerical versions recorded in the original experiment protocols.
+qiskit==2.4.1
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.46.1
+qiskit-addon-aqc-tensor==0.3.0
+quimb==1.11.2
+cotengra==0.8.1
+autoray==0.8.11
+torch==2.8.0
+jax==0.6.2
+jaxlib==0.6.2
+psutil==5.9.0
+threadpoolctl==3.5.0
+pytest==9.1.1
+PyYAML==6.0.2

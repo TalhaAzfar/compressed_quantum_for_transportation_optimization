@@ -1,0 +1,143 @@
+{
+  "schema_version": "nighthawk-native-validation-v1",
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "account": null,
+  "instance_name": null,
+  "output_dir": "outputs/nighthawk_validation",
+  "cases": [
+    {
+      "customers": 2,
+      "facilities": 2,
+      "seeds": [
+        1101,
+        1102,
+        1103
+      ]
+    },
+    {
+      "customers": 4,
+      "facilities": 2,
+      "seeds": [
+        2101,
+        2102,
+        2103
+      ]
+    },
+    {
+      "customers": 3,
+      "facilities": 3,
+      "seeds": [
+        3101,
+        3102,
+        3103
+      ]
+    }
+  ],
+  "service_cost_range_inclusive": [
+    1,
+    20
+  ],
+  "opening_cost_range_inclusive": [
+    10,
+    30
+  ],
+  "primary_gap_tolerance": 0.05,
+  "annealing_time": 2.0,
+  "num_steps": 16,
+  "prefix_fraction": 0.5,
+  "target_prefix_steps": 16,
+  "shallow_prefix_steps": 3,
+  "tail_steps": 8,
+  "prefix_ansatz_layers": 3,
+  "full_ansatz_layers": 6,
+  "prefix_maxiter": 120,
+  "full_maxiter": 180,
+  "initialization_seeds": [
+    801,
+    802
+  ],
+  "fidelity_threshold": 0.999,
+  "qaoa_depth": 2,
+  "qaoa_maxfev_per_start": 100,
+  "qaoa_initialization_seeds": [
+    102,
+    208
+  ],
+  "transpiler_seed": 1234,
+  "hardware_methods": [
+    "coarse_uncompressed",
+    "refined_target",
+    "shallow_unoptimized",
+    "routed_graph_aqc",
+    "native_prefix_aqc",
+    "native_full_aqc",
+    "standard_qaoa_p2",
+    "uniform_bitstrings"
+  ],
+  "execution_blocks": 3,
+  "shots_per_circuit_per_block": 8192,
+  "randomization_seed": 91021,
+  "max_execution_seconds_per_job": 1200,
+  "primary_comparisons": [
+    [
+      "native_prefix_aqc",
+      "refined_target"
+    ],
+    [
+      "native_prefix_aqc",
+      "shallow_unoptimized"
+    ],
+    [
+      "native_prefix_aqc",
+      "routed_graph_aqc"
+    ],
+    [
+      "native_full_aqc",
+      "refined_target"
+    ]
+  ],
+  "statistical_family": "36 two-sided pooled Fisher tests of p_good, Holm correction across four contrasts on nine instances; execution blocks also reported separately; pooled shot inference conditional on these acquisition blocks, no population claim",
+  "noninferiority_claim": false,
+  "scaling_cases": [
+    [
+      2,
+      2,
+      4101
+    ],
+    [
+      4,
+      2,
+      4102
+    ],
+    [
+      6,
+      2,
+      4103
+    ],
+    [
+      8,
+      2,
+      4104
+    ],
+    [
+      10,
+      2,
+      4105
+    ],
+    [
+      3,
+      3,
+      4106
+    ],
+    [
+      5,
+      3,
+      4107
+    ]
+  ],
+  "scaling_layers": 3,
+  "scaling_maxiter": 20,
+  "scaling_initialization_seed": 801,
+  "scaling_scope": "fixed-budget exact-state compilation and device resource scaling; not a tensor-network scaling or computational-advantage claim"
+}

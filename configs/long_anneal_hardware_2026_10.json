@@ -1,0 +1,114 @@
+{
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "fit_max_evaluations": 500,
+  "fit_maxiter": 400,
+  "fit_ftol": 1e-11,
+  "fit_gtol": 1e-06,
+  "minimum_evaluations_if_not_converged": 100,
+  "minimum_target_fidelity": 0.999,
+  "contraction_repeats": 16,
+  "aggregate_rss_limit_bytes": 35000000000,
+  "system_reserve_bytes": 8000000000,
+  "parallel_workers": 3,
+  "physical_cores_per_worker": 6,
+  "numerical_threads_per_worker": 4,
+  "worker_rss_limit_bytes": 9000000000,
+  "worker_address_gib": 12,
+  "schema": "longer-anneal-hardware-confirmation-v1",
+  "output_dir": "outputs/long_anneal_hardware_2026_10",
+  "cases": [
+    {
+      "id": "tsp25_r1",
+      "problem": "tsp",
+      "seed": 100701,
+      "nodes": 6
+    },
+    {
+      "id": "vrp20_r1",
+      "problem": "vrp",
+      "seed": 100901,
+      "nodes": 5,
+      "vehicles": 2
+    },
+    {
+      "id": "tsp25_r2",
+      "problem": "tsp",
+      "seed": 100702,
+      "nodes": 6
+    },
+    {
+      "id": "vrp20_r2",
+      "problem": "vrp",
+      "seed": 100902,
+      "nodes": 5,
+      "vehicles": 2
+    },
+    {
+      "id": "tsp25_r3",
+      "problem": "tsp",
+      "seed": 100703,
+      "nodes": 6
+    },
+    {
+      "id": "vrp20_r3",
+      "problem": "vrp",
+      "seed": 100903,
+      "nodes": 5,
+      "vehicles": 2
+    }
+  ],
+  "annealing_time": 8.0,
+  "steps": 24,
+  "fit_seconds_small": 1800,
+  "fit_seconds_large": 7200,
+  "new_native_depth_caps": [
+    32,
+    64
+  ],
+  "native_starts": 3,
+  "product_starts": 3,
+  "start_perturbations": [
+    0,
+    0.03,
+    0.1
+  ],
+  "parameter_seed": 110001,
+  "patch_seed": 110002,
+  "ordering_seed": 110003,
+  "target_bond": 256,
+  "max_tensor_bytes": 536870912,
+  "max_slice_write_bytes": 3000000000,
+  "max_slices": 32,
+  "screen_blocks": 2,
+  "screen_shots": 2048,
+  "confirmation_days": 1,
+  "confirmation_blocks": 2,
+  "confirmation_shots": 32768,
+  "maximum_calendar_wait_days": 3,
+  "hardware_max_jobs": 8,
+  "hardware_max_total_shots": 1800000,
+  "hardware_max_execution_seconds_per_job": 300,
+  "selection_rule": "Same feasibility Wilson-lower-bound selection as the depth-refinement release, with depth/count/ID tie breaks. Pool: source, best-fidelity product, fixed best-fidelity L2, and highest-fidelity/highest-ideal-feasibility entangling candidates within base/32/64 depth budgets. Preserve all shallower fits. Deduplicate identical logical circuits.",
+  "confirmation_methods": [
+    "selected_native",
+    "fixed_shallow",
+    "refined_product",
+    "source"
+  ],
+  "primary_inference": "36 jointly Holm-corrected two-sided block-conditional exact tests: six instances x two events x selected native versus full T=8/24-step source, best-fidelity product, and fixed best-fidelity shallow AQC. Two independent confirmation blocks of 32768 shots per method. Screening samples excluded. Identical-circuit controls have p=1.",
+  "secondary_inference": "Ideal-to-hardware event retention and circuit resource comparisons are descriptive. Short-duration published results are not pooled with the new acquisitions.",
+  "reproduction_scope": "The six previously diagnosed TSP25/VRP20 cost instances. Fit and execute the full T=8, 24-step anneal and native approximations. One screening followed by independent two-block confirmation. This is not a two-day replication study.",
+  "software": "Quimb with PyTorch autodiff and bounded v2 contraction planning; exact-reference-assisted MPS target, exact final-state checks. This is not an end-to-end scalable tensor-network construction claim.",
+  "prior_results_seen": true,
+  "new_hardware_outcomes_seen": false,
+  "target_bonds": [
+    256,
+    512
+  ],
+  "worker_wall_seconds": 86400,
+  "prior_ideal_results_seen": true,
+  "prior_short_duration_hardware_seen": true
+}

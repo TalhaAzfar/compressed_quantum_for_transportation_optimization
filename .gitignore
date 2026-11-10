@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+.qiskit/
+qiskit-ibm.json
+results/
+outputs/
+*.log
+.DS_Store
+
+# Local IBM credentials and private settings
+qiskit-ibm-*.json
+ibm-credentials*.json
+.secrets/
+secrets/
+.aws/
+
+# Optional measurement archive, distributed separately
+recorded_data/
+hardware-aware-transport-qaoa-data.zip

@@ -1,0 +1,70 @@
+{
+  "schema_version": "aqc-fixed-duration-8-10-12-native-v1",
+  "output_dir": "outputs/aqc_steps_10_12",
+  "parent_dir": "outputs/aqc_tensor_qaoa_v2",
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "cases": [
+    "flp20",
+    "tsp16",
+    "flp30",
+    "tsp25"
+  ],
+  "steps": [
+    8,
+    10,
+    12
+  ],
+  "endpoints": [
+    0.5,
+    1.0
+  ],
+  "duration": 2.0,
+  "target_bonds": [
+    64,
+    128,
+    256
+  ],
+  "convergence_min": 0.999,
+  "fit_threshold": 0.98,
+  "layers": [
+    0,
+    1,
+    2,
+    4,
+    6
+  ],
+  "fit_seeds": [
+    91001,
+    91002,
+    91003
+  ],
+  "fit_maxiter": 120,
+  "fit_seconds_cap": 120,
+  "target_seconds_cap": 600,
+  "task_seconds_cap": 2400,
+  "parallel_workers": 2,
+  "ansatz_bond": 64,
+  "ansatz_check_bond": 128,
+  "qaoa_train_maxeval": 40,
+  "qaoa_train_bond": 64,
+  "hardware_blocks": 2,
+  "hardware_shots_per_circuit": 8192,
+  "hardware_max_jobs": 2,
+  "hardware_max_shots": 500000,
+  "hardware_max_seconds_per_job": 180,
+  "selection": "For each case, consider only converged 10/12-step targets with a verified entangling fit >=.98. Prefer full endpoint, then 12 steps, then shallowest CZ depth meeting threshold, then fidelity. Product-only is a separate control. If no target qualifies, run no new hardware for that case. Select entirely from new classical results; previous hardware outcomes are known but not used in this ranking.",
+  "hardware_methods": [
+    "aqc",
+    "product",
+    "uncompressed",
+    "aqc_qaoa",
+    "product_qaoa",
+    "uncompressed_qaoa",
+    "standard_qaoa"
+  ],
+  "inference": "Each selected case has four primary contrasts: AQC versus product/uncompressed, separately for standalone preparation and prefixed QAOA. Feasibility and within-5%-optimum events use two-sided Fisher tests, one Holm family over all selected cases and contrasts. Two fresh randomized measurement blocks; no hardware selection or tuning.",
+  "scope": "Exploratory step-resolution and ansatz-depth sweep on four previously studied instances, not a new instance-generalization test. The complete target Hamiltonian is retained. Three starts per depth: one layerwise extension of the best preceding fit, two random starts. All targets, failures, fitting costs and original results are retained. No lower-endpoint fallback. No quantum-advantage claim."
+}

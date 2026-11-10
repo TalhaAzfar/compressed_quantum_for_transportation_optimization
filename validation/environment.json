@@ -1,0 +1,15 @@
+{
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "scipy": "1.15.1",
+  "qiskit": "2.4.1",
+  "qiskit_aer": "0.17.2",
+  "qiskit_ibm_runtime": "0.46.1",
+  "quimb": "1.11.2",
+  "cotengra": "0.8.1",
+  "torch": "2.8.0+cpu",
+  "jax": "0.6.2",
+  "matplotlib": "3.10.0",
+  "pytest": "9.1.1",
+  "qiskit-addon-aqc-tensor": "0.3.0"
+}

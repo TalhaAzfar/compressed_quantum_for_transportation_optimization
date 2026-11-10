@@ -1,0 +1,74 @@
+{
+  "schema_version": "full-circuit-tsp-routing-v1",
+  "output_dir": "outputs/full_circuit_transfer",
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "target_snapshot": "outputs/aqc_steps_10_12_bounded/preflight/target_snapshot.pkl",
+  "cases": [
+    {
+      "id": "tsp16_s1",
+      "problem": "tsp",
+      "nodes": 5,
+      "seed": 95021
+    },
+    {
+      "id": "tsp16_s2",
+      "problem": "tsp",
+      "nodes": 5,
+      "seed": 95022
+    },
+    {
+      "id": "tsp16_s3",
+      "problem": "tsp",
+      "nodes": 5,
+      "seed": 95023
+    },
+    {
+      "id": "vrp12_s1",
+      "problem": "routing",
+      "nodes": 4,
+      "vehicles": 2,
+      "seed": 96021
+    },
+    {
+      "id": "vrp12_s2",
+      "problem": "routing",
+      "nodes": 4,
+      "vehicles": 2,
+      "seed": 96022
+    },
+    {
+      "id": "vrp12_s3",
+      "problem": "routing",
+      "nodes": 4,
+      "vehicles": 2,
+      "seed": 96023
+    }
+  ],
+  "prefix_steps": 12,
+  "prefix_endpoint": 0.5,
+  "annealing_duration": 2.0,
+  "prefix_layers": 2,
+  "full_layers": 2,
+  "fit_seed": 95001,
+  "fit_maxiter": 120,
+  "fit_seconds": 60,
+  "fit_bond": 256,
+  "qaoa_evaluations": 24,
+  "convergence_min": 0.999,
+  "hardware_blocks": 2,
+  "hardware_shots": 4096,
+  "calibration_shots": 4096,
+  "hardware_max_jobs": 4,
+  "hardware_max_shots": 500000,
+  "hardware_max_seconds_per_job": 180,
+  "bootstrap_replicates": 400,
+  "bootstrap_seed": 95003,
+  "scope": "Fresh-instance exploratory replication of full fixed-angle state compression: three 16-qubit five-city TSP instances and three 12-qubit uncapacitated fixed-two-vehicle routing instances with three customers. The latter degree QUBO is exactly equivalent to depot-connected routing only at this declared size. No capacitated-VRP or large-instance claim.",
+  "preparation": "Fit a product prefix (L0) and native AQC-Tensor prefix (L2) to a 12-step half-anneal. One deterministic start each, same 60-second/120-iteration fitting caps. Initialize L2 by identity extension of fitted L0 plus fixed small perturbation. Independently optimize one QAOA layer for each prefix with 24 exact-energy COBYLA evaluations. Recompile each whole fixed-angle source into L2, initialized from its own prefix parameters. Exact verification of target MPS, fitted overlap, source circuit and physical compilation; no minimum fitted fidelity or outcome-based instance selection. All six cases retained. Any invalid case blocks the hardware batch for diagnosis.",
+  "hardware_design": "Four methods per case: original AQC+QAOA, original product+QAOA, full AQC-source L2 and full product-source L2. Same patch within each family and matched full-compression gate budgets. Two randomized acquisition blocks; raw and gate-twirling+XX-DD arms, reverse arm order in block two. 32 twirls x 128 shots. Measurement twirling disabled. All-zero/all-one and four held-out mixed readout patterns per family in each raw block. Expected total 491520 shots, four jobs. No new hardware-dependent parameter refinement or case selection.",
+  "inference": "Primary: two-sided Fisher comparisons of full AQC versus its original source, and full AQC versus matched full product, for feasible and within-5%-optimum events, in both arms and all six cases: one Holm family of 48 tests. Report all cases and raw counts/Clopper-Pearson intervals. Secondary block-stratified conditional exact tests, separately Holm-adjusted over the same 48 contrasts. Do not pool shots across instances as independent instance replication. Across-instance directional consistency is descriptive with only three instances per family.",
+  "mitigation": "Local assignment-matrix inversion with physical measurement mapping and held-out marginal checks. Report signed corrected feasible/useful points, without clipping. Shared-calibration joint multinomial bootstrap for feasibility and matched feasibility contrasts only; require >=20 observed feasible events in every contributing row to publish its interval, otherwise mark insufficient support. No empirical-bootstrap useful-event intervals because rare unseen events invalidate that interpretation. Corrected events are estimands, not generated feasible samples."
+}

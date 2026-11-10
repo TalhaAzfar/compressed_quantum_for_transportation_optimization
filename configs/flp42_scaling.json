@@ -1,0 +1,71 @@
+{
+  "schema_version": "flp-20-30-42-fixed-fidelity-v1",
+  "output_dir": "outputs/flp42_scaling",
+  "target_snapshot": "outputs/aqc_steps_10_12_bounded/preflight/target_snapshot.pkl",
+  "cases": [
+    {
+      "id": "flp20",
+      "problem": "flp",
+      "facilities": 4,
+      "customers": 4,
+      "seed": 82021,
+      "reuse_case": "outputs/aqc_tensor_qaoa_v2/cases/flp20.json"
+    },
+    {
+      "id": "flp30",
+      "problem": "flp",
+      "facilities": 5,
+      "customers": 5,
+      "seed": 82022,
+      "reuse_case": "outputs/aqc_tensor_qaoa_v2/cases/flp30.json"
+    },
+    {
+      "id": "flp42",
+      "problem": "flp",
+      "facilities": 6,
+      "customers": 6,
+      "seed": 97021
+    }
+  ],
+  "steps": 12,
+  "duration": 2.0,
+  "endpoints": [
+    0.5,
+    1.0
+  ],
+  "target_bonds": [
+    64,
+    128,
+    256
+  ],
+  "convergence_min": 0.999,
+  "fit_threshold": 0.98,
+  "layers": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "fit_seed": 97001,
+  "fit_maxiter": 120,
+  "fit_seconds": 90,
+  "fit_bond": 64,
+  "check_bond": 128,
+  "target_seconds": 600,
+  "patch_seed": 81001,
+  "transpile_seed": 81003,
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "hardware_max_jobs": 2,
+  "hardware_max_shots": 65536,
+  "hardware_shots": 8192,
+  "hardware_blocks": 2,
+  "scope": "One larger facility-location instance: six facilities and six customers, 42 binary variables. Refit existing 20/30-qubit cases under the identical explicit-MPS-gradient budgets to produce a within-family finite-size comparison. Existing 20/30 outcomes are known; the 42-qubit seed is fixed before its results. One instance at each width is exploratory, not a population scaling law.",
+  "targets": "Twelve fixed-duration digitization intervals to either s=0.5 or s=1.0. Keep the complete normalized QUBO and existing encoding. Reuse archived converged 20/30 target MPS with source hashes and their original preparation time; build new 42-qubit targets sequentially. Report endpoints separately; no quarter-schedule fallback. MPS convergence is a numerical check, not an exact certificate at 30/42 qubits.",
+  "fitting": "Same native ansatz as prior studies. One fixed-seed start per depth. L0 starts near zero; each deeper fit starts from an identity extension of the best verified shallower result plus deterministic 0.01 perturbation. Explicit AQC-Tensor gradients, 120 iterations or 90-second completed-evaluation boundary per fit. Hard outer process deadlines. Preserve every attempt, incomplete record and resource failure. Validate ansatz bond convergence and independent target overlap; exact checks only for 20 or fewer qubits. No dense state vectors or 2^n enumeration above 20 qubits.",
+  "selection": "Minimum CZ depth reaching verified fidelity >=0.98 is the primary resource endpoint, separately for half/full targets at each width. If no fit qualifies, report threshold unmet rather than a successful constant-depth compression. Report maximum verified fidelity as a secondary result, with all fitting costs and failures. No changes to target, normalization, depth pool or budget based on observed new outcomes.",
+  "hardware_gate": "Only a verified 42-qubit fit reaching >=0.98 can trigger a new bounded hardware pilot. Prefer the full endpoint, otherwise label a half-endpoint pilot explicitly. Compare selected native preparation, fitted product state, its uncompressed 12-step target and a two-step same-duration/endpoint control; two blocks of 8192 shots per method, at most 65536 shots total. Freeze circuits/statistics before submission. If the accuracy gate is unmet, do not spend QPU shots on this fixed-accuracy validation. Hardware feasibility alone would not validate fidelity.",
+  "memory": "One numerical worker; hard 4 GiB address-space limit, 3 GiB whole-worker RSS watchdog, 12 GiB system reserve. These are reproducibility settings, not a scientific contribution."
+}

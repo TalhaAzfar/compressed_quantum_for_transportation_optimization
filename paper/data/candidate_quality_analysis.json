@@ -1,0 +1,7073 @@
+{
+  "scope": "All independent main/longer/FLP42 confirmation samples; original objectives; descriptive conditional quality only.",
+  "inputs_sha256": {
+    "outputs/native_depth_refinement_2026_10/confirm_plan.json": "8f6715e20f4302133e4ce7a0a4b2ad7b71d6d19f28254ff7f3061e21f02c12f4",
+    "outputs/native_depth_refinement_2026_10/analysis.json": "4ff278aa200eaa11d586246b69706a13fb8865ec7bbb28240bf7a3cf56e5a4bd",
+    "outputs/native_depth_refinement_2026_10/raw_counts/confirm_FLP_b0.json": "35a9516d645e315a2f716ef2354bbb55190ec72535d89732c4ce4c0ac947576e",
+    "outputs/hardware_width_sweep_2026/cases/flp6_r2/model.json": "7a229eacd90ebad4475077a55282d4a5cf4556e50787f7adb99b251e94c3a8f5",
+    "outputs/hardware_width_sweep_2026/cases/flp20_r2/model.json": "2e63f8061305fe980ac28d74a1b5eb93810aa349b11d62ebcc27b9d917e53cef",
+    "outputs/hardware_width_sweep_2026/cases/flp6_r1/model.json": "fc1e122871affb6ac42c7eb40889b9b547ea82724f2f1cd54a08c8b560413ef8",
+    "outputs/hardware_width_sweep_2026/cases/flp10_r2/model.json": "e5b9ec13e200b8b8c54d53d1a2bf0895f3e672ad71b0a6bd91febce5e956f77b",
+    "outputs/hardware_width_sweep_2026/cases/flp20_r1/model.json": "1115e21e20c38f926c944d12e5d0a2fdf96d0d6ce2fa6f96341175da947baffa",
+    "outputs/hardware_width_sweep_2026/cases/flp10_r1/model.json": "eaefb8631ce559cd4ee446e25f72ef34a9155431472ac7d72f84103363010dc7",
+    "outputs/hardware_width_sweep_2026/cases/flp14_r2/model.json": "89ce0fe0880d3dbd78c418cccd6139b68b1e379c9a892541673350781403c8ac",
+    "outputs/hardware_width_sweep_2026/cases/flp14_r3/model.json": "bf812de2764c02d27c896e4a3da7fbfdb02005e2e9eec8016857a7f1bb478caa",
+    "outputs/hardware_width_sweep_2026/cases/flp6_r3/model.json": "9581e807109fdb0988ce6d0ef54677c69c7bc034710397eceb81073354dcb6ba",
+    "outputs/hardware_width_sweep_2026/cases/flp14_r1/model.json": "b0b6efd5bed7d33c5ede015bd07308c3f9bc1b399291b3fa2a52697b0566fd91",
+    "outputs/hardware_width_sweep_2026/cases/flp10_r3/model.json": "ac0b01e24311d4ab935cf5e68ee9b9646cfed587389e1597f937df53c36d2800",
+    "outputs/hardware_width_sweep_2026/cases/flp20_r3/model.json": "6c29e964b2c5bc8bd8e4eeacc3e8c9dc209d79b2927c398e27ab75aa21a76f2e",
+    "outputs/native_depth_refinement_2026_10/raw_counts/confirm_FLP_b1.json": "ff1e5dc525ad7624d3cc6ff0388a8806cde602e5fd2083232923f24a02d37655",
+    "outputs/native_depth_refinement_2026_10/raw_counts/confirm_TSP_b0.json": "63bb04332e386ef6b1f46219a6a5ff9cfc56acd48970707d7d2fad6e6aa41b11",
+    "outputs/hardware_width_sweep_2026/cases/tsp16_r3/model.json": "b8bd3f909b65e74b58e25ca5ef43732cdece167b7900ba496a7611c9ff394eaf",
+    "outputs/hardware_width_sweep_2026/cases/tsp25_r3/model.json": "236d2c79e71777b28cfdd1f3936ab8797870cb230cbfe7e759942c4a6653c017",
+    "outputs/hardware_width_sweep_2026/cases/tsp25_r2/model.json": "e24d6172f80c3df55b4d8755cce38024050b3168a6c3b8b562b1a043026e812a",
+    "outputs/hardware_width_sweep_2026/cases/tsp16_r1/model.json": "6dfc09a4d81583ad964e5a474d294fa97b73d020f8689d62ed706d7301f5b76d",
+    "outputs/hardware_width_sweep_2026/cases/tsp25_r1/model.json": "ce5cf4d701a7ba8ab7c90bc940e30ef1d12d89c7f9883cf8be45463c6deebae0",
+    "outputs/hardware_width_sweep_2026/cases/tsp16_r2/model.json": "1c7ac6c091e3c45cf70c0565e68221e081f311b2633666f04548c3682e22b5bc",
+    "outputs/hardware_width_sweep_2026/cases/tsp9_r3/model.json": "5df29cd42f4f8c1c2ef586926285fbb11fff0ef362372b71aec97b0272fd2958",
+    "outputs/hardware_width_sweep_2026/cases/tsp9_r2/model.json": "028bfbbdd9ca520a4785b6d5406f65289a3bdf28958a95e1710b9e2f060e4ead",
+    "outputs/hardware_width_sweep_2026/cases/tsp9_r1/model.json": "b6227250d044525c8ff060fd316830c6a0aaf87a89835503c1cceec05683db39",
+    "outputs/native_depth_refinement_2026_10/raw_counts/confirm_TSP_b1.json": "5ece99c7b3c601e0d066d89613d2418df8b28e48ebaec710e3b5280c809ab2c1",
+    "outputs/native_depth_refinement_2026_10/raw_counts/confirm_VRP_b0.json": "de53853ce973e8a53e01e8685b65584869a3c80f36fb99fd9ac9784f101f33cb",
+    "outputs/hardware_width_sweep_2026/cases/vrp12_r3/model.json": "9bbd1f6e2df2a2c48c36b1ca0458e66f3d7c3141ec505eb791ab08ceb93e4a3f",
+    "outputs/hardware_width_sweep_2026/cases/vrp20_r3/model.json": "7b1eaab06179c8b5d0f1b0463c375ebc0a3e0e29deb2937330b5310150f95ca5",
+    "outputs/hardware_width_sweep_2026/cases/vrp12_r1/model.json": "7ce745593e33f9b142af7a37bbbdd31259df2abd7c37e30bac836f035b1fd44e",
+    "outputs/hardware_width_sweep_2026/cases/vrp20_r1/model.json": "bd6289546682518459430967185281a88f6a9b3f259467afb2908ffcc156fe9b",
+    "outputs/hardware_width_sweep_2026/cases/vrp12_r2/model.json": "828346ee86e11990a54ab3678af28f9fecd9822fe10bc1c1961b74c0cd005738",
+    "outputs/hardware_width_sweep_2026/cases/vrp20_r2/model.json": "071b5c6d0934d8ea688d93590fa7d4530252210261c77d1de2c9f8a0f0f79014",
+    "outputs/native_depth_refinement_2026_10/raw_counts/confirm_VRP_b1.json": "f38f2ccbb51cba6b74d95104fe578a239a2e599100d52442435306a3bb4c48fa",
+    "outputs/long_anneal_hardware_2026_10/confirm_plan.json": "0447de39b4266e4369a1a3933046c5c6f92afe0a99c794fb3c96465ee221b609",
+    "outputs/long_anneal_hardware_2026_10/analysis.json": "5159eb11c91de881147b68e9e95b9347241805c56993da58339ed97371e7d668",
+    "outputs/long_anneal_hardware_2026_10/raw_counts/confirm_d0_TSP_b0.json": "269b0eca4aa6ddccd1995581c3adc5c2132d9884fe82acfc3c8f1db824039dad",
+    "outputs/long_anneal_hardware_2026_10/cases/tsp25_r3/model.json": "236d2c79e71777b28cfdd1f3936ab8797870cb230cbfe7e759942c4a6653c017",
+    "outputs/long_anneal_hardware_2026_10/cases/tsp25_r2/model.json": "e24d6172f80c3df55b4d8755cce38024050b3168a6c3b8b562b1a043026e812a",
+    "outputs/long_anneal_hardware_2026_10/cases/tsp25_r1/model.json": "ce5cf4d701a7ba8ab7c90bc940e30ef1d12d89c7f9883cf8be45463c6deebae0",
+    "outputs/long_anneal_hardware_2026_10/raw_counts/confirm_d0_TSP_b1.json": "59127f732d6ce540ab40337eb405a2e6a7eb128cbf5a9440b0f9b860d95483ad",
+    "outputs/long_anneal_hardware_2026_10/raw_counts/confirm_d0_VRP_b0.json": "209d1553689f900ebeab69058ff5b264d53a00a7fe488ce1e7714bb3b4a6301f",
+    "outputs/long_anneal_hardware_2026_10/cases/vrp20_r1/model.json": "bd6289546682518459430967185281a88f6a9b3f259467afb2908ffcc156fe9b",
+    "outputs/long_anneal_hardware_2026_10/cases/vrp20_r2/model.json": "071b5c6d0934d8ea688d93590fa7d4530252210261c77d1de2c9f8a0f0f79014",
+    "outputs/long_anneal_hardware_2026_10/cases/vrp20_r3/model.json": "7b1eaab06179c8b5d0f1b0463c375ebc0a3e0e29deb2937330b5310150f95ca5",
+    "outputs/long_anneal_hardware_2026_10/raw_counts/confirm_d0_VRP_b1.json": "4fe2d18a276bf31add2138f397f4ccca0be3d88fcd1d46e335b2fa1b669dd4a6",
+    "outputs/larger_width_feasibility_2026_10/confirm_plan.json": "699d5d4badd4fc0bf6fec6adb029b1e415ac8fd868fdaec2cc5650662b7461d9",
+    "outputs/larger_width_feasibility_2026_10/analysis.json": "660f7e23f6ec56aae9412af9e288cd1de290f7d30553c2d20b30af7eddf4db03",
+    "outputs/larger_width_feasibility_2026_10/raw_counts/confirm_b0.json": "7678912e76f72db59c901073adf35450d90080dce0cd248e5f9420576807c9d6",
+    "outputs/larger_width_feasibility_2026_10/case.json": "0f022163e90a7aa80f40b283d50d9791edd863cb15d9d66a51dae90396a469d0",
+    "outputs/larger_width_feasibility_2026_10/raw_counts/confirm_b1.json": "0ff510019780385cb63bf53af8611eecdc8257a1f4c4112aa471674acd90074a"
+  },
+  "cases": [
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "product",
+      "optimum": 47.0,
+      "shots": 131072,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 27,
+      "p_feasible": 0.00020599365234375,
+      "mean_gap_pct": 231.20567375886517,
+      "q25_gap_pct": 211.7021276595745,
+      "median_gap_pct": 236.17021276595747,
+      "q75_gap_pct": 259.5744680851064,
+      "best_gap_pct": 112.7659574468085,
+      "best_feasible_cost": 100.0,
+      "mean_feasible_cost": 155.66666666666666,
+      "median_feasible_cost": 158.0
+    },
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "selected_native",
+      "optimum": 47.0,
+      "shots": 131072,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 18,
+      "p_feasible": 0.0001373291015625,
+      "mean_gap_pct": 234.16075650118202,
+      "q25_gap_pct": 213.29787234042553,
+      "median_gap_pct": 228.72340425531917,
+      "q75_gap_pct": 262.7659574468085,
+      "best_gap_pct": 176.59574468085106,
+      "best_feasible_cost": 130.0,
+      "mean_feasible_cost": 157.05555555555554,
+      "median_feasible_cost": 154.5
+    },
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "shallow",
+      "optimum": 47.0,
+      "shots": 131072,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 32,
+      "p_feasible": 0.000244140625,
+      "mean_gap_pct": 234.24202127659572,
+      "q25_gap_pct": 201.59574468085108,
+      "median_gap_pct": 242.5531914893617,
+      "q75_gap_pct": 257.4468085106383,
+      "best_gap_pct": 165.95744680851064,
+      "best_feasible_cost": 125.0,
+      "mean_feasible_cost": 157.09375,
+      "median_feasible_cost": 161.0
+    },
+    {
+      "study": "flp42",
+      "case_id": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "source",
+      "optimum": 47.0,
+      "shots": 131072,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "optimum": 23.421545532783934,
+      "shots": 65536,
+      "good_count": 1,
+      "optimal_count": 0,
+      "feasible_count": 19,
+      "p_feasible": 0.0002899169921875,
+      "mean_gap_pct": 45.59841049441872,
+      "q25_gap_pct": 40.948141969065375,
+      "median_gap_pct": 50.398148323527344,
+      "q75_gap_pct": 59.99513748964794,
+      "best_gap_pct": 3.398629555088889,
+      "best_feasible_cost": 24.21755710151973,
+      "mean_feasible_cost": 34.10139800895994,
+      "median_feasible_cost": 35.225570790058875
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "optimum": 23.421545532783934,
+      "shots": 65536,
+      "good_count": 7,
+      "optimal_count": 2,
+      "feasible_count": 65,
+      "p_feasible": 0.0009918212890625,
+      "mean_gap_pct": 42.81948186543608,
+      "q25_gap_pct": 38.894838001258485,
+      "median_gap_pct": 45.70380169666904,
+      "q75_gap_pct": 53.545723899001416,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 23.421545532783934,
+      "mean_feasible_cost": 33.4505299747992,
+      "median_feasible_cost": 34.12608225738255
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "optimum": 23.421545532783934,
+      "shots": 65536,
+      "good_count": 10,
+      "optimal_count": 3,
+      "feasible_count": 118,
+      "p_feasible": 0.001800537109375,
+      "mean_gap_pct": 42.614893159072835,
+      "q25_gap_pct": 30.19244926221021,
+      "median_gap_pct": 44.307425350377756,
+      "q75_gap_pct": 65.85428999558455,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 23.421545532783934,
+      "mean_feasible_cost": 33.40261213778341,
+      "median_feasible_cost": 33.79902933562691
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "optimum": 23.421545532783934,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "optimum": 22.755911767267783,
+      "shots": 65536,
+      "good_count": 3,
+      "optimal_count": 1,
+      "feasible_count": 27,
+      "p_feasible": 0.0004119873046875,
+      "mean_gap_pct": 31.216824063328346,
+      "q25_gap_pct": 14.019396751034424,
+      "median_gap_pct": 35.085356553226184,
+      "q75_gap_pct": 45.458888643710594,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 22.755911767267783,
+      "mean_feasible_cost": 29.859584707661995,
+      "median_feasible_cost": 30.739904547751237
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "optimum": 22.755911767267783,
+      "shots": 65536,
+      "good_count": 2,
+      "optimal_count": 0,
+      "feasible_count": 32,
+      "p_feasible": 0.00048828125,
+      "mean_gap_pct": 33.802164100853936,
+      "q25_gap_pct": 19.214218148982837,
+      "median_gap_pct": 42.06161693984954,
+      "q75_gap_pct": 49.630132285522514,
+      "best_gap_pct": 1.923845051609803,
+      "best_feasible_cost": 23.193700249751057,
+      "mean_feasible_cost": 30.44790240548517,
+      "median_feasible_cost": 32.327416205986104
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "optimum": 22.755911767267783,
+      "shots": 65536,
+      "good_count": 1,
+      "optimal_count": 0,
+      "feasible_count": 62,
+      "p_feasible": 0.000946044921875,
+      "mean_gap_pct": 31.731504569200762,
+      "q25_gap_pct": 19.1010657712237,
+      "median_gap_pct": 31.141041745619102,
+      "q75_gap_pct": 48.72249072823195,
+      "best_gap_pct": 4.491068477239091,
+      "best_feasible_cost": 23.777895347355887,
+      "mean_feasible_cost": 29.976704949461652,
+      "median_feasible_cost": 29.842339750308895
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "optimum": 22.755911767267783,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "optimum": 25.55450243372625,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 28,
+      "p_feasible": 0.00042724609375,
+      "mean_gap_pct": 42.011391312382806,
+      "q25_gap_pct": 33.25121902285268,
+      "median_gap_pct": 42.61936236895333,
+      "q75_gap_pct": 48.156727778558334,
+      "best_gap_pct": 9.867555309031959,
+      "best_feasible_cost": 28.076107095322104,
+      "mean_feasible_cost": 36.290304449091366,
+      "median_feasible_cost": 36.44566842753903
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "optimum": 25.55450243372625,
+      "shots": 65536,
+      "good_count": 3,
+      "optimal_count": 0,
+      "feasible_count": 120,
+      "p_feasible": 0.0018310546875,
+      "mean_gap_pct": 37.903922692557636,
+      "q25_gap_pct": 26.78064886534145,
+      "median_gap_pct": 42.44546794345726,
+      "q75_gap_pct": 47.79180647405104,
+      "best_gap_pct": 4.468333636831388,
+      "best_feasible_cost": 26.696362861697335,
+      "mean_feasible_cost": 35.240661280673606,
+      "median_feasible_cost": 36.40123057234353
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "optimum": 25.55450243372625,
+      "shots": 65536,
+      "good_count": 2,
+      "optimal_count": 0,
+      "feasible_count": 127,
+      "p_feasible": 0.0019378662109375,
+      "mean_gap_pct": 36.5802624147524,
+      "q25_gap_pct": 20.30529875915557,
+      "median_gap_pct": 42.44546794345726,
+      "q75_gap_pct": 47.82175655096281,
+      "best_gap_pct": 4.468333636831388,
+      "best_feasible_cost": 26.696362861697335,
+      "mean_feasible_cost": 34.902406482767596,
+      "median_feasible_cost": 36.40123057234353
+    },
+    {
+      "study": "longer",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "optimum": 25.55450243372625,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 28.231418313466136,
+      "shots": 65536,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 40,
+      "p_feasible": 0.0006103515625,
+      "mean_gap_pct": 19.272951381011264,
+      "q25_gap_pct": 12.33205359362212,
+      "median_gap_pct": 18.526947036440216,
+      "q75_gap_pct": 25.36922723998757,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 28.231418313466133,
+      "mean_feasible_cost": 33.67244583919037,
+      "median_feasible_cost": 33.46183823203789
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 28.231418313466136,
+      "shots": 65536,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 72,
+      "p_feasible": 0.0010986328125,
+      "mean_gap_pct": 21.15884803221684,
+      "q25_gap_pct": 15.263884841141524,
+      "median_gap_pct": 20.983084631078807,
+      "q75_gap_pct": 30.859000630062344,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 28.231418313466133,
+      "mean_feasible_cost": 34.204861211751876,
+      "median_feasible_cost": 34.15524071073462
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 28.231418313466136,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 68,
+      "p_feasible": 0.00103759765625,
+      "mean_gap_pct": 21.235758827144878,
+      "q25_gap_pct": 15.263884841141524,
+      "median_gap_pct": 18.526947036440216,
+      "q75_gap_pct": 27.25787998719691,
+      "best_gap_pct": 5.719199789937259,
+      "best_feasible_cost": 29.8460295303462,
+      "mean_feasible_cost": 34.226574219996216,
+      "median_feasible_cost": 33.46183823203789
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 28.231418313466136,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 1,
+      "p_feasible": 1.52587890625e-05,
+      "mean_gap_pct": 18.526947036440216,
+      "q25_gap_pct": 18.526947036440216,
+      "median_gap_pct": 18.526947036440216,
+      "q75_gap_pct": 18.526947036440216,
+      "best_gap_pct": 18.526947036440216,
+      "best_feasible_cost": 33.46183823203789,
+      "mean_feasible_cost": 33.46183823203789,
+      "median_feasible_cost": 33.46183823203789
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 22.34334516047065,
+      "shots": 65536,
+      "good_count": 9,
+      "optimal_count": 4,
+      "feasible_count": 34,
+      "p_feasible": 0.000518798828125,
+      "mean_gap_pct": 22.15616786191122,
+      "q25_gap_pct": 7.621566255822837,
+      "median_gap_pct": 26.09325191931533,
+      "q75_gap_pct": 26.59089213652028,
+      "best_gap_pct": 1.5900545121085463e-14,
+      "best_feasible_cost": 22.343345160470655,
+      "mean_feasible_cost": 27.293774220190745,
+      "median_feasible_cost": 28.17345050039441
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 22.34334516047065,
+      "shots": 65536,
+      "good_count": 10,
+      "optimal_count": 4,
+      "feasible_count": 93,
+      "p_feasible": 0.0014190673828125,
+      "mean_gap_pct": 29.810645616484425,
+      "q25_gap_pct": 24.65945912535843,
+      "median_gap_pct": 26.39912833579397,
+      "q75_gap_pct": 50.752711044673774,
+      "best_gap_pct": 1.5900545121085463e-14,
+      "best_feasible_cost": 22.343345160470655,
+      "mean_feasible_cost": 29.004040605126487,
+      "median_feasible_cost": 28.24179352389271
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 22.34334516047065,
+      "shots": 65536,
+      "good_count": 17,
+      "optimal_count": 6,
+      "feasible_count": 98,
+      "p_feasible": 0.001495361328125,
+      "mean_gap_pct": 26.123683129424645,
+      "q25_gap_pct": 24.50020218907949,
+      "median_gap_pct": 26.252508855594257,
+      "q75_gap_pct": 26.654813403429056,
+      "best_gap_pct": 1.5900545121085463e-14,
+      "best_feasible_cost": 22.343345160470655,
+      "mean_feasible_cost": 28.18024985070564,
+      "median_feasible_cost": 28.2090338273592
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 22.34334516047065,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 2,
+      "p_feasible": 3.0517578125e-05,
+      "mean_gap_pct": 25.7304460044936,
+      "q25_gap_pct": 25.194952564926016,
+      "median_gap_pct": 25.7304460044936,
+      "q75_gap_pct": 26.265939444061182,
+      "best_gap_pct": 24.65945912535843,
+      "best_feasible_cost": 27.853093227554663,
+      "mean_feasible_cost": 28.092387522583188,
+      "median_feasible_cost": 28.092387522583188
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 26.531112152110325,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 29,
+      "p_feasible": 0.0004425048828125,
+      "mean_gap_pct": 24.678382976594268,
+      "q25_gap_pct": 13.632892203894572,
+      "median_gap_pct": 24.382058723136126,
+      "q75_gap_pct": 37.1899712829212,
+      "best_gap_pct": 12.807912559785075,
+      "best_feasible_cost": 29.929193797691127,
+      "mean_feasible_cost": 33.078561616957856,
+      "median_feasible_cost": 32.99994349693897
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 26.531112152110325,
+      "shots": 65536,
+      "good_count": 3,
+      "optimal_count": 3,
+      "feasible_count": 95,
+      "p_feasible": 0.0014495849609375,
+      "mean_gap_pct": 25.193740087944978,
+      "q25_gap_pct": 15.746155392923011,
+      "median_gap_pct": 24.382058723136126,
+      "q75_gap_pct": 37.1899712829212,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 26.531112152110325,
+      "mean_feasible_cost": 33.21529159015419,
+      "median_feasible_cost": 32.99994349693897
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 26.531112152110325,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 60,
+      "p_feasible": 0.00091552734375,
+      "mean_gap_pct": 25.93423213355811,
+      "q25_gap_pct": 15.840315908463102,
+      "median_gap_pct": 24.382058723136126,
+      "q75_gap_pct": 37.1899712829212,
+      "best_gap_pct": 12.807912559785075,
+      "best_feasible_cost": 29.929193797691127,
+      "mean_feasible_cost": 33.41175236525327,
+      "median_feasible_cost": 32.99994349693897
+    },
+    {
+      "study": "longer",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 26.531112152110325,
+      "shots": 65536,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 1,
+      "p_feasible": 1.52587890625e-05,
+      "mean_gap_pct": 28.67961530676154,
+      "q25_gap_pct": 28.67961530676154,
+      "median_gap_pct": 28.67961530676154,
+      "q75_gap_pct": 28.67961530676154,
+      "best_gap_pct": 28.67961530676154,
+      "best_feasible_cost": 34.14013305394103,
+      "mean_feasible_cost": 34.14013305394103,
+      "median_feasible_cost": 34.14013305394103
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "product",
+      "optimum": 48.0,
+      "shots": 8192,
+      "good_count": 9,
+      "optimal_count": 9,
+      "feasible_count": 213,
+      "p_feasible": 0.0260009765625,
+      "mean_gap_pct": 60.35798122065728,
+      "q25_gap_pct": 52.083333333333336,
+      "median_gap_pct": 64.58333333333334,
+      "q75_gap_pct": 72.91666666666666,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 48.0,
+      "mean_feasible_cost": 76.97183098591549,
+      "median_feasible_cost": 79.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "selected_native",
+      "optimum": 48.0,
+      "shots": 8192,
+      "good_count": 21,
+      "optimal_count": 21,
+      "feasible_count": 360,
+      "p_feasible": 0.0439453125,
+      "mean_gap_pct": 61.44675925925927,
+      "q25_gap_pct": 52.083333333333336,
+      "median_gap_pct": 64.58333333333334,
+      "q75_gap_pct": 75.52083333333334,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 48.0,
+      "mean_feasible_cost": 77.49444444444444,
+      "median_feasible_cost": 79.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "shallow",
+      "optimum": 48.0,
+      "shots": 8192,
+      "good_count": 28,
+      "optimal_count": 28,
+      "feasible_count": 393,
+      "p_feasible": 0.0479736328125,
+      "mean_gap_pct": 60.634011874469884,
+      "q25_gap_pct": 52.083333333333336,
+      "median_gap_pct": 66.66666666666666,
+      "q75_gap_pct": 75.0,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 48.0,
+      "mean_feasible_cost": 77.10432569974554,
+      "median_feasible_cost": 80.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r1",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "source",
+      "optimum": 48.0,
+      "shots": 8192,
+      "good_count": 3,
+      "optimal_count": 3,
+      "feasible_count": 52,
+      "p_feasible": 0.00634765625,
+      "mean_gap_pct": 55.12820512820512,
+      "q25_gap_pct": 45.83333333333333,
+      "median_gap_pct": 56.25,
+      "q75_gap_pct": 65.10416666666667,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 48.0,
+      "mean_feasible_cost": 74.46153846153847,
+      "median_feasible_cost": 75.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "product",
+      "optimum": 58.0,
+      "shots": 8192,
+      "good_count": 8,
+      "optimal_count": 8,
+      "feasible_count": 197,
+      "p_feasible": 0.0240478515625,
+      "mean_gap_pct": 28.680203045685285,
+      "q25_gap_pct": 18.96551724137931,
+      "median_gap_pct": 31.03448275862069,
+      "q75_gap_pct": 37.93103448275862,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 58.0,
+      "mean_feasible_cost": 74.63451776649747,
+      "median_feasible_cost": 76.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "selected_native",
+      "optimum": 58.0,
+      "shots": 8192,
+      "good_count": 17,
+      "optimal_count": 17,
+      "feasible_count": 391,
+      "p_feasible": 0.0477294921875,
+      "mean_gap_pct": 30.677308404621215,
+      "q25_gap_pct": 18.96551724137931,
+      "median_gap_pct": 31.03448275862069,
+      "q75_gap_pct": 43.103448275862064,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 58.0,
+      "mean_feasible_cost": 75.79283887468031,
+      "median_feasible_cost": 76.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "shallow",
+      "optimum": 58.0,
+      "shots": 8192,
+      "good_count": 23,
+      "optimal_count": 23,
+      "feasible_count": 389,
+      "p_feasible": 0.0474853515625,
+      "mean_gap_pct": 29.868805956918717,
+      "q25_gap_pct": 18.96551724137931,
+      "median_gap_pct": 31.03448275862069,
+      "q75_gap_pct": 43.103448275862064,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 58.0,
+      "mean_feasible_cost": 75.32390745501286,
+      "median_feasible_cost": 76.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r2",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "source",
+      "optimum": 58.0,
+      "shots": 8192,
+      "good_count": 15,
+      "optimal_count": 15,
+      "feasible_count": 56,
+      "p_feasible": 0.0068359375,
+      "mean_gap_pct": 23.27586206896552,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 25.862068965517242,
+      "q75_gap_pct": 37.93103448275862,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 58.0,
+      "mean_feasible_cost": 71.5,
+      "median_feasible_cost": 73.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "product",
+      "optimum": 56.0,
+      "shots": 8192,
+      "good_count": 9,
+      "optimal_count": 9,
+      "feasible_count": 188,
+      "p_feasible": 0.02294921875,
+      "mean_gap_pct": 29.29331306990882,
+      "q25_gap_pct": 19.642857142857142,
+      "median_gap_pct": 32.142857142857146,
+      "q75_gap_pct": 33.92857142857143,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 56.0,
+      "mean_feasible_cost": 72.40425531914893,
+      "median_feasible_cost": 74.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "selected_native",
+      "optimum": 56.0,
+      "shots": 8192,
+      "good_count": 18,
+      "optimal_count": 18,
+      "feasible_count": 325,
+      "p_feasible": 0.0396728515625,
+      "mean_gap_pct": 28.620879120879124,
+      "q25_gap_pct": 19.642857142857142,
+      "median_gap_pct": 32.142857142857146,
+      "q75_gap_pct": 33.92857142857143,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 56.0,
+      "mean_feasible_cost": 72.0276923076923,
+      "median_feasible_cost": 74.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "shallow",
+      "optimum": 56.0,
+      "shots": 8192,
+      "good_count": 24,
+      "optimal_count": 24,
+      "feasible_count": 421,
+      "p_feasible": 0.0513916015625,
+      "mean_gap_pct": 27.154733627417716,
+      "q25_gap_pct": 17.857142857142858,
+      "median_gap_pct": 30.357142857142854,
+      "q75_gap_pct": 33.92857142857143,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 56.0,
+      "mean_feasible_cost": 71.20665083135393,
+      "median_feasible_cost": 73.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp10_r3",
+      "family": "FLP",
+      "n_qubits": 10,
+      "method": "source",
+      "optimum": 56.0,
+      "shots": 8192,
+      "good_count": 7,
+      "optimal_count": 7,
+      "feasible_count": 52,
+      "p_feasible": 0.00634765625,
+      "mean_gap_pct": 23.59203296703297,
+      "q25_gap_pct": 17.857142857142858,
+      "median_gap_pct": 25.0,
+      "q75_gap_pct": 32.142857142857146,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 56.0,
+      "mean_feasible_cost": 69.21153846153847,
+      "median_feasible_cost": 70.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "product",
+      "optimum": 79.0,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 64,
+      "p_feasible": 0.0078125,
+      "mean_gap_pct": 44.38291139240507,
+      "q25_gap_pct": 37.9746835443038,
+      "median_gap_pct": 43.67088607594937,
+      "q75_gap_pct": 51.89873417721519,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 79.0,
+      "mean_feasible_cost": 114.0625,
+      "median_feasible_cost": 113.5
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "selected_native",
+      "optimum": 79.0,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 144,
+      "p_feasible": 0.017578125,
+      "mean_gap_pct": 45.675105485232066,
+      "q25_gap_pct": 40.50632911392405,
+      "median_gap_pct": 45.56962025316456,
+      "q75_gap_pct": 53.16455696202531,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 79.0,
+      "mean_feasible_cost": 115.08333333333333,
+      "median_feasible_cost": 115.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "shallow",
+      "optimum": 79.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 147,
+      "p_feasible": 0.0179443359375,
+      "mean_gap_pct": 48.23043141307155,
+      "q25_gap_pct": 40.50632911392405,
+      "median_gap_pct": 46.835443037974684,
+      "q75_gap_pct": 55.69620253164557,
+      "best_gap_pct": 20.253164556962027,
+      "best_feasible_cost": 95.0,
+      "mean_feasible_cost": 117.10204081632654,
+      "median_feasible_cost": 116.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r1",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "source",
+      "optimum": 79.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 22,
+      "p_feasible": 0.002685546875,
+      "mean_gap_pct": 49.13693901035672,
+      "q25_gap_pct": 45.56962025316456,
+      "median_gap_pct": 50.63291139240506,
+      "q75_gap_pct": 54.11392405063291,
+      "best_gap_pct": 26.582278481012654,
+      "best_feasible_cost": 100.0,
+      "mean_feasible_cost": 117.81818181818181,
+      "median_feasible_cost": 119.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "product",
+      "optimum": 73.0,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 63,
+      "p_feasible": 0.0076904296875,
+      "mean_gap_pct": 40.87845183735594,
+      "q25_gap_pct": 31.506849315068493,
+      "median_gap_pct": 38.35616438356164,
+      "q75_gap_pct": 47.94520547945205,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 73.0,
+      "mean_feasible_cost": 102.84126984126983,
+      "median_feasible_cost": 101.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "selected_native",
+      "optimum": 73.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 138,
+      "p_feasible": 0.016845703125,
+      "mean_gap_pct": 44.68929918602343,
+      "q25_gap_pct": 36.986301369863014,
+      "median_gap_pct": 43.83561643835616,
+      "q75_gap_pct": 52.73972602739726,
+      "best_gap_pct": 13.698630136986301,
+      "best_feasible_cost": 83.0,
+      "mean_feasible_cost": 105.6231884057971,
+      "median_feasible_cost": 105.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "shallow",
+      "optimum": 73.0,
+      "shots": 8192,
+      "good_count": 2,
+      "optimal_count": 2,
+      "feasible_count": 137,
+      "p_feasible": 0.0167236328125,
+      "mean_gap_pct": 41.985801419858014,
+      "q25_gap_pct": 32.87671232876712,
+      "median_gap_pct": 42.465753424657535,
+      "q75_gap_pct": 50.68493150684932,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 73.0,
+      "mean_feasible_cost": 103.64963503649635,
+      "median_feasible_cost": 104.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r2",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "source",
+      "optimum": 73.0,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 32,
+      "p_feasible": 0.00390625,
+      "mean_gap_pct": 44.00684931506849,
+      "q25_gap_pct": 31.506849315068493,
+      "median_gap_pct": 43.150684931506845,
+      "q75_gap_pct": 57.19178082191781,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 73.0,
+      "mean_feasible_cost": 105.125,
+      "median_feasible_cost": 104.5
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "product",
+      "optimum": 81.0,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 48,
+      "p_feasible": 0.005859375,
+      "mean_gap_pct": 26.903292181069958,
+      "q25_gap_pct": 19.444444444444443,
+      "median_gap_pct": 25.925925925925924,
+      "q75_gap_pct": 35.80246913580247,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 81.0,
+      "mean_feasible_cost": 102.79166666666667,
+      "median_feasible_cost": 102.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "selected_native",
+      "optimum": 81.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 127,
+      "p_feasible": 0.0155029296875,
+      "mean_gap_pct": 28.589481870321766,
+      "q25_gap_pct": 22.22222222222222,
+      "median_gap_pct": 30.864197530864196,
+      "q75_gap_pct": 35.80246913580247,
+      "best_gap_pct": 8.641975308641975,
+      "best_feasible_cost": 88.0,
+      "mean_feasible_cost": 104.15748031496064,
+      "median_feasible_cost": 106.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "shallow",
+      "optimum": 81.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 129,
+      "p_feasible": 0.0157470703125,
+      "mean_gap_pct": 28.950138769260214,
+      "q25_gap_pct": 22.22222222222222,
+      "median_gap_pct": 27.160493827160494,
+      "q75_gap_pct": 35.80246913580247,
+      "best_gap_pct": 8.641975308641975,
+      "best_feasible_cost": 88.0,
+      "mean_feasible_cost": 104.44961240310077,
+      "median_feasible_cost": 103.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp14_r3",
+      "family": "FLP",
+      "n_qubits": 14,
+      "method": "source",
+      "optimum": 81.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 15,
+      "p_feasible": 0.0018310546875,
+      "mean_gap_pct": 31.193415637860085,
+      "q25_gap_pct": 22.839506172839506,
+      "median_gap_pct": 35.80246913580247,
+      "q75_gap_pct": 41.9753086419753,
+      "best_gap_pct": 9.876543209876543,
+      "best_feasible_cost": 89.0,
+      "mean_feasible_cost": 106.26666666666667,
+      "median_feasible_cost": 110.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 43.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 35,
+      "p_feasible": 0.0042724609375,
+      "mean_gap_pct": 204.51827242524914,
+      "q25_gap_pct": 174.41860465116278,
+      "median_gap_pct": 216.27906976744185,
+      "q75_gap_pct": 243.02325581395348,
+      "best_gap_pct": 44.18604651162791,
+      "best_feasible_cost": 62.0,
+      "mean_feasible_cost": 130.94285714285715,
+      "median_feasible_cost": 136.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 43.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 86,
+      "p_feasible": 0.010498046875,
+      "mean_gap_pct": 196.94429421308814,
+      "q25_gap_pct": 154.06976744186048,
+      "median_gap_pct": 196.51162790697674,
+      "q75_gap_pct": 238.95348837209303,
+      "best_gap_pct": 65.11627906976744,
+      "best_feasible_cost": 71.0,
+      "mean_feasible_cost": 127.68604651162791,
+      "median_feasible_cost": 127.5
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 43.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 56,
+      "p_feasible": 0.0068359375,
+      "mean_gap_pct": 205.10797342192694,
+      "q25_gap_pct": 168.02325581395348,
+      "median_gap_pct": 208.13953488372096,
+      "q75_gap_pct": 247.09302325581396,
+      "best_gap_pct": 76.74418604651163,
+      "best_feasible_cost": 76.0,
+      "mean_feasible_cost": 131.19642857142858,
+      "median_feasible_cost": 132.5
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r1",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 43.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 6,
+      "p_feasible": 0.000732421875,
+      "mean_gap_pct": 186.046511627907,
+      "q25_gap_pct": 180.2325581395349,
+      "median_gap_pct": 191.8604651162791,
+      "q75_gap_pct": 194.7674418604651,
+      "best_gap_pct": 162.7906976744186,
+      "best_feasible_cost": 113.0,
+      "mean_feasible_cost": 123.0,
+      "median_feasible_cost": 125.5
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 57.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 51,
+      "p_feasible": 0.0062255859375,
+      "mean_gap_pct": 133.88372893016853,
+      "q25_gap_pct": 108.77192982456141,
+      "median_gap_pct": 140.35087719298244,
+      "q75_gap_pct": 162.28070175438597,
+      "best_gap_pct": 45.614035087719294,
+      "best_feasible_cost": 83.0,
+      "mean_feasible_cost": 133.31372549019608,
+      "median_feasible_cost": 137.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 57.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 71,
+      "p_feasible": 0.0086669921875,
+      "mean_gap_pct": 130.59056090931557,
+      "q25_gap_pct": 107.89473684210526,
+      "median_gap_pct": 131.57894736842107,
+      "q75_gap_pct": 154.38596491228068,
+      "best_gap_pct": 38.59649122807017,
+      "best_feasible_cost": 79.0,
+      "mean_feasible_cost": 131.43661971830986,
+      "median_feasible_cost": 132.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 57.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 58,
+      "p_feasible": 0.007080078125,
+      "mean_gap_pct": 127.46521476104054,
+      "q25_gap_pct": 101.75438596491229,
+      "median_gap_pct": 128.0701754385965,
+      "q75_gap_pct": 153.94736842105263,
+      "best_gap_pct": 33.33333333333333,
+      "best_feasible_cost": 76.0,
+      "mean_feasible_cost": 129.6551724137931,
+      "median_feasible_cost": 130.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r2",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 57.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 1,
+      "p_feasible": 0.0001220703125,
+      "mean_gap_pct": 38.59649122807017,
+      "q25_gap_pct": 38.59649122807017,
+      "median_gap_pct": 38.59649122807017,
+      "q75_gap_pct": 38.59649122807017,
+      "best_gap_pct": 38.59649122807017,
+      "best_feasible_cost": 79.0,
+      "mean_feasible_cost": 79.0,
+      "median_feasible_cost": 79.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 64.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 52,
+      "p_feasible": 0.00634765625,
+      "mean_gap_pct": 106.09975961538461,
+      "q25_gap_pct": 91.796875,
+      "median_gap_pct": 110.9375,
+      "q75_gap_pct": 121.875,
+      "best_gap_pct": 42.1875,
+      "best_feasible_cost": 91.0,
+      "mean_feasible_cost": 131.90384615384616,
+      "median_feasible_cost": 135.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 64.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 85,
+      "p_feasible": 0.0103759765625,
+      "mean_gap_pct": 98.67647058823529,
+      "q25_gap_pct": 78.125,
+      "median_gap_pct": 107.8125,
+      "q75_gap_pct": 123.4375,
+      "best_gap_pct": 18.75,
+      "best_feasible_cost": 76.0,
+      "mean_feasible_cost": 127.15294117647059,
+      "median_feasible_cost": 133.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 64.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 63,
+      "p_feasible": 0.0076904296875,
+      "mean_gap_pct": 103.27380952380952,
+      "q25_gap_pct": 83.59375,
+      "median_gap_pct": 106.25,
+      "q75_gap_pct": 128.90625,
+      "best_gap_pct": 35.9375,
+      "best_feasible_cost": 87.0,
+      "mean_feasible_cost": 130.0952380952381,
+      "median_feasible_cost": 132.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp20_r3",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 64.0,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 9,
+      "p_feasible": 0.0010986328125,
+      "mean_gap_pct": 68.05555555555556,
+      "q25_gap_pct": 39.0625,
+      "median_gap_pct": 57.8125,
+      "q75_gap_pct": 90.625,
+      "best_gap_pct": 14.0625,
+      "best_feasible_cost": 73.0,
+      "mean_feasible_cost": 107.55555555555556,
+      "median_feasible_cost": 101.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "product",
+      "optimum": 49.0,
+      "shots": 8192,
+      "good_count": 120,
+      "optimal_count": 120,
+      "feasible_count": 835,
+      "p_feasible": 0.1019287109375,
+      "mean_gap_pct": 37.54124404252719,
+      "q25_gap_pct": 6.122448979591836,
+      "median_gap_pct": 36.734693877551024,
+      "q75_gap_pct": 67.3469387755102,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 49.0,
+      "mean_feasible_cost": 67.39520958083833,
+      "median_feasible_cost": 67.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "selected_native",
+      "optimum": 49.0,
+      "shots": 8192,
+      "good_count": 231,
+      "optimal_count": 231,
+      "feasible_count": 1319,
+      "p_feasible": 0.1610107421875,
+      "mean_gap_pct": 36.19625257229502,
+      "q25_gap_pct": 6.122448979591836,
+      "median_gap_pct": 36.734693877551024,
+      "q75_gap_pct": 67.3469387755102,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 49.0,
+      "mean_feasible_cost": 66.73616376042456,
+      "median_feasible_cost": 67.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "shallow",
+      "optimum": 49.0,
+      "shots": 8192,
+      "good_count": 221,
+      "optimal_count": 221,
+      "feasible_count": 1315,
+      "p_feasible": 0.1605224609375,
+      "mean_gap_pct": 36.0083805385272,
+      "q25_gap_pct": 6.122448979591836,
+      "median_gap_pct": 36.734693877551024,
+      "q75_gap_pct": 67.3469387755102,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 49.0,
+      "mean_feasible_cost": 66.64410646387833,
+      "median_feasible_cost": 67.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r1",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "source",
+      "optimum": 49.0,
+      "shots": 8192,
+      "good_count": 227,
+      "optimal_count": 227,
+      "feasible_count": 688,
+      "p_feasible": 0.083984375,
+      "mean_gap_pct": 22.790104413858565,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 6.122448979591836,
+      "q75_gap_pct": 36.734693877551024,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 49.0,
+      "mean_feasible_cost": 60.167151162790695,
+      "median_feasible_cost": 52.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "product",
+      "optimum": 46.0,
+      "shots": 8192,
+      "good_count": 242,
+      "optimal_count": 125,
+      "feasible_count": 823,
+      "p_feasible": 0.1004638671875,
+      "mean_gap_pct": 26.32204553859158,
+      "q25_gap_pct": 2.1739130434782608,
+      "median_gap_pct": 30.434782608695656,
+      "q75_gap_pct": 43.47826086956522,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 46.0,
+      "mean_feasible_cost": 58.108140947752126,
+      "median_feasible_cost": 60.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "selected_native",
+      "optimum": 46.0,
+      "shots": 8192,
+      "good_count": 406,
+      "optimal_count": 196,
+      "feasible_count": 1333,
+      "p_feasible": 0.1627197265625,
+      "mean_gap_pct": 25.943442382334716,
+      "q25_gap_pct": 2.1739130434782608,
+      "median_gap_pct": 30.434782608695656,
+      "q75_gap_pct": 43.47826086956522,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 46.0,
+      "mean_feasible_cost": 57.93398349587397,
+      "median_feasible_cost": 60.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "shallow",
+      "optimum": 46.0,
+      "shots": 8192,
+      "good_count": 456,
+      "optimal_count": 248,
+      "feasible_count": 1323,
+      "p_feasible": 0.1614990234375,
+      "mean_gap_pct": 24.13158500115022,
+      "q25_gap_pct": 2.1739130434782608,
+      "median_gap_pct": 21.73913043478261,
+      "q75_gap_pct": 43.47826086956522,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 46.0,
+      "mean_feasible_cost": 57.1005291005291,
+      "median_feasible_cost": 56.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r2",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "source",
+      "optimum": 46.0,
+      "shots": 8192,
+      "good_count": 379,
+      "optimal_count": 244,
+      "feasible_count": 672,
+      "p_feasible": 0.08203125,
+      "mean_gap_pct": 18.002717391304348,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 2.1739130434782608,
+      "q75_gap_pct": 43.47826086956522,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 46.0,
+      "mean_feasible_cost": 54.28125,
+      "median_feasible_cost": 47.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "product",
+      "optimum": 40.0,
+      "shots": 8192,
+      "good_count": 141,
+      "optimal_count": 141,
+      "feasible_count": 866,
+      "p_feasible": 0.105712890625,
+      "mean_gap_pct": 67.76270207852194,
+      "q25_gap_pct": 40.0,
+      "median_gap_pct": 90.0,
+      "q75_gap_pct": 90.0,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 40.0,
+      "mean_feasible_cost": 67.10508083140877,
+      "median_feasible_cost": 76.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "selected_native",
+      "optimum": 40.0,
+      "shots": 8192,
+      "good_count": 222,
+      "optimal_count": 222,
+      "feasible_count": 1292,
+      "p_feasible": 0.15771484375,
+      "mean_gap_pct": 67.25038699690403,
+      "q25_gap_pct": 40.0,
+      "median_gap_pct": 90.0,
+      "q75_gap_pct": 90.0,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 40.0,
+      "mean_feasible_cost": 66.9001547987616,
+      "median_feasible_cost": 76.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "shallow",
+      "optimum": 40.0,
+      "shots": 8192,
+      "good_count": 199,
+      "optimal_count": 199,
+      "feasible_count": 1310,
+      "p_feasible": 0.159912109375,
+      "mean_gap_pct": 68.33778625954199,
+      "q25_gap_pct": 40.0,
+      "median_gap_pct": 90.0,
+      "q75_gap_pct": 90.0,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 40.0,
+      "mean_feasible_cost": 67.3351145038168,
+      "median_feasible_cost": 76.0
+    },
+    {
+      "study": "main",
+      "case_id": "flp6_r3",
+      "family": "FLP",
+      "n_qubits": 6,
+      "method": "source",
+      "optimum": 40.0,
+      "shots": 8192,
+      "good_count": 122,
+      "optimal_count": 122,
+      "feasible_count": 670,
+      "p_feasible": 0.081787109375,
+      "mean_gap_pct": 53.39179104477612,
+      "q25_gap_pct": 40.0,
+      "median_gap_pct": 40.0,
+      "q75_gap_pct": 90.0,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 40.0,
+      "mean_feasible_cost": 61.35671641791045,
+      "median_feasible_cost": 56.0
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "product",
+      "optimum": 15.78889970560393,
+      "shots": 8192,
+      "good_count": 3,
+      "optimal_count": 3,
+      "feasible_count": 27,
+      "p_feasible": 0.0032958984375,
+      "mean_gap_pct": 21.6628287331145,
+      "q25_gap_pct": 9.546589300288673,
+      "median_gap_pct": 26.480282458026217,
+      "q75_gap_pct": 30.856890806147412,
+      "best_gap_pct": 1.1250668966943723e-14,
+      "best_feasible_cost": 15.788899705603932,
+      "mean_feasible_cost": 19.20922200767213,
+      "median_feasible_cost": 19.96984494466232
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "selected_native",
+      "optimum": 15.78889970560393,
+      "shots": 8192,
+      "good_count": 6,
+      "optimal_count": 5,
+      "feasible_count": 38,
+      "p_feasible": 0.004638671875,
+      "mean_gap_pct": 24.358240640988793,
+      "q25_gap_pct": 9.546589300288662,
+      "median_gap_pct": 33.691414252716406,
+      "q75_gap_pct": 37.320716120318046,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 15.78889970560393,
+      "mean_feasible_cost": 19.634797890459303,
+      "median_feasible_cost": 21.10840331136487
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "shallow",
+      "optimum": 15.78889970560393,
+      "shots": 8192,
+      "good_count": 4,
+      "optimal_count": 1,
+      "feasible_count": 30,
+      "p_feasible": 0.003662109375,
+      "mean_gap_pct": 24.581312738040893,
+      "q25_gap_pct": 10.96385102357319,
+      "median_gap_pct": 28.022367359578393,
+      "q75_gap_pct": 37.320716120318046,
+      "best_gap_pct": 1.1250668966943723e-14,
+      "best_feasible_cost": 15.788899705603932,
+      "mean_feasible_cost": 19.670018520134047,
+      "median_feasible_cost": 20.213323183143654
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r1",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "source",
+      "optimum": 15.78889970560393,
+      "shots": 8192,
+      "good_count": 2,
+      "optimal_count": 0,
+      "feasible_count": 12,
+      "p_feasible": 0.00146484375,
+      "mean_gap_pct": 25.856381060979697,
+      "q25_gap_pct": 24.04964211726439,
+      "median_gap_pct": 27.251324908802317,
+      "q75_gap_pct": 33.69141425271641,
+      "best_gap_pct": 2.087216966049479,
+      "best_feasible_cost": 16.11844829901183,
+      "mean_feasible_cost": 19.87133777882078,
+      "median_feasible_cost": 20.09158406390299
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "product",
+      "optimum": 22.347887783233144,
+      "shots": 8192,
+      "good_count": 2,
+      "optimal_count": 0,
+      "feasible_count": 9,
+      "p_feasible": 0.0010986328125,
+      "mean_gap_pct": 11.895377948438062,
+      "q25_gap_pct": 9.342251766217602,
+      "median_gap_pct": 13.996421985779115,
+      "q75_gap_pct": 13.996421985779115,
+      "best_gap_pct": 3.5144389144454653,
+      "best_feasible_cost": 23.133290648043694,
+      "mean_feasible_cost": 25.006253498541543,
+      "median_feasible_cost": 25.475792462282833
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "selected_native",
+      "optimum": 22.347887783233144,
+      "shots": 8192,
+      "good_count": 11,
+      "optimal_count": 6,
+      "feasible_count": 50,
+      "p_feasible": 0.006103515625,
+      "mean_gap_pct": 10.165688877049211,
+      "q25_gap_pct": 8.356166194233372,
+      "median_gap_pct": 9.342251766217602,
+      "q75_gap_pct": 13.996421985779115,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 22.347887783233144,
+      "mean_feasible_cost": 24.61970452586871,
+      "median_feasible_cost": 24.43568372437457
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "shallow",
+      "optimum": 22.347887783233144,
+      "shots": 8192,
+      "good_count": 3,
+      "optimal_count": 0,
+      "feasible_count": 40,
+      "p_feasible": 0.0048828125,
+      "mean_gap_pct": 12.996820957006008,
+      "q25_gap_pct": 9.205846270019945,
+      "median_gap_pct": 11.468068643317878,
+      "q75_gap_pct": 14.436885572972717,
+      "best_gap_pct": 3.5144389144454653,
+      "best_feasible_cost": 23.133290648043694,
+      "mean_feasible_cost": 25.252402746092574,
+      "median_feasible_cost": 24.91075889454597
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r2",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "source",
+      "optimum": 22.347887783233144,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 6,
+      "p_feasible": 0.000732421875,
+      "mean_gap_pct": 11.988586889649396,
+      "q25_gap_pct": 10.61591021790638,
+      "median_gap_pct": 14.436885572972717,
+      "q75_gap_pct": 14.436885572972717,
+      "best_gap_pct": 1.589731304032223e-14,
+      "best_feasible_cost": 22.347887783233148,
+      "mean_feasible_cost": 25.02708372812739,
+      "median_feasible_cost": 25.574226770474862
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "product",
+      "optimum": 16.208145237251664,
+      "shots": 8192,
+      "good_count": 5,
+      "optimal_count": 0,
+      "feasible_count": 24,
+      "p_feasible": 0.0029296875,
+      "mean_gap_pct": 21.391864856734728,
+      "q25_gap_pct": 5.039202523730709,
+      "median_gap_pct": 14.779962405354077,
+      "q75_gap_pct": 33.9518570351987,
+      "best_gap_pct": 2.852850928674424,
+      "best_feasible_cost": 16.670539459173497,
+      "mean_feasible_cost": 19.675369762187824,
+      "median_feasible_cost": 18.603703009922647
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "selected_native",
+      "optimum": 16.208145237251664,
+      "shots": 8192,
+      "good_count": 11,
+      "optimal_count": 6,
+      "feasible_count": 43,
+      "p_feasible": 0.0052490234375,
+      "mean_gap_pct": 19.966930234720664,
+      "q25_gap_pct": 3.9460267262025663,
+      "median_gap_pct": 14.779962405354077,
+      "q75_gap_pct": 37.49269498196606,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 16.208145237251664,
+      "mean_feasible_cost": 19.444414289115905,
+      "median_feasible_cost": 18.603703009922647
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "shallow",
+      "optimum": 16.208145237251664,
+      "shots": 8192,
+      "good_count": 8,
+      "optimal_count": 3,
+      "feasible_count": 37,
+      "p_feasible": 0.0045166015625,
+      "mean_gap_pct": 25.55094814532714,
+      "q25_gap_pct": 8.279587333576757,
+      "median_gap_pct": 33.85497356490579,
+      "q75_gap_pct": 40.74288251785471,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 16.208145237251664,
+      "mean_feasible_cost": 20.349480022141147,
+      "median_feasible_cost": 21.69540852268475
+    },
+    {
+      "study": "main",
+      "case_id": "tsp16_r3",
+      "family": "TSP",
+      "n_qubits": 16,
+      "method": "source",
+      "optimum": 16.208145237251664,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 0,
+      "feasible_count": 5,
+      "p_feasible": 0.0006103515625,
+      "mean_gap_pct": 18.15389937374848,
+      "q25_gap_pct": 5.039202523730709,
+      "median_gap_pct": 5.039202523730709,
+      "q75_gap_pct": 33.85497356490579,
+      "best_gap_pct": 2.852850928674424,
+      "best_feasible_cost": 16.670539459173497,
+      "mean_feasible_cost": 19.15055561397334,
+      "median_feasible_cost": 17.02490650109719
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "optimum": 23.421545532783934,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 0,
+      "feasible_count": 6,
+      "p_feasible": 0.000732421875,
+      "mean_gap_pct": 30.157111994712295,
+      "q25_gap_pct": 8.482036966530512,
+      "median_gap_pct": 28.82573617367406,
+      "q75_gap_pct": 44.336383616015326,
+      "best_gap_pct": 2.996509029845233,
+      "best_feasible_cost": 24.123374259603118,
+      "mean_feasible_cost": 30.484807249998124,
+      "median_feasible_cost": 30.172978455861173
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "optimum": 23.421545532783934,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 8,
+      "p_feasible": 0.0009765625,
+      "mean_gap_pct": 49.45391457906062,
+      "q25_gap_pct": 41.97415174926473,
+      "median_gap_pct": 46.10592222191273,
+      "q75_gap_pct": 68.29232979530461,
+      "best_gap_pct": 18.68913893994135,
+      "best_feasible_cost": 27.79883071928755,
+      "mean_feasible_cost": 35.00441665366269,
+      "median_feasible_cost": 34.22026509929917
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "optimum": 23.421545532783934,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 5,
+      "p_feasible": 0.0006103515625,
+      "mean_gap_pct": 34.717957462110235,
+      "q25_gap_pct": 30.413292311816576,
+      "median_gap_pct": 30.564358857445434,
+      "q75_gap_pct": 52.166434265053816,
+      "best_gap_pct": 6.546205130562965,
+      "best_feasible_cost": 24.954767948108177,
+      "mean_feasible_cost": 31.553027747824636,
+      "median_feasible_cost": 30.580190759383996
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r1",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "optimum": 23.421545532783934,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "optimum": 22.755911767267783,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 4,
+      "p_feasible": 0.00048828125,
+      "mean_gap_pct": 27.626412874739543,
+      "q25_gap_pct": 7.35881309132529,
+      "median_gap_pct": 25.984777291041947,
+      "q75_gap_pct": 46.2523770744562,
+      "best_gap_pct": 7.019268481381767,
+      "best_feasible_cost": 24.353210309598655,
+      "mean_feasible_cost": 29.042553905504622,
+      "median_feasible_cost": 28.668984760538322
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "optimum": 22.755911767267783,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 2,
+      "p_feasible": 0.000244140625,
+      "mean_gap_pct": 48.09332929130548,
+      "q25_gap_pct": 45.15512248305363,
+      "median_gap_pct": 48.09332929130548,
+      "q75_gap_pct": 51.03153609955732,
+      "best_gap_pct": 42.21691567480179,
+      "best_feasible_cost": 32.36275584908752,
+      "mean_feasible_cost": 33.69998734673881,
+      "median_feasible_cost": 33.69998734673881
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "optimum": 22.755911767267783,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 0,
+      "feasible_count": 3,
+      "p_feasible": 0.0003662109375,
+      "mean_gap_pct": 10.395165252740371,
+      "q25_gap_pct": 6.000106003426005,
+      "median_gap_pct": 7.471994627973132,
+      "q75_gap_pct": 13.328639189671117,
+      "best_gap_pct": 4.528217378878879,
+      "best_feasible_cost": 23.786348918635547,
+      "mean_feasible_cost": 25.121426400243063,
+      "median_feasible_cost": 24.456232272064337
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r2",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "optimum": 22.755911767267783,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "optimum": 25.55450243372625,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 6,
+      "p_feasible": 0.000732421875,
+      "mean_gap_pct": 31.29261581590224,
+      "q25_gap_pct": 10.360403325383867,
+      "median_gap_pct": 26.32831549236242,
+      "q75_gap_pct": 47.02384640527288,
+      "best_gap_pct": 5.092813054018806,
+      "best_feasible_cost": 26.855945469560613,
+      "mean_feasible_cost": 33.55117470397759,
+      "median_feasible_cost": 32.28257245698113
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "optimum": 25.55450243372625,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 5,
+      "p_feasible": 0.0006103515625,
+      "mean_gap_pct": 36.47026403090233,
+      "q25_gap_pct": 32.7881222191247,
+      "median_gap_pct": 33.40558462409534,
+      "q75_gap_pct": 47.85170662787458,
+      "best_gap_pct": 20.30529875915557,
+      "best_feasible_cost": 30.743420499310044,
+      "mean_feasible_cost": 34.874296943089576,
+      "median_feasible_cost": 34.091133369491175
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "optimum": 25.55450243372625,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 6,
+      "p_feasible": 0.000732421875,
+      "mean_gap_pct": 34.1557522523612,
+      "q25_gap_pct": 8.702589301909423,
+      "median_gap_pct": 26.46875133483831,
+      "q75_gap_pct": 61.635992314050654,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 25.55450243372625,
+      "mean_feasible_cost": 34.282834974313396,
+      "median_feasible_cost": 32.318460137764454
+    },
+    {
+      "study": "main",
+      "case_id": "tsp25_r3",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "optimum": 25.55450243372625,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "product",
+      "optimum": 10.455153777702689,
+      "shots": 8192,
+      "good_count": 108,
+      "optimal_count": 52,
+      "feasible_count": 158,
+      "p_feasible": 0.019287109375,
+      "mean_gap_pct": 14.467292747100323,
+      "q25_gap_pct": 1.699025071432827e-14,
+      "median_gap_pct": 2.1455782395698977,
+      "q75_gap_pct": 43.31359745251873,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 10.455153777702689,
+      "mean_feasible_cost": 11.967731481882458,
+      "median_feasible_cost": 10.679477282070648
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "selected_native",
+      "optimum": 10.455153777702689,
+      "shots": 8192,
+      "good_count": 244,
+      "optimal_count": 135,
+      "feasible_count": 371,
+      "p_feasible": 0.0452880859375,
+      "mean_gap_pct": 15.457398664644204,
+      "q25_gap_pct": 1.699025071432827e-14,
+      "median_gap_pct": 2.1455782395699146,
+      "q75_gap_pct": 43.31359745251873,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 10.455153777702689,
+      "mean_feasible_cost": 12.071248578123804,
+      "median_feasible_cost": 10.67947728207065
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "shallow",
+      "optimum": 10.455153777702689,
+      "shots": 8192,
+      "good_count": 156,
+      "optimal_count": 88,
+      "feasible_count": 274,
+      "p_feasible": 0.033447265625,
+      "mean_gap_pct": 19.185780363824684,
+      "q25_gap_pct": 1.699025071432827e-14,
+      "median_gap_pct": 2.1455782395699146,
+      "q75_gap_pct": 43.31359745251873,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 10.455153777702689,
+      "mean_feasible_cost": 12.461056618192847,
+      "median_feasible_cost": 10.67947728207065
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r1",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "source",
+      "optimum": 10.455153777702689,
+      "shots": 8192,
+      "good_count": 97,
+      "optimal_count": 47,
+      "feasible_count": 165,
+      "p_feasible": 0.0201416015625,
+      "mean_gap_pct": 18.500627507574357,
+      "q25_gap_pct": 1.699025071432827e-14,
+      "median_gap_pct": 2.1455782395699146,
+      "q75_gap_pct": 43.31359745251873,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 10.455153777702689,
+      "mean_feasible_cost": 12.389422833459552,
+      "median_feasible_cost": 10.67947728207065
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "product",
+      "optimum": 20.902415618748716,
+      "shots": 8192,
+      "good_count": 96,
+      "optimal_count": 48,
+      "feasible_count": 162,
+      "p_feasible": 0.019775390625,
+      "mean_gap_pct": 20.13359316793235,
+      "q25_gap_pct": 1.6996665570145128e-14,
+      "median_gap_pct": 1.49294842047144,
+      "q75_gap_pct": 48.33303892458199,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.902415618748716,
+      "mean_feasible_cost": 25.110822941697933,
+      "median_feasible_cost": 21.2144779025692
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "selected_native",
+      "optimum": 20.902415618748716,
+      "shots": 8192,
+      "good_count": 220,
+      "optimal_count": 101,
+      "feasible_count": 312,
+      "p_feasible": 0.0380859375,
+      "mean_gap_pct": 14.821475779159119,
+      "q25_gap_pct": 1.6996665570145128e-14,
+      "median_gap_pct": 1.49294842047144,
+      "q75_gap_pct": 48.33303892458199,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.902415618748716,
+      "mean_feasible_cost": 24.00046208694073,
+      "median_feasible_cost": 21.2144779025692
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "shallow",
+      "optimum": 20.902415618748716,
+      "shots": 8192,
+      "good_count": 221,
+      "optimal_count": 98,
+      "feasible_count": 290,
+      "p_feasible": 0.035400390625,
+      "mean_gap_pct": 12.13314600522119,
+      "q25_gap_pct": 1.6996665570145128e-14,
+      "median_gap_pct": 1.49294842047144,
+      "q75_gap_pct": 1.49294842047144,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.902415618748716,
+      "mean_feasible_cost": 23.438536224389658,
+      "median_feasible_cost": 21.2144779025692
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r2",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "source",
+      "optimum": 20.902415618748716,
+      "shots": 8192,
+      "good_count": 112,
+      "optimal_count": 47,
+      "feasible_count": 152,
+      "p_feasible": 0.0185546875,
+      "mean_gap_pct": 13.357652659960024,
+      "q25_gap_pct": 1.6996665570145128e-14,
+      "median_gap_pct": 1.49294842047144,
+      "q75_gap_pct": 48.33303892458199,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.902415618748716,
+      "mean_feasible_cost": 23.694487694642405,
+      "median_feasible_cost": 21.2144779025692
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "product",
+      "optimum": 20.027885842920227,
+      "shots": 8192,
+      "good_count": 111,
+      "optimal_count": 60,
+      "feasible_count": 158,
+      "p_feasible": 0.019287109375,
+      "mean_gap_pct": 12.20095473467556,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 4.639914972433004,
+      "q75_gap_pct": 35.981174137971394,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.027885842920227,
+      "mean_feasible_cost": 22.471479128927413,
+      "median_feasible_cost": 20.957162716807673
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "selected_native",
+      "optimum": 20.027885842920227,
+      "shots": 8192,
+      "good_count": 219,
+      "optimal_count": 103,
+      "feasible_count": 287,
+      "p_feasible": 0.0350341796875,
+      "mean_gap_pct": 10.400522572070676,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 4.639914972433004,
+      "q75_gap_pct": 4.639914972433004,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.027885842920227,
+      "mean_feasible_cost": 22.110890630721695,
+      "median_feasible_cost": 20.957162716807673
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "shallow",
+      "optimum": 20.027885842920227,
+      "shots": 8192,
+      "good_count": 223,
+      "optimal_count": 98,
+      "feasible_count": 306,
+      "p_feasible": 0.037353515625,
+      "mean_gap_pct": 11.654989624201804,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 4.639914972433004,
+      "q75_gap_pct": 35.981174137971394,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.027885842920227,
+      "mean_feasible_cost": 22.362133859859558,
+      "median_feasible_cost": 20.957162716807673
+    },
+    {
+      "study": "main",
+      "case_id": "tsp9_r3",
+      "family": "TSP",
+      "n_qubits": 9,
+      "method": "source",
+      "optimum": 20.027885842920227,
+      "shots": 8192,
+      "good_count": 85,
+      "optimal_count": 30,
+      "feasible_count": 129,
+      "p_feasible": 0.0157470703125,
+      "mean_gap_pct": 14.250906864764007,
+      "q25_gap_pct": 4.639914972433004,
+      "median_gap_pct": 4.639914972433004,
+      "q75_gap_pct": 35.981174137971394,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 20.027885842920227,
+      "mean_feasible_cost": 22.882041201376044,
+      "median_feasible_cost": 20.957162716807673
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "product",
+      "optimum": 16.75740771556005,
+      "shots": 8192,
+      "good_count": 14,
+      "optimal_count": 7,
+      "feasible_count": 23,
+      "p_feasible": 0.0028076171875,
+      "mean_gap_pct": 5.125350501432057,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 3.6403213157088867,
+      "q75_gap_pct": 10.266756924775011,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 16.75740771556005,
+      "mean_feasible_cost": 17.61628359593652,
+      "median_feasible_cost": 17.367431200589827
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "selected_native",
+      "optimum": 16.75740771556005,
+      "shots": 8192,
+      "good_count": 16,
+      "optimal_count": 7,
+      "feasible_count": 23,
+      "p_feasible": 0.0028076171875,
+      "mean_gap_pct": 4.549138709339351,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 3.6403213157088867,
+      "q75_gap_pct": 10.266756924775011,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 16.75740771556005,
+      "mean_feasible_cost": 17.51972543663041,
+      "median_feasible_cost": 17.367431200589827
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "shallow",
+      "optimum": 16.75740771556005,
+      "shots": 8192,
+      "good_count": 11,
+      "optimal_count": 7,
+      "feasible_count": 19,
+      "p_feasible": 0.0023193359375,
+      "mean_gap_pct": 5.089228455843981,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 3.6403213157088867,
+      "q75_gap_pct": 10.266756924775011,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 16.75740771556005,
+      "mean_feasible_cost": 17.610230477482126,
+      "median_feasible_cost": 17.367431200589827
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r1",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "source",
+      "optimum": 16.75740771556005,
+      "shots": 8192,
+      "good_count": 8,
+      "optimal_count": 3,
+      "feasible_count": 13,
+      "p_feasible": 0.0015869140625,
+      "mean_gap_pct": 5.348876246339961,
+      "q25_gap_pct": 3.6403213157088867,
+      "median_gap_pct": 3.6403213157088867,
+      "q75_gap_pct": 10.266756924775011,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 16.75740771556005,
+      "mean_feasible_cost": 17.65374071635998,
+      "median_feasible_cost": 17.367431200589827
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "product",
+      "optimum": 25.969138474933096,
+      "shots": 8192,
+      "good_count": 22,
+      "optimal_count": 7,
+      "feasible_count": 22,
+      "p_feasible": 0.002685546875,
+      "mean_gap_pct": 0.750380280147345,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 0.10122071544683814,
+      "q75_gap_pct": 2.2426572056666974,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 25.969138474933093,
+      "mean_feasible_cost": 26.16400576897315,
+      "median_feasible_cost": 25.995424622692802
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "selected_native",
+      "optimum": 25.969138474933096,
+      "shots": 8192,
+      "good_count": 27,
+      "optimal_count": 9,
+      "feasible_count": 27,
+      "p_feasible": 0.0032958984375,
+      "mean_gap_pct": 0.7019801777704424,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 0.1012207154468313,
+      "q75_gap_pct": 2.2426572056666974,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 25.969138474933093,
+      "mean_feasible_cost": 26.15143667936488,
+      "median_feasible_cost": 25.995424622692802
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "shallow",
+      "optimum": 25.969138474933096,
+      "shots": 8192,
+      "good_count": 24,
+      "optimal_count": 6,
+      "feasible_count": 24,
+      "p_feasible": 0.0029296875,
+      "mean_gap_pct": 0.7005011795659217,
+      "q25_gap_pct": 0.07591553658512347,
+      "median_gap_pct": 0.10122071544684498,
+      "q75_gap_pct": 2.2426572056666974,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 25.969138474933093,
+      "mean_feasible_cost": 26.151052596273114,
+      "median_feasible_cost": 25.995424622692806
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r2",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "source",
+      "optimum": 25.969138474933096,
+      "shots": 8192,
+      "good_count": 17,
+      "optimal_count": 6,
+      "feasible_count": 17,
+      "p_feasible": 0.0020751953125,
+      "mean_gap_pct": 0.44339631415146186,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 0.10122071544684498,
+      "q75_gap_pct": 0.10122071544684498,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 25.969138474933093,
+      "mean_feasible_cost": 26.08428467774784,
+      "median_feasible_cost": 25.995424622692806
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "product",
+      "optimum": 33.71024253283807,
+      "shots": 8192,
+      "good_count": 5,
+      "optimal_count": 5,
+      "feasible_count": 23,
+      "p_feasible": 0.0028076171875,
+      "mean_gap_pct": 5.54308223594024,
+      "q25_gap_pct": 5.731576024693929,
+      "median_gap_pct": 5.731576024693929,
+      "q75_gap_pct": 8.771891397460772,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 33.710242532838066,
+      "mean_feasible_cost": 35.57882899836819,
+      "median_feasible_cost": 35.642370711716396
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "selected_native",
+      "optimum": 33.71024253283807,
+      "shots": 8192,
+      "good_count": 6,
+      "optimal_count": 6,
+      "feasible_count": 27,
+      "p_feasible": 0.0032958984375,
+      "mean_gap_pct": 5.5839351943052185,
+      "q25_gap_pct": 5.731576024693929,
+      "median_gap_pct": 5.731576024693929,
+      "q75_gap_pct": 8.771891397460761,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 33.710242532838066,
+      "mean_feasible_cost": 35.592600629714866,
+      "median_feasible_cost": 35.642370711716396
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "shallow",
+      "optimum": 33.71024253283807,
+      "shots": 8192,
+      "good_count": 8,
+      "optimal_count": 8,
+      "feasible_count": 34,
+      "p_feasible": 0.004150390625,
+      "mean_gap_pct": 5.813706547244459,
+      "q25_gap_pct": 5.731576024693929,
+      "median_gap_pct": 5.731576024693929,
+      "q75_gap_pct": 8.771891397460761,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 33.710242532838066,
+      "mean_feasible_cost": 35.67005711006167,
+      "median_feasible_cost": 35.642370711716396
+    },
+    {
+      "study": "main",
+      "case_id": "vrp12_r3",
+      "family": "VRP",
+      "n_qubits": 12,
+      "method": "source",
+      "optimum": 33.71024253283807,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 9,
+      "p_feasible": 0.0010986328125,
+      "mean_gap_pct": 6.445985520957647,
+      "q25_gap_pct": 5.731576024693929,
+      "median_gap_pct": 5.731576024693929,
+      "q75_gap_pct": 8.771891397460783,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 33.710242532838066,
+      "mean_feasible_cost": 35.88319988558452,
+      "median_feasible_cost": 35.642370711716396
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 28.231418313466136,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 4,
+      "p_feasible": 0.00048828125,
+      "mean_gap_pct": 20.51407697744062,
+      "q25_gap_pct": 17.711181487615544,
+      "median_gap_pct": 20.826311114247943,
+      "q75_gap_pct": 23.62920660407302,
+      "best_gap_pct": 15.263884841141524,
+      "best_feasible_cost": 32.540629493854546,
+      "mean_feasible_cost": 34.022833198113844,
+      "median_feasible_cost": 34.11098132339336
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 28.231418313466136,
+      "shots": 8192,
+      "good_count": 1,
+      "optimal_count": 1,
+      "feasible_count": 1,
+      "p_feasible": 0.0001220703125,
+      "mean_gap_pct": 0.0,
+      "q25_gap_pct": 0.0,
+      "median_gap_pct": 0.0,
+      "q75_gap_pct": 0.0,
+      "best_gap_pct": 0.0,
+      "best_feasible_cost": 28.231418313466133,
+      "mean_feasible_cost": 28.231418313466133,
+      "median_feasible_cost": 28.231418313466133
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 28.231418313466136,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r1",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 28.231418313466136,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 1,
+      "p_feasible": 0.0001220703125,
+      "mean_gap_pct": 26.0575064395751,
+      "q25_gap_pct": 26.0575064395751,
+      "median_gap_pct": 26.0575064395751,
+      "q75_gap_pct": 26.0575064395751,
+      "best_gap_pct": 26.0575064395751,
+      "best_feasible_cost": 35.58782195848096,
+      "mean_feasible_cost": 35.58782195848096,
+      "median_feasible_cost": 35.58782195848096
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 22.34334516047065,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 4,
+      "p_feasible": 0.00048828125,
+      "mean_gap_pct": 32.61220718281166,
+      "q25_gap_pct": 26.624387642550403,
+      "median_gap_pct": 26.801432883628767,
+      "q75_gap_pct": 32.78925242389002,
+      "best_gap_pct": 26.093251919315318,
+      "best_feasible_cost": 28.173450500394406,
+      "mean_feasible_cost": 29.630003175774064,
+      "median_feasible_cost": 28.33168181761171
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 22.34334516047065,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 2,
+      "p_feasible": 0.000244140625,
+      "mean_gap_pct": 38.42298148199455,
+      "q25_gap_pct": 32.25811670065493,
+      "median_gap_pct": 38.42298148199455,
+      "q75_gap_pct": 44.58784626333416,
+      "best_gap_pct": 26.093251919315318,
+      "best_feasible_cost": 28.173450500394406,
+      "mean_feasible_cost": 30.92832453393641,
+      "median_feasible_cost": 30.92832453393641
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 22.34334516047065,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 1,
+      "p_feasible": 0.0001220703125,
+      "mean_gap_pct": 24.65945912535843,
+      "q25_gap_pct": 24.65945912535843,
+      "median_gap_pct": 24.65945912535843,
+      "q75_gap_pct": 24.65945912535843,
+      "best_gap_pct": 24.65945912535843,
+      "best_feasible_cost": 27.853093227554663,
+      "mean_feasible_cost": 27.853093227554663,
+      "median_feasible_cost": 27.853093227554663
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r2",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 22.34334516047065,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "optimum": 26.531112152110325,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 3,
+      "p_feasible": 0.0003662109375,
+      "mean_gap_pct": 30.317025867624967,
+      "q25_gap_pct": 26.880553159976856,
+      "median_gap_pct": 29.379047596817582,
+      "q75_gap_pct": 33.28450943986939,
+      "best_gap_pct": 24.382058723136126,
+      "best_feasible_cost": 32.99994349693897,
+      "mean_feasible_cost": 34.574556286234206,
+      "median_feasible_cost": 34.32570021924387
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "optimum": 26.531112152110325,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 2,
+      "p_feasible": 0.000244140625,
+      "mean_gap_pct": 26.46806333792209,
+      "q25_gap_pct": 25.36228735350238,
+      "median_gap_pct": 26.46806333792209,
+      "q75_gap_pct": 27.5738393223418,
+      "best_gap_pct": 24.25651136908267,
+      "best_feasible_cost": 32.96663438763104,
+      "mean_feasible_cost": 33.55338372078603,
+      "median_feasible_cost": 33.55338372078603
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "optimum": 26.531112152110325,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 3,
+      "p_feasible": 0.0003662109375,
+      "mean_gap_pct": 25.754556083498475,
+      "q25_gap_pct": 20.036848483787118,
+      "median_gap_pct": 26.440804763679647,
+      "q75_gap_pct": 31.81538802330042,
+      "best_gap_pct": 13.632892203894587,
+      "best_feasible_cost": 30.148070072301902,
+      "mean_feasible_cost": 33.36408231090146,
+      "median_feasible_cost": 33.5461517178827
+    },
+    {
+      "study": "main",
+      "case_id": "vrp20_r3",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "optimum": 26.531112152110325,
+      "shots": 8192,
+      "good_count": 0,
+      "optimal_count": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null,
+      "best_feasible_cost": null,
+      "mean_feasible_cost": null,
+      "median_feasible_cost": null
+    }
+  ],
+  "groups": [
+    {
+      "group": "FLP20",
+      "study": "main",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "source",
+      "instances": 3,
+      "shots": 24576,
+      "instances_with_feasible": 3,
+      "feasible_count": 16,
+      "p_feasible": 0.0006510416666666666,
+      "mean_gap_pct": 110.46097256221951,
+      "q25_gap_pct": 50.78125,
+      "median_gap_pct": 108.59375,
+      "q75_gap_pct": 180.2325581395349,
+      "best_gap_pct": 14.0625
+    },
+    {
+      "group": "FLP20",
+      "study": "main",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "product",
+      "instances": 3,
+      "shots": 24576,
+      "instances_with_feasible": 3,
+      "feasible_count": 138,
+      "p_feasible": 0.005615234375,
+      "mean_gap_pct": 141.32896529219073,
+      "q25_gap_pct": 107.21628289473685,
+      "median_gap_pct": 130.53728070175438,
+      "q75_gap_pct": 170.17543859649123,
+      "best_gap_pct": 42.1875
+    },
+    {
+      "group": "FLP20",
+      "study": "main",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "instances": 3,
+      "shots": 24576,
+      "instances_with_feasible": 3,
+      "feasible_count": 177,
+      "p_feasible": 0.0072021484375,
+      "mean_gap_pct": 143.41965518513138,
+      "q25_gap_pct": 101.75438596491229,
+      "median_gap_pct": 137.5,
+      "q75_gap_pct": 172.09302325581396,
+      "best_gap_pct": 33.33333333333333
+    },
+    {
+      "group": "FLP20",
+      "study": "main",
+      "family": "FLP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "instances": 3,
+      "shots": 24576,
+      "instances_with_feasible": 3,
+      "feasible_count": 242,
+      "p_feasible": 0.009847005208333334,
+      "mean_gap_pct": 142.96131870614457,
+      "q25_gap_pct": 106.44188596491227,
+      "median_gap_pct": 134.375,
+      "q75_gap_pct": 175.43859649122805,
+      "best_gap_pct": 18.75
+    },
+    {
+      "group": "TSP25",
+      "study": "longer",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "source",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null
+    },
+    {
+      "group": "TSP25",
+      "study": "longer",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "product",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 74,
+      "p_feasible": 0.0003763834635416667,
+      "mean_gap_pct": 38.99382440338566,
+      "q25_gap_pct": 24.891732828232033,
+      "median_gap_pct": 42.30655104910267,
+      "q75_gap_pct": 50.77677786775223,
+      "best_gap_pct": 0.0
+    },
+    {
+      "group": "TSP25",
+      "study": "longer",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "shallow",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 307,
+      "p_feasible": 0.0015614827473958333,
+      "mean_gap_pct": 37.920534210861874,
+      "q25_gap_pct": 20.30529875915557,
+      "median_gap_pct": 42.396186423403556,
+      "q75_gap_pct": 50.90298771582719,
+      "best_gap_pct": 0.0
+    },
+    {
+      "group": "TSP25",
+      "study": "longer",
+      "family": "TSP",
+      "n_qubits": 25,
+      "method": "selected_native",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 217,
+      "p_feasible": 0.0011037190755208333,
+      "mean_gap_pct": 38.77145758335293,
+      "q25_gap_pct": 25.30802955751379,
+      "median_gap_pct": 42.73335664062587,
+      "q75_gap_pct": 48.62508734144888,
+      "best_gap_pct": 0.0
+    },
+    {
+      "group": "VRP20",
+      "study": "longer",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "source",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 4,
+      "p_feasible": 2.0345052083333332e-05,
+      "mean_gap_pct": 24.666863588047242,
+      "q25_gap_pct": 23.126331103128877,
+      "median_gap_pct": 25.7304460044936,
+      "q75_gap_pct": 27.27097848941196,
+      "best_gap_pct": 18.526947036440216
+    },
+    {
+      "group": "VRP20",
+      "study": "longer",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "product",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 103,
+      "p_feasible": 0.0005238850911458334,
+      "mean_gap_pct": 21.746610377346276,
+      "q25_gap_pct": 13.507344849841118,
+      "median_gap_pct": 24.50020218907949,
+      "q75_gap_pct": 26.440804763679633,
+      "best_gap_pct": 0.0
+    },
+    {
+      "group": "VRP20",
+      "study": "longer",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "shallow",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 226,
+      "p_feasible": 0.0011494954427083333,
+      "mean_gap_pct": 24.6026835174467,
+      "q25_gap_pct": 15.746155392923011,
+      "median_gap_pct": 24.97293972284161,
+      "q75_gap_pct": 28.67961530676154,
+      "best_gap_pct": 1.5900545121085463e-14
+    },
+    {
+      "group": "VRP20",
+      "study": "longer",
+      "family": "VRP",
+      "n_qubits": 20,
+      "method": "selected_native",
+      "instances": 3,
+      "shots": 196608,
+      "instances_with_feasible": 3,
+      "feasible_count": 260,
+      "p_feasible": 0.0013224283854166667,
+      "mean_gap_pct": 25.727816957720922,
+      "q25_gap_pct": 15.840315908463102,
+      "median_gap_pct": 26.0575064395751,
+      "q75_gap_pct": 33.790831877581766,
+      "best_gap_pct": 0.0
+    },
+    {
+      "group": "FLP42",
+      "study": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "source",
+      "instances": 1,
+      "shots": 131072,
+      "instances_with_feasible": 0,
+      "feasible_count": 0,
+      "p_feasible": 0.0,
+      "mean_gap_pct": null,
+      "q25_gap_pct": null,
+      "median_gap_pct": null,
+      "q75_gap_pct": null,
+      "best_gap_pct": null
+    },
+    {
+      "group": "FLP42",
+      "study": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "product",
+      "instances": 1,
+      "shots": 131072,
+      "instances_with_feasible": 1,
+      "feasible_count": 27,
+      "p_feasible": 0.00020599365234375,
+      "mean_gap_pct": 231.20567375886517,
+      "q25_gap_pct": 211.7021276595745,
+      "median_gap_pct": 236.17021276595747,
+      "q75_gap_pct": 259.5744680851064,
+      "best_gap_pct": 112.7659574468085
+    },
+    {
+      "group": "FLP42",
+      "study": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "shallow",
+      "instances": 1,
+      "shots": 131072,
+      "instances_with_feasible": 1,
+      "feasible_count": 32,
+      "p_feasible": 0.000244140625,
+      "mean_gap_pct": 234.24202127659572,
+      "q25_gap_pct": 201.59574468085108,
+      "median_gap_pct": 242.5531914893617,
+      "q75_gap_pct": 257.4468085106383,
+      "best_gap_pct": 165.95744680851064
+    },
+    {
+      "group": "FLP42",
+      "study": "flp42",
+      "family": "FLP",
+      "n_qubits": 42,
+      "method": "selected_native",
+      "instances": 1,
+      "shots": 131072,
+      "instances_with_feasible": 1,
+      "feasible_count": 18,
+      "p_feasible": 0.0001373291015625,
+      "mean_gap_pct": 234.16075650118202,
+      "q25_gap_pct": 213.29787234042553,
+      "median_gap_pct": 228.72340425531917,
+      "q75_gap_pct": 262.7659574468085,
+      "best_gap_pct": 176.59574468085106
+    }
+  ],
+  "group_distributions": {
+    "FLP20|source": [
+      {
+        "gap_pct": 14.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 18.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 38.59649122807017,
+        "count": 1
+      },
+      {
+        "gap_pct": 39.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 54.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 57.8125,
+        "count": 1
+      },
+      {
+        "gap_pct": 76.5625,
+        "count": 1
+      },
+      {
+        "gap_pct": 90.625,
+        "count": 1
+      },
+      {
+        "gap_pct": 126.5625,
+        "count": 1
+      },
+      {
+        "gap_pct": 134.375,
+        "count": 1
+      },
+      {
+        "gap_pct": 162.7906976744186,
+        "count": 1
+      },
+      {
+        "gap_pct": 176.74418604651163,
+        "count": 1
+      },
+      {
+        "gap_pct": 190.69767441860466,
+        "count": 1
+      },
+      {
+        "gap_pct": 193.0232558139535,
+        "count": 1
+      },
+      {
+        "gap_pct": 195.3488372093023,
+        "count": 1
+      },
+      {
+        "gap_pct": 197.67441860465115,
+        "count": 1
+      }
+    ],
+    "FLP20|product": [
+      {
+        "gap_pct": 42.1875,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.18604651162791,
+        "count": 1
+      },
+      {
+        "gap_pct": 45.614035087719294,
+        "count": 1
+      },
+      {
+        "gap_pct": 46.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 60.9375,
+        "count": 1
+      },
+      {
+        "gap_pct": 61.40350877192983,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.625,
+        "count": 1
+      },
+      {
+        "gap_pct": 68.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 71.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 75.43859649122807,
+        "count": 2
+      },
+      {
+        "gap_pct": 78.125,
+        "count": 1
+      },
+      {
+        "gap_pct": 79.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 82.45614035087719,
+        "count": 1
+      },
+      {
+        "gap_pct": 87.5,
+        "count": 3
+      },
+      {
+        "gap_pct": 87.71929824561403,
+        "count": 1
+      },
+      {
+        "gap_pct": 90.625,
+        "count": 2
+      },
+      {
+        "gap_pct": 91.22807017543859,
+        "count": 2
+      },
+      {
+        "gap_pct": 92.1875,
+        "count": 3
+      },
+      {
+        "gap_pct": 93.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 95.3125,
+        "count": 1
+      },
+      {
+        "gap_pct": 96.875,
+        "count": 2
+      },
+      {
+        "gap_pct": 100.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 101.75438596491229,
+        "count": 1
+      },
+      {
+        "gap_pct": 103.50877192982458,
+        "count": 1
+      },
+      {
+        "gap_pct": 104.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 107.01754385964912,
+        "count": 2
+      },
+      {
+        "gap_pct": 107.8125,
+        "count": 2
+      },
+      {
+        "gap_pct": 109.375,
+        "count": 2
+      },
+      {
+        "gap_pct": 110.5263157894737,
+        "count": 2
+      },
+      {
+        "gap_pct": 110.9375,
+        "count": 2
+      },
+      {
+        "gap_pct": 111.62790697674419,
+        "count": 1
+      },
+      {
+        "gap_pct": 114.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 115.625,
+        "count": 3
+      },
+      {
+        "gap_pct": 115.78947368421053,
+        "count": 2
+      },
+      {
+        "gap_pct": 117.1875,
+        "count": 3
+      },
+      {
+        "gap_pct": 117.54385964912282,
+        "count": 1
+      },
+      {
+        "gap_pct": 118.75,
+        "count": 4
+      },
+      {
+        "gap_pct": 121.05263157894737,
+        "count": 1
+      },
+      {
+        "gap_pct": 121.875,
+        "count": 2
+      },
+      {
+        "gap_pct": 123.4375,
+        "count": 1
+      },
+      {
+        "gap_pct": 125.0,
+        "count": 2
+      },
+      {
+        "gap_pct": 126.3157894736842,
+        "count": 1
+      },
+      {
+        "gap_pct": 126.5625,
+        "count": 1
+      },
+      {
+        "gap_pct": 128.0701754385965,
+        "count": 1
+      },
+      {
+        "gap_pct": 129.82456140350877,
+        "count": 2
+      },
+      {
+        "gap_pct": 131.25,
+        "count": 2
+      },
+      {
+        "gap_pct": 131.57894736842107,
+        "count": 1
+      },
+      {
+        "gap_pct": 132.8125,
+        "count": 2
+      },
+      {
+        "gap_pct": 134.375,
+        "count": 2
+      },
+      {
+        "gap_pct": 138.5964912280702,
+        "count": 1
+      },
+      {
+        "gap_pct": 140.35087719298244,
+        "count": 2
+      },
+      {
+        "gap_pct": 141.86046511627907,
+        "count": 1
+      },
+      {
+        "gap_pct": 142.10526315789474,
+        "count": 1
+      },
+      {
+        "gap_pct": 144.1860465116279,
+        "count": 1
+      },
+      {
+        "gap_pct": 146.51162790697674,
+        "count": 1
+      },
+      {
+        "gap_pct": 146.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 147.36842105263156,
+        "count": 1
+      },
+      {
+        "gap_pct": 149.12280701754386,
+        "count": 2
+      },
+      {
+        "gap_pct": 152.63157894736844,
+        "count": 2
+      },
+      {
+        "gap_pct": 154.38596491228068,
+        "count": 1
+      },
+      {
+        "gap_pct": 155.8139534883721,
+        "count": 1
+      },
+      {
+        "gap_pct": 156.140350877193,
+        "count": 1
+      },
+      {
+        "gap_pct": 157.89473684210526,
+        "count": 1
+      },
+      {
+        "gap_pct": 158.13953488372093,
+        "count": 1
+      },
+      {
+        "gap_pct": 159.64912280701756,
+        "count": 1
+      },
+      {
+        "gap_pct": 160.46511627906978,
+        "count": 1
+      },
+      {
+        "gap_pct": 161.4035087719298,
+        "count": 1
+      },
+      {
+        "gap_pct": 163.1578947368421,
+        "count": 3
+      },
+      {
+        "gap_pct": 164.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 164.91228070175438,
+        "count": 1
+      },
+      {
+        "gap_pct": 170.17543859649123,
+        "count": 3
+      },
+      {
+        "gap_pct": 174.41860465116278,
+        "count": 2
+      },
+      {
+        "gap_pct": 175.43859649122805,
+        "count": 1
+      },
+      {
+        "gap_pct": 177.19298245614036,
+        "count": 1
+      },
+      {
+        "gap_pct": 180.70175438596493,
+        "count": 1
+      },
+      {
+        "gap_pct": 185.96491228070175,
+        "count": 1
+      },
+      {
+        "gap_pct": 186.04651162790697,
+        "count": 3
+      },
+      {
+        "gap_pct": 187.71929824561403,
+        "count": 2
+      },
+      {
+        "gap_pct": 193.0232558139535,
+        "count": 1
+      },
+      {
+        "gap_pct": 206.97674418604652,
+        "count": 1
+      },
+      {
+        "gap_pct": 211.6279069767442,
+        "count": 1
+      },
+      {
+        "gap_pct": 213.953488372093,
+        "count": 1
+      },
+      {
+        "gap_pct": 216.27906976744185,
+        "count": 1
+      },
+      {
+        "gap_pct": 218.60465116279067,
+        "count": 2
+      },
+      {
+        "gap_pct": 220.93023255813952,
+        "count": 2
+      },
+      {
+        "gap_pct": 225.58139534883722,
+        "count": 1
+      },
+      {
+        "gap_pct": 227.90697674418604,
+        "count": 1
+      },
+      {
+        "gap_pct": 234.88372093023258,
+        "count": 1
+      },
+      {
+        "gap_pct": 239.53488372093022,
+        "count": 1
+      },
+      {
+        "gap_pct": 246.51162790697674,
+        "count": 2
+      },
+      {
+        "gap_pct": 251.1627906976744,
+        "count": 1
+      },
+      {
+        "gap_pct": 253.48837209302326,
+        "count": 1
+      },
+      {
+        "gap_pct": 255.8139534883721,
+        "count": 1
+      },
+      {
+        "gap_pct": 262.7906976744186,
+        "count": 1
+      },
+      {
+        "gap_pct": 267.4418604651163,
+        "count": 1
+      },
+      {
+        "gap_pct": 276.74418604651163,
+        "count": 1
+      },
+      {
+        "gap_pct": 279.06976744186045,
+        "count": 1
+      }
+    ],
+    "FLP20|shallow": [
+      {
+        "gap_pct": 33.33333333333333,
+        "count": 1
+      },
+      {
+        "gap_pct": 35.9375,
+        "count": 1
+      },
+      {
+        "gap_pct": 36.84210526315789,
+        "count": 1
+      },
+      {
+        "gap_pct": 39.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 43.75,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.4375,
+        "count": 2
+      },
+      {
+        "gap_pct": 53.125,
+        "count": 1
+      },
+      {
+        "gap_pct": 54.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 56.25,
+        "count": 1
+      },
+      {
+        "gap_pct": 64.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.625,
+        "count": 1
+      },
+      {
+        "gap_pct": 68.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 76.74418604651163,
+        "count": 1
+      },
+      {
+        "gap_pct": 77.19298245614034,
+        "count": 1
+      },
+      {
+        "gap_pct": 78.125,
+        "count": 1
+      },
+      {
+        "gap_pct": 78.94736842105263,
+        "count": 1
+      },
+      {
+        "gap_pct": 79.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 80.7017543859649,
+        "count": 1
+      },
+      {
+        "gap_pct": 82.45614035087719,
+        "count": 1
+      },
+      {
+        "gap_pct": 82.8125,
+        "count": 2
+      },
+      {
+        "gap_pct": 84.375,
+        "count": 1
+      },
+      {
+        "gap_pct": 85.9375,
+        "count": 1
+      },
+      {
+        "gap_pct": 85.96491228070175,
+        "count": 1
+      },
+      {
+        "gap_pct": 89.47368421052632,
+        "count": 1
+      },
+      {
+        "gap_pct": 92.1875,
+        "count": 1
+      },
+      {
+        "gap_pct": 93.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 94.73684210526315,
+        "count": 1
+      },
+      {
+        "gap_pct": 95.3125,
+        "count": 2
+      },
+      {
+        "gap_pct": 96.49122807017544,
+        "count": 1
+      },
+      {
+        "gap_pct": 96.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 98.24561403508771,
+        "count": 2
+      },
+      {
+        "gap_pct": 98.4375,
+        "count": 3
+      },
+      {
+        "gap_pct": 100.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 101.5625,
+        "count": 3
+      },
+      {
+        "gap_pct": 101.75438596491229,
+        "count": 3
+      },
+      {
+        "gap_pct": 103.125,
+        "count": 1
+      },
+      {
+        "gap_pct": 104.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 106.25,
+        "count": 2
+      },
+      {
+        "gap_pct": 107.01754385964912,
+        "count": 2
+      },
+      {
+        "gap_pct": 107.8125,
+        "count": 1
+      },
+      {
+        "gap_pct": 108.77192982456141,
+        "count": 2
+      },
+      {
+        "gap_pct": 109.375,
+        "count": 2
+      },
+      {
+        "gap_pct": 110.5263157894737,
+        "count": 2
+      },
+      {
+        "gap_pct": 112.28070175438596,
+        "count": 1
+      },
+      {
+        "gap_pct": 114.03508771929825,
+        "count": 1
+      },
+      {
+        "gap_pct": 114.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 115.625,
+        "count": 3
+      },
+      {
+        "gap_pct": 117.1875,
+        "count": 1
+      },
+      {
+        "gap_pct": 118.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 120.3125,
+        "count": 1
+      },
+      {
+        "gap_pct": 120.93023255813952,
+        "count": 1
+      },
+      {
+        "gap_pct": 121.05263157894737,
+        "count": 1
+      },
+      {
+        "gap_pct": 121.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 123.25581395348837,
+        "count": 1
+      },
+      {
+        "gap_pct": 123.4375,
+        "count": 1
+      },
+      {
+        "gap_pct": 124.56140350877195,
+        "count": 1
+      },
+      {
+        "gap_pct": 126.3157894736842,
+        "count": 2
+      },
+      {
+        "gap_pct": 128.0701754385965,
+        "count": 2
+      },
+      {
+        "gap_pct": 128.125,
+        "count": 2
+      },
+      {
+        "gap_pct": 129.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 129.82456140350877,
+        "count": 1
+      },
+      {
+        "gap_pct": 131.25,
+        "count": 1
+      },
+      {
+        "gap_pct": 132.5581395348837,
+        "count": 1
+      },
+      {
+        "gap_pct": 133.33333333333331,
+        "count": 1
+      },
+      {
+        "gap_pct": 134.375,
+        "count": 2
+      },
+      {
+        "gap_pct": 136.8421052631579,
+        "count": 1
+      },
+      {
+        "gap_pct": 137.5,
+        "count": 1
+      },
+      {
+        "gap_pct": 139.53488372093022,
+        "count": 3
+      },
+      {
+        "gap_pct": 140.35087719298244,
+        "count": 1
+      },
+      {
+        "gap_pct": 140.625,
+        "count": 3
+      },
+      {
+        "gap_pct": 142.10526315789474,
+        "count": 1
+      },
+      {
+        "gap_pct": 142.1875,
+        "count": 3
+      },
+      {
+        "gap_pct": 143.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 143.859649122807,
+        "count": 2
+      },
+      {
+        "gap_pct": 145.61403508771932,
+        "count": 1
+      },
+      {
+        "gap_pct": 146.51162790697674,
+        "count": 1
+      },
+      {
+        "gap_pct": 146.875,
+        "count": 2
+      },
+      {
+        "gap_pct": 148.4375,
+        "count": 1
+      },
+      {
+        "gap_pct": 149.12280701754386,
+        "count": 1
+      },
+      {
+        "gap_pct": 150.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 152.63157894736844,
+        "count": 4
+      },
+      {
+        "gap_pct": 153.48837209302326,
+        "count": 2
+      },
+      {
+        "gap_pct": 154.38596491228068,
+        "count": 2
+      },
+      {
+        "gap_pct": 155.8139534883721,
+        "count": 2
+      },
+      {
+        "gap_pct": 157.89473684210526,
+        "count": 3
+      },
+      {
+        "gap_pct": 160.46511627906978,
+        "count": 1
+      },
+      {
+        "gap_pct": 162.7906976744186,
+        "count": 1
+      },
+      {
+        "gap_pct": 163.1578947368421,
+        "count": 1
+      },
+      {
+        "gap_pct": 164.91228070175438,
+        "count": 1
+      },
+      {
+        "gap_pct": 166.66666666666669,
+        "count": 2
+      },
+      {
+        "gap_pct": 169.7674418604651,
+        "count": 3
+      },
+      {
+        "gap_pct": 172.09302325581396,
+        "count": 2
+      },
+      {
+        "gap_pct": 178.94736842105263,
+        "count": 2
+      },
+      {
+        "gap_pct": 180.70175438596493,
+        "count": 3
+      },
+      {
+        "gap_pct": 181.3953488372093,
+        "count": 2
+      },
+      {
+        "gap_pct": 182.45614035087718,
+        "count": 1
+      },
+      {
+        "gap_pct": 186.04651162790697,
+        "count": 2
+      },
+      {
+        "gap_pct": 190.69767441860466,
+        "count": 1
+      },
+      {
+        "gap_pct": 195.3488372093023,
+        "count": 1
+      },
+      {
+        "gap_pct": 202.32558139534885,
+        "count": 1
+      },
+      {
+        "gap_pct": 204.6511627906977,
+        "count": 2
+      },
+      {
+        "gap_pct": 211.6279069767442,
+        "count": 1
+      },
+      {
+        "gap_pct": 213.953488372093,
+        "count": 3
+      },
+      {
+        "gap_pct": 218.60465116279067,
+        "count": 4
+      },
+      {
+        "gap_pct": 239.53488372093022,
+        "count": 1
+      },
+      {
+        "gap_pct": 244.1860465116279,
+        "count": 2
+      },
+      {
+        "gap_pct": 246.51162790697674,
+        "count": 3
+      },
+      {
+        "gap_pct": 248.8372093023256,
+        "count": 1
+      },
+      {
+        "gap_pct": 251.1627906976744,
+        "count": 1
+      },
+      {
+        "gap_pct": 253.48837209302326,
+        "count": 1
+      },
+      {
+        "gap_pct": 255.8139534883721,
+        "count": 1
+      },
+      {
+        "gap_pct": 258.13953488372096,
+        "count": 1
+      },
+      {
+        "gap_pct": 260.4651162790698,
+        "count": 1
+      },
+      {
+        "gap_pct": 262.7906976744186,
+        "count": 1
+      },
+      {
+        "gap_pct": 267.4418604651163,
+        "count": 2
+      },
+      {
+        "gap_pct": 269.7674418604651,
+        "count": 1
+      },
+      {
+        "gap_pct": 279.06976744186045,
+        "count": 1
+      },
+      {
+        "gap_pct": 288.3720930232558,
+        "count": 2
+      },
+      {
+        "gap_pct": 293.0232558139535,
+        "count": 1
+      }
+    ],
+    "FLP20|selected_native": [
+      {
+        "gap_pct": 18.75,
+        "count": 1
+      },
+      {
+        "gap_pct": 32.8125,
+        "count": 2
+      },
+      {
+        "gap_pct": 35.9375,
+        "count": 1
+      },
+      {
+        "gap_pct": 38.59649122807017,
+        "count": 1
+      },
+      {
+        "gap_pct": 40.625,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.1875,
+        "count": 1
+      },
+      {
+        "gap_pct": 45.614035087719294,
+        "count": 1
+      },
+      {
+        "gap_pct": 48.4375,
+        "count": 2
+      },
+      {
+        "gap_pct": 50.877192982456144,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.125,
+        "count": 1
+      },
+      {
+        "gap_pct": 54.6875,
+        "count": 1
+      },
+      {
+        "gap_pct": 56.25,
+        "count": 2
+      },
+      {
+        "gap_pct": 59.375,
+        "count": 1
+      },
+      {
+        "gap_pct": 64.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.11627906976744,
+        "count": 1
+      },
+      {
+        "gap_pct": 67.1875,
+        "count": 1
+      },
+      {
+        "gap_pct": 71.875,
+        "count": 2
+      },
+      {
+        "gap_pct": 75.0,
+        "count": 3
+      },
+      {
+        "gap_pct": 75.43859649122807,
+        "count": 2
+      },
+      {
+        "gap_pct": 78.125,
+        "count": 2
+      },
+      {
+        "gap_pct": 78.94736842105263,
+        "count": 1
+      },
+      {
+        "gap_pct": 81.25,
+        "count": 3
+      },
+      {
+        "gap_pct": 82.45614035087719,
+        "count": 3
+      },
+      {
+        "gap_pct": 84.375,
+        "count": 4
+      },
+      {
+        "gap_pct": 85.9375,
+        "count": 1
+      },
+      {
+        "gap_pct": 85.96491228070175,
+        "count": 1
+      },
+      {
+        "gap_pct": 89.0625,
+        "count": 1
+      },
+      {
+        "gap_pct": 89.47368421052632,
+        "count": 1
+      },
+      {
+        "gap_pct": 90.625,
+        "count": 1
+      },
+      {
+        "gap_pct": 91.22807017543859,
+        "count": 1
+      },
+      {
+        "gap_pct": 93.75,
+        "count": 2
+      },
+      {
+        "gap_pct": 95.3125,
+        "count": 1
+      },
+      {
+        "gap_pct": 98.24561403508771,
+        "count": 1
+      },
+      {
+        "gap_pct": 98.4375,
+        "count": 1
+      },
+      {
+        "gap_pct": 100.0,
+        "count": 3
+      },
+      {
+        "gap_pct": 101.5625,
+        "count": 3
+      },
+      {
+        "gap_pct": 101.75438596491229,
+        "count": 1
+      },
+      {
+        "gap_pct": 103.50877192982458,
+        "count": 1
+      },
+      {
+        "gap_pct": 104.65116279069768,
+        "count": 1
+      },
+      {
+        "gap_pct": 105.26315789473684,
+        "count": 1
+      },
+      {
+        "gap_pct": 106.25,
+        "count": 1
+      },
+      {
+        "gap_pct": 107.01754385964912,
+        "count": 1
+      },
+      {
+        "gap_pct": 107.8125,
+        "count": 2
+      },
+      {
+        "gap_pct": 108.77192982456141,
+        "count": 1
+      },
+      {
+        "gap_pct": 109.375,
+        "count": 4
+      },
+      {
+        "gap_pct": 110.5263157894737,
+        "count": 5
+      },
+      {
+        "gap_pct": 110.9375,
+        "count": 5
+      },
+      {
+        "gap_pct": 111.62790697674419,
+        "count": 1
+      },
+      {
+        "gap_pct": 114.03508771929825,
+        "count": 1
+      },
+      {
+        "gap_pct": 115.625,
+        "count": 4
+      },
+      {
+        "gap_pct": 116.27906976744187,
+        "count": 2
+      },
+      {
+        "gap_pct": 117.1875,
+        "count": 2
+      },
+      {
+        "gap_pct": 118.75,
+        "count": 2
+      },
+      {
+        "gap_pct": 121.05263157894737,
+        "count": 2
+      },
+      {
+        "gap_pct": 121.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 122.80701754385966,
+        "count": 2
+      },
+      {
+        "gap_pct": 123.25581395348837,
+        "count": 1
+      },
+      {
+        "gap_pct": 123.4375,
+        "count": 4
+      },
+      {
+        "gap_pct": 124.56140350877195,
+        "count": 1
+      },
+      {
+        "gap_pct": 125.0,
+        "count": 2
+      },
+      {
+        "gap_pct": 126.3157894736842,
+        "count": 1
+      },
+      {
+        "gap_pct": 126.5625,
+        "count": 5
+      },
+      {
+        "gap_pct": 127.90697674418605,
+        "count": 1
+      },
+      {
+        "gap_pct": 128.0701754385965,
+        "count": 3
+      },
+      {
+        "gap_pct": 128.125,
+        "count": 2
+      },
+      {
+        "gap_pct": 129.82456140350877,
+        "count": 1
+      },
+      {
+        "gap_pct": 130.2325581395349,
+        "count": 1
+      },
+      {
+        "gap_pct": 131.57894736842107,
+        "count": 1
+      },
+      {
+        "gap_pct": 132.8125,
+        "count": 1
+      },
+      {
+        "gap_pct": 134.375,
+        "count": 2
+      },
+      {
+        "gap_pct": 134.88372093023256,
+        "count": 2
+      },
+      {
+        "gap_pct": 135.08771929824562,
+        "count": 1
+      },
+      {
+        "gap_pct": 137.2093023255814,
+        "count": 2
+      },
+      {
+        "gap_pct": 137.5,
+        "count": 1
+      },
+      {
+        "gap_pct": 138.5964912280702,
+        "count": 1
+      },
+      {
+        "gap_pct": 140.35087719298244,
+        "count": 1
+      },
+      {
+        "gap_pct": 140.625,
+        "count": 1
+      },
+      {
+        "gap_pct": 141.86046511627907,
+        "count": 3
+      },
+      {
+        "gap_pct": 142.10526315789474,
+        "count": 2
+      },
+      {
+        "gap_pct": 142.1875,
+        "count": 2
+      },
+      {
+        "gap_pct": 143.859649122807,
+        "count": 1
+      },
+      {
+        "gap_pct": 144.1860465116279,
+        "count": 3
+      },
+      {
+        "gap_pct": 145.61403508771932,
+        "count": 4
+      },
+      {
+        "gap_pct": 146.875,
+        "count": 1
+      },
+      {
+        "gap_pct": 148.4375,
+        "count": 1
+      },
+      {
+        "gap_pct": 148.8372093023256,
+        "count": 2
+      },
+      {
+        "gap_pct": 149.12280701754386,
+        "count": 2
+      },
+      {
+        "gap_pct": 150.87719298245614,
+        "count": 1
+      },
+      {
+        "gap_pct": 151.1627906976744,
+        "count": 1
+      },
+      {
+        "gap_pct": 152.63157894736844,
+        "count": 3
+      },
+      {
+        "gap_pct": 153.48837209302326,
+        "count": 1
+      },
+      {
+        "gap_pct": 154.38596491228068,
+        "count": 2
+      },
+      {
+        "gap_pct": 155.8139534883721,
+        "count": 3
+      },
+      {
+        "gap_pct": 156.140350877193,
+        "count": 1
+      },
+      {
+        "gap_pct": 156.25,
+        "count": 1
+      },
+      {
+        "gap_pct": 157.89473684210526,
+        "count": 2
+      },
+      {
+        "gap_pct": 158.13953488372093,
+        "count": 2
+      },
+      {
+        "gap_pct": 160.46511627906978,
+        "count": 1
+      },
+      {
+        "gap_pct": 162.7906976744186,
+        "count": 1
+      },
+      {
+        "gap_pct": 165.11627906976744,
+        "count": 1
+      },
+      {
+        "gap_pct": 167.4418604651163,
+        "count": 3
+      },
+      {
+        "gap_pct": 168.42105263157893,
+        "count": 1
+      },
+      {
+        "gap_pct": 169.7674418604651,
+        "count": 3
+      },
+      {
+        "gap_pct": 173.6842105263158,
+        "count": 1
+      },
+      {
+        "gap_pct": 175.43859649122805,
+        "count": 2
+      },
+      {
+        "gap_pct": 176.74418604651163,
+        "count": 1
+      },
+      {
+        "gap_pct": 177.19298245614036,
+        "count": 4
+      },
+      {
+        "gap_pct": 179.06976744186048,
+        "count": 1
+      },
+      {
+        "gap_pct": 180.70175438596493,
+        "count": 2
+      },
+      {
+        "gap_pct": 182.45614035087718,
+        "count": 1
+      },
+      {
+        "gap_pct": 184.21052631578948,
+        "count": 1
+      },
+      {
+        "gap_pct": 185.96491228070175,
+        "count": 1
+      },
+      {
+        "gap_pct": 186.04651162790697,
+        "count": 1
+      },
+      {
+        "gap_pct": 189.4736842105263,
+        "count": 1
+      },
+      {
+        "gap_pct": 190.69767441860466,
+        "count": 1
+      },
+      {
+        "gap_pct": 193.0232558139535,
+        "count": 3
+      },
+      {
+        "gap_pct": 200.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 204.6511627906977,
+        "count": 1
+      },
+      {
+        "gap_pct": 209.30232558139537,
+        "count": 2
+      },
+      {
+        "gap_pct": 211.6279069767442,
+        "count": 2
+      },
+      {
+        "gap_pct": 216.27906976744185,
+        "count": 1
+      },
+      {
+        "gap_pct": 220.93023255813952,
+        "count": 1
+      },
+      {
+        "gap_pct": 223.25581395348837,
+        "count": 1
+      },
+      {
+        "gap_pct": 225.58139534883722,
+        "count": 2
+      },
+      {
+        "gap_pct": 230.2325581395349,
+        "count": 4
+      },
+      {
+        "gap_pct": 232.55813953488374,
+        "count": 1
+      },
+      {
+        "gap_pct": 234.88372093023258,
+        "count": 3
+      },
+      {
+        "gap_pct": 237.2093023255814,
+        "count": 2
+      },
+      {
+        "gap_pct": 239.53488372093022,
+        "count": 1
+      },
+      {
+        "gap_pct": 241.86046511627904,
+        "count": 1
+      },
+      {
+        "gap_pct": 244.1860465116279,
+        "count": 3
+      },
+      {
+        "gap_pct": 246.51162790697674,
+        "count": 2
+      },
+      {
+        "gap_pct": 251.1627906976744,
+        "count": 1
+      },
+      {
+        "gap_pct": 255.8139534883721,
+        "count": 2
+      },
+      {
+        "gap_pct": 260.4651162790698,
+        "count": 2
+      },
+      {
+        "gap_pct": 262.7906976744186,
+        "count": 1
+      },
+      {
+        "gap_pct": 267.4418604651163,
+        "count": 2
+      },
+      {
+        "gap_pct": 269.7674418604651,
+        "count": 1
+      },
+      {
+        "gap_pct": 272.09302325581393,
+        "count": 1
+      },
+      {
+        "gap_pct": 279.06976744186045,
+        "count": 2
+      },
+      {
+        "gap_pct": 281.3953488372093,
+        "count": 1
+      },
+      {
+        "gap_pct": 288.3720930232558,
+        "count": 1
+      },
+      {
+        "gap_pct": 293.0232558139535,
+        "count": 1
+      }
+    ],
+    "TSP25|source": [],
+    "TSP25|product": [
+      {
+        "gap_pct": 0.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 3.398629555088889,
+        "count": 1
+      },
+      {
+        "gap_pct": 4.491068477239091,
+        "count": 2
+      },
+      {
+        "gap_pct": 6.546205130562965,
+        "count": 1
+      },
+      {
+        "gap_pct": 7.019268481381767,
+        "count": 1
+      },
+      {
+        "gap_pct": 7.434845726333343,
+        "count": 1
+      },
+      {
+        "gap_pct": 9.867555309031959,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.550853766945677,
+        "count": 1
+      },
+      {
+        "gap_pct": 12.053724629793464,
+        "count": 1
+      },
+      {
+        "gap_pct": 13.963251430937488,
+        "count": 1
+      },
+      {
+        "gap_pct": 14.075542071131359,
+        "count": 1
+      },
+      {
+        "gap_pct": 14.132696373380696,
+        "count": 1
+      },
+      {
+        "gap_pct": 14.13269637338071,
+        "count": 1
+      },
+      {
+        "gap_pct": 18.68913893994135,
+        "count": 1
+      },
+      {
+        "gap_pct": 19.07299311117523,
+        "count": 1
+      },
+      {
+        "gap_pct": 21.63819822368573,
+        "count": 1
+      },
+      {
+        "gap_pct": 23.375454831822083,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.714427522174596,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.423648746404343,
+        "count": 1
+      },
+      {
+        "gap_pct": 32.21686483595794,
+        "count": 1
+      },
+      {
+        "gap_pct": 32.7881222191247,
+        "count": 2
+      },
+      {
+        "gap_pct": 33.40558462409534,
+        "count": 2
+      },
+      {
+        "gap_pct": 34.08888308200906,
+        "count": 1
+      },
+      {
+        "gap_pct": 35.08535655322616,
+        "count": 1
+      },
+      {
+        "gap_pct": 35.085356553226184,
+        "count": 1
+      },
+      {
+        "gap_pct": 36.556475458244606,
+        "count": 1
+      },
+      {
+        "gap_pct": 36.97205270319616,
+        "count": 1
+      },
+      {
+        "gap_pct": 38.127443737501736,
+        "count": 1
+      },
+      {
+        "gap_pct": 40.22577995663339,
+        "count": 1
+      },
+      {
+        "gap_pct": 41.67050398149737,
+        "count": 1
+      },
+      {
+        "gap_pct": 41.769186497760316,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.05005818271215,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.1046250346079,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.21691567480179,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.396186423403556,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.505368097280815,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.73335664062584,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.84897582951637,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.2314222509929,
+        "count": 2
+      },
+      {
+        "gap_pct": 46.68635503642828,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.201690277457246,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.303934380223005,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.59818115129958,
+        "count": 1
+      },
+      {
+        "gap_pct": 48.00060792426149,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.61020008803807,
+        "count": 1
+      },
+      {
+        "gap_pct": 48.62508734144888,
+        "count": 1
+      },
+      {
+        "gap_pct": 48.72249072823195,
+        "count": 1
+      },
+      {
+        "gap_pct": 49.474340846993165,
+        "count": 1
+      },
+      {
+        "gap_pct": 50.398148323527344,
+        "count": 1
+      },
+      {
+        "gap_pct": 50.90298771582719,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.320040264705945,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.56855479029747,
+        "count": 2
+      },
+      {
+        "gap_pct": 53.81791415800389,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.964408859825895,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.96974290780916,
+        "count": 1
+      },
+      {
+        "gap_pct": 55.34422077053635,
+        "count": 1
+      },
+      {
+        "gap_pct": 56.27082863032054,
+        "count": 1
+      },
+      {
+        "gap_pct": 58.46081138504825,
+        "count": 1
+      },
+      {
+        "gap_pct": 64.64605420875952,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.68865770837978,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.90950075798617,
+        "count": 2
+      },
+      {
+        "gap_pct": 68.01447283383996,
+        "count": 1
+      },
+      {
+        "gap_pct": 69.96633887894635,
+        "count": 1
+      },
+      {
+        "gap_pct": 71.04612821070242,
+        "count": 1
+      },
+      {
+        "gap_pct": 75.85806957976935,
+        "count": 1
+      },
+      {
+        "gap_pct": 75.91796973359293,
+        "count": 1
+      }
+    ],
+    "TSP25|shallow": [
+      {
+        "gap_pct": 0.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.5168570638635468e-14,
+        "count": 2
+      },
+      {
+        "gap_pct": 1.6001326835539513,
+        "count": 2
+      },
+      {
+        "gap_pct": 1.6001326835539662,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.7330624806186048,
+        "count": 1
+      },
+      {
+        "gap_pct": 2.996509029845233,
+        "count": 1
+      },
+      {
+        "gap_pct": 3.398629555088889,
+        "count": 1
+      },
+      {
+        "gap_pct": 4.3757986637928346,
+        "count": 1
+      },
+      {
+        "gap_pct": 4.468333636831388,
+        "count": 2
+      },
+      {
+        "gap_pct": 4.491068477239091,
+        "count": 1
+      },
+      {
+        "gap_pct": 5.092813054018792,
+        "count": 2
+      },
+      {
+        "gap_pct": 5.092813054018806,
+        "count": 1
+      },
+      {
+        "gap_pct": 5.101481105699015,
+        "count": 2
+      },
+      {
+        "gap_pct": 5.339321518377042,
+        "count": 7
+      },
+      {
+        "gap_pct": 5.548122968587455,
+        "count": 4
+      },
+      {
+        "gap_pct": 6.546205130562965,
+        "count": 4
+      },
+      {
+        "gap_pct": 6.546205130562996,
+        "count": 3
+      },
+      {
+        "gap_pct": 7.168708023215428,
+        "count": 1
+      },
+      {
+        "gap_pct": 7.168708023215443,
+        "count": 1
+      },
+      {
+        "gap_pct": 7.434845726333343,
+        "count": 2
+      },
+      {
+        "gap_pct": 7.471994627973132,
+        "count": 1
+      },
+      {
+        "gap_pct": 9.867555309031944,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.21116304126754,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.49095361312212,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.887444486964498,
+        "count": 2
+      },
+      {
+        "gap_pct": 10.89446149918123,
+        "count": 3
+      },
+      {
+        "gap_pct": 10.894461499181258,
+        "count": 1
+      },
+      {
+        "gap_pct": 11.115433030309523,
+        "count": 1
+      },
+      {
+        "gap_pct": 11.115433030309537,
+        "count": 2
+      },
+      {
+        "gap_pct": 11.774456348619985,
+        "count": 1
+      },
+      {
+        "gap_pct": 12.053724629793464,
+        "count": 2
+      },
+      {
+        "gap_pct": 13.940420779763476,
+        "count": 1
+      },
+      {
+        "gap_pct": 13.940420779763492,
+        "count": 2
+      },
+      {
+        "gap_pct": 13.963251430937488,
+        "count": 1
+      },
+      {
+        "gap_pct": 14.075542071131359,
+        "count": 2
+      },
+      {
+        "gap_pct": 14.13269637338071,
+        "count": 2
+      },
+      {
+        "gap_pct": 18.623704549025007,
+        "count": 1
+      },
+      {
+        "gap_pct": 18.68913893994135,
+        "count": 1
+      },
+      {
+        "gap_pct": 18.844547598631355,
+        "count": 2
+      },
+      {
+        "gap_pct": 18.84454759863137,
+        "count": 1
+      },
+      {
+        "gap_pct": 18.909981989547703,
+        "count": 2
+      },
+      {
+        "gap_pct": 19.07299311117523,
+        "count": 1
+      },
+      {
+        "gap_pct": 19.185283751369102,
+        "count": 3
+      },
+      {
+        "gap_pct": 20.30529875915557,
+        "count": 3
+      },
+      {
+        "gap_pct": 21.60104932204596,
+        "count": 1
+      },
+      {
+        "gap_pct": 21.63819822368573,
+        "count": 2
+      },
+      {
+        "gap_pct": 23.375454831822083,
+        "count": 1
+      },
+      {
+        "gap_pct": 23.41260373346187,
+        "count": 1
+      },
+      {
+        "gap_pct": 23.82818097841345,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.086337117409784,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.151771508326163,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.308029557513763,
+        "count": 3
+      },
+      {
+        "gap_pct": 25.423648746404343,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.979827159091144,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.979827159091162,
+        "count": 1
+      },
+      {
+        "gap_pct": 27.232982238320496,
+        "count": 2
+      },
+      {
+        "gap_pct": 27.292882392144023,
+        "count": 1
+      },
+      {
+        "gap_pct": 27.916280696234214,
+        "count": 1
+      },
+      {
+        "gap_pct": 28.141373603670477,
+        "count": 1
+      },
+      {
+        "gap_pct": 30.065218655280248,
+        "count": 1
+      },
+      {
+        "gap_pct": 30.192449262210207,
+        "count": 1
+      },
+      {
+        "gap_pct": 30.192449262210225,
+        "count": 2
+      },
+      {
+        "gap_pct": 30.564358857445434,
+        "count": 4
+      },
+      {
+        "gap_pct": 30.78520190705178,
+        "count": 2
+      },
+      {
+        "gap_pct": 32.216864835957956,
+        "count": 1
+      },
+      {
+        "gap_pct": 32.36630437779162,
+        "count": 2
+      },
+      {
+        "gap_pct": 32.366304377791636,
+        "count": 1
+      },
+      {
+        "gap_pct": 32.7881222191247,
+        "count": 1
+      },
+      {
+        "gap_pct": 33.06899390407651,
+        "count": 2
+      },
+      {
+        "gap_pct": 33.18461309296706,
+        "count": 2
+      },
+      {
+        "gap_pct": 33.31550236843476,
+        "count": 1
+      },
+      {
+        "gap_pct": 33.40558462409534,
+        "count": 3
+      },
+      {
+        "gap_pct": 34.08888308200906,
+        "count": 1
+      },
+      {
+        "gap_pct": 37.229270926788175,
+        "count": 2
+      },
+      {
+        "gap_pct": 37.72584719756273,
+        "count": 1
+      },
+      {
+        "gap_pct": 38.127443737501736,
+        "count": 2
+      },
+      {
+        "gap_pct": 38.40831542245355,
+        "count": 2
+      },
+      {
+        "gap_pct": 38.894838001258485,
+        "count": 1
+      },
+      {
+        "gap_pct": 39.02776779832311,
+        "count": 2
+      },
+      {
+        "gap_pct": 39.20723306925779,
+        "count": 3
+      },
+      {
+        "gap_pct": 39.50025270733886,
+        "count": 2
+      },
+      {
+        "gap_pct": 40.22577995663339,
+        "count": 5
+      },
+      {
+        "gap_pct": 40.62790048187708,
+        "count": 4
+      },
+      {
+        "gap_pct": 41.66621713848237,
+        "count": 1
+      },
+      {
+        "gap_pct": 41.769186497760316,
+        "count": 2
+      },
+      {
+        "gap_pct": 42.10887722343845,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.396186423403556,
+        "count": 2
+      },
+      {
+        "gap_pct": 42.44546794345726,
+        "count": 5
+      },
+      {
+        "gap_pct": 42.505368097280815,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.673456486802316,
+        "count": 2
+      },
+      {
+        "gap_pct": 42.73335664062584,
+        "count": 3
+      },
+      {
+        "gap_pct": 42.73335664062587,
+        "count": 2
+      },
+      {
+        "gap_pct": 42.84897582951637,
+        "count": 2
+      },
+      {
+        "gap_pct": 43.069947360644676,
+        "count": 3
+      },
+      {
+        "gap_pct": 43.77547605735113,
+        "count": 1
+      },
+      {
+        "gap_pct": 43.775476057351156,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.081982709159185,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.2314222509929,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.307425350377756,
+        "count": 4
+      },
+      {
+        "gap_pct": 44.30742535037779,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.49755995411076,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.53470885575055,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.66119819704875,
+        "count": 1
+      },
+      {
+        "gap_pct": 45.70380169666904,
+        "count": 3
+      },
+      {
+        "gap_pct": 46.10592222191273,
+        "count": 1
+      },
+      {
+        "gap_pct": 46.68635503642828,
+        "count": 1
+      },
+      {
+        "gap_pct": 46.79864567662214,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.20169027745722,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.201690277457246,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.303934380223005,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.31730946634774,
+        "count": 3
+      },
+      {
+        "gap_pct": 47.317309466347766,
+        "count": 4
+      },
+      {
+        "gap_pct": 47.44819874181547,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.59818115129958,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.79180647405104,
+        "count": 3
+      },
+      {
+        "gap_pct": 47.80877377252285,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.85170662787458,
+        "count": 4
+      },
+      {
+        "gap_pct": 48.00060792426149,
+        "count": 3
+      },
+      {
+        "gap_pct": 48.221579455389765,
+        "count": 3
+      },
+      {
+        "gap_pct": 48.62508734144888,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.72249072823195,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.79801563997341,
+        "count": 1
+      },
+      {
+        "gap_pct": 49.32684568076483,
+        "count": 1
+      },
+      {
+        "gap_pct": 49.47434084699314,
+        "count": 2
+      },
+      {
+        "gap_pct": 49.630132285522514,
+        "count": 2
+      },
+      {
+        "gap_pct": 50.90298771582719,
+        "count": 2
+      },
+      {
+        "gap_pct": 51.250690732374615,
+        "count": 2
+      },
+      {
+        "gap_pct": 51.51682843549251,
+        "count": 2
+      },
+      {
+        "gap_pct": 51.666267977326186,
+        "count": 3
+      },
+      {
+        "gap_pct": 52.166434265053816,
+        "count": 2
+      },
+      {
+        "gap_pct": 52.320040264705945,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.56855479029747,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.9445196818934,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.399829596462034,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.399829596462055,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.545723899001416,
+        "count": 2
+      },
+      {
+        "gap_pct": 53.62080112759033,
+        "count": 3
+      },
+      {
+        "gap_pct": 53.81791415800389,
+        "count": 3
+      },
+      {
+        "gap_pct": 53.85506305964368,
+        "count": 2
+      },
+      {
+        "gap_pct": 55.34422077053639,
+        "count": 1
+      },
+      {
+        "gap_pct": 64.64605420875952,
+        "count": 1
+      },
+      {
+        "gap_pct": 64.71148859967589,
+        "count": 6
+      },
+      {
+        "gap_pct": 65.68865770837978,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.90950075798614,
+        "count": 1
+      },
+      {
+        "gap_pct": 66.0424305550508,
+        "count": 1
+      },
+      {
+        "gap_pct": 67.42172018899836,
+        "count": 1
+      },
+      {
+        "gap_pct": 67.70799762952107,
+        "count": 1
+      },
+      {
+        "gap_pct": 67.70799762952112,
+        "count": 1
+      },
+      {
+        "gap_pct": 67.85906417514994,
+        "count": 6
+      },
+      {
+        "gap_pct": 68.01447283383996,
+        "count": 3
+      },
+      {
+        "gap_pct": 69.08728726346871,
+        "count": 4
+      },
+      {
+        "gap_pct": 69.4591968587039,
+        "count": 2
+      },
+      {
+        "gap_pct": 69.59212665576852,
+        "count": 1
+      },
+      {
+        "gap_pct": 69.74536734781803,
+        "count": 1
+      },
+      {
+        "gap_pct": 69.74536734781806,
+        "count": 2
+      },
+      {
+        "gap_pct": 69.8129697053749,
+        "count": 1
+      },
+      {
+        "gap_pct": 69.96633887894635,
+        "count": 2
+      },
+      {
+        "gap_pct": 69.96633887894636,
+        "count": 1
+      },
+      {
+        "gap_pct": 70.76525652575059,
+        "count": 2
+      },
+      {
+        "gap_pct": 70.7901388140788,
+        "count": 6
+      },
+      {
+        "gap_pct": 70.8555732049952,
+        "count": 2
+      },
+      {
+        "gap_pct": 71.04612821070242,
+        "count": 3
+      },
+      {
+        "gap_pct": 75.85806957976935,
+        "count": 1
+      },
+      {
+        "gap_pct": 75.91796973359293,
+        "count": 1
+      }
+    ],
+    "TSP25|selected_native": [
+      {
+        "gap_pct": 0.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.5168570638635468e-14,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.6001326835539513,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.6001326835539662,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.7330624806186048,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.923845051609803,
+        "count": 1
+      },
+      {
+        "gap_pct": 3.398629555088889,
+        "count": 1
+      },
+      {
+        "gap_pct": 4.3757986637928346,
+        "count": 1
+      },
+      {
+        "gap_pct": 4.468333636831388,
+        "count": 3
+      },
+      {
+        "gap_pct": 4.528217378878879,
+        "count": 1
+      },
+      {
+        "gap_pct": 5.101481105699015,
+        "count": 1
+      },
+      {
+        "gap_pct": 5.101481105699046,
+        "count": 1
+      },
+      {
+        "gap_pct": 5.548122968587455,
+        "count": 4
+      },
+      {
+        "gap_pct": 7.019268481381767,
+        "count": 1
+      },
+      {
+        "gap_pct": 7.434845726333343,
+        "count": 1
+      },
+      {
+        "gap_pct": 9.867555309031944,
+        "count": 1
+      },
+      {
+        "gap_pct": 9.867555309031959,
+        "count": 1
+      },
+      {
+        "gap_pct": 9.887760198649971,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.21116304126754,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.49095361312212,
+        "count": 2
+      },
+      {
+        "gap_pct": 10.550853766945648,
+        "count": 2
+      },
+      {
+        "gap_pct": 10.887444486964498,
+        "count": 2
+      },
+      {
+        "gap_pct": 10.894461499181258,
+        "count": 1
+      },
+      {
+        "gap_pct": 11.774456348619985,
+        "count": 2
+      },
+      {
+        "gap_pct": 12.053724629793464,
+        "count": 1
+      },
+      {
+        "gap_pct": 14.13269637338071,
+        "count": 3
+      },
+      {
+        "gap_pct": 18.623704549025007,
+        "count": 2
+      },
+      {
+        "gap_pct": 18.84454759863137,
+        "count": 1
+      },
+      {
+        "gap_pct": 20.30529875915557,
+        "count": 2
+      },
+      {
+        "gap_pct": 21.60104932204596,
+        "count": 1
+      },
+      {
+        "gap_pct": 21.638198223685748,
+        "count": 2
+      },
+      {
+        "gap_pct": 23.375454831822083,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.714427522174596,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.02715787256194,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.086337117409784,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.151771508326163,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.308029557513763,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.30802955751379,
+        "count": 3
+      },
+      {
+        "gap_pct": 25.423648746404314,
+        "count": 1
+      },
+      {
+        "gap_pct": 27.232982238320496,
+        "count": 2
+      },
+      {
+        "gap_pct": 27.916280696234185,
+        "count": 1
+      },
+      {
+        "gap_pct": 27.916280696234214,
+        "count": 2
+      },
+      {
+        "gap_pct": 32.36630437779162,
+        "count": 1
+      },
+      {
+        "gap_pct": 32.7881222191247,
+        "count": 1
+      },
+      {
+        "gap_pct": 33.18461309296706,
+        "count": 2
+      },
+      {
+        "gap_pct": 33.31550236843476,
+        "count": 3
+      },
+      {
+        "gap_pct": 33.40558462409534,
+        "count": 1
+      },
+      {
+        "gap_pct": 34.08888308200906,
+        "count": 3
+      },
+      {
+        "gap_pct": 34.78206994846849,
+        "count": 1
+      },
+      {
+        "gap_pct": 36.556475458244606,
+        "count": 1
+      },
+      {
+        "gap_pct": 37.229270926788175,
+        "count": 1
+      },
+      {
+        "gap_pct": 38.127443737501736,
+        "count": 1
+      },
+      {
+        "gap_pct": 38.40831542245355,
+        "count": 4
+      },
+      {
+        "gap_pct": 38.894838001258485,
+        "count": 1
+      },
+      {
+        "gap_pct": 39.02776779832311,
+        "count": 1
+      },
+      {
+        "gap_pct": 39.20723306925779,
+        "count": 4
+      },
+      {
+        "gap_pct": 39.89181162870622,
+        "count": 1
+      },
+      {
+        "gap_pct": 40.22577995663339,
+        "count": 2
+      },
+      {
+        "gap_pct": 40.62790048187708,
+        "count": 2
+      },
+      {
+        "gap_pct": 41.67050398149737,
+        "count": 1
+      },
+      {
+        "gap_pct": 41.769186497760344,
+        "count": 2
+      },
+      {
+        "gap_pct": 42.05005818271215,
+        "count": 3
+      },
+      {
+        "gap_pct": 42.396186423403556,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.44546794345726,
+        "count": 3
+      },
+      {
+        "gap_pct": 42.505368097280815,
+        "count": 3
+      },
+      {
+        "gap_pct": 42.673456486802316,
+        "count": 2
+      },
+      {
+        "gap_pct": 42.73335664062584,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.73335664062587,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.84897582951637,
+        "count": 1
+      },
+      {
+        "gap_pct": 42.928135716430184,
+        "count": 1
+      },
+      {
+        "gap_pct": 43.069947360644676,
+        "count": 7
+      },
+      {
+        "gap_pct": 43.77547605735113,
+        "count": 1
+      },
+      {
+        "gap_pct": 43.775476057351156,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.231422250992864,
+        "count": 2
+      },
+      {
+        "gap_pct": 44.307425350377756,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.30742535037779,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.49755995411079,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.66119819704875,
+        "count": 1
+      },
+      {
+        "gap_pct": 44.661198197048776,
+        "count": 2
+      },
+      {
+        "gap_pct": 45.70380169666904,
+        "count": 4
+      },
+      {
+        "gap_pct": 46.79864567662214,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.303934380223005,
+        "count": 3
+      },
+      {
+        "gap_pct": 47.31730946634774,
+        "count": 1
+      },
+      {
+        "gap_pct": 47.44819874181547,
+        "count": 3
+      },
+      {
+        "gap_pct": 47.5452980096928,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.54529800969283,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.59818115129958,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.598181151299606,
+        "count": 2
+      },
+      {
+        "gap_pct": 47.79180647405104,
+        "count": 4
+      },
+      {
+        "gap_pct": 47.80877377252282,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.00060792426149,
+        "count": 4
+      },
+      {
+        "gap_pct": 48.221579455389765,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.61020008803807,
+        "count": 2
+      },
+      {
+        "gap_pct": 48.62508734144888,
+        "count": 3
+      },
+      {
+        "gap_pct": 49.32684568076483,
+        "count": 1
+      },
+      {
+        "gap_pct": 49.47434084699314,
+        "count": 1
+      },
+      {
+        "gap_pct": 49.630132285522514,
+        "count": 2
+      },
+      {
+        "gap_pct": 49.779571827356165,
+        "count": 3
+      },
+      {
+        "gap_pct": 50.398148323527316,
+        "count": 1
+      },
+      {
+        "gap_pct": 50.398148323527344,
+        "count": 2
+      },
+      {
+        "gap_pct": 51.51682843549251,
+        "count": 2
+      },
+      {
+        "gap_pct": 51.666267977326186,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.16643426505379,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.320040264705945,
+        "count": 2
+      },
+      {
+        "gap_pct": 52.320040264706,
+        "count": 1
+      },
+      {
+        "gap_pct": 52.94451968189337,
+        "count": 2
+      },
+      {
+        "gap_pct": 53.399829596462034,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.545723899001416,
+        "count": 3
+      },
+      {
+        "gap_pct": 53.62080112759033,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.81791415800389,
+        "count": 1
+      },
+      {
+        "gap_pct": 53.964408859825895,
+        "count": 2
+      },
+      {
+        "gap_pct": 55.34422077053639,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.68865770837981,
+        "count": 1
+      },
+      {
+        "gap_pct": 65.90950075798617,
+        "count": 1
+      },
+      {
+        "gap_pct": 66.41434015028602,
+        "count": 2
+      },
+      {
+        "gap_pct": 67.42172018899836,
+        "count": 1
+      },
+      {
+        "gap_pct": 67.70799762952112,
+        "count": 1
+      },
+      {
+        "gap_pct": 68.01447283383996,
+        "count": 2
+      },
+      {
+        "gap_pct": 69.4591968587039,
+        "count": 3
+      },
+      {
+        "gap_pct": 69.74536734781806,
+        "count": 1
+      },
+      {
+        "gap_pct": 69.8129697053749,
+        "count": 1
+      },
+      {
+        "gap_pct": 69.96633887894635,
+        "count": 2
+      },
+      {
+        "gap_pct": 69.96633887894636,
+        "count": 2
+      },
+      {
+        "gap_pct": 70.7901388140788,
+        "count": 3
+      },
+      {
+        "gap_pct": 71.04612821070242,
+        "count": 1
+      },
+      {
+        "gap_pct": 75.85806957976935,
+        "count": 1
+      },
+      {
+        "gap_pct": 75.91796973359293,
+        "count": 2
+      }
+    ],
+    "VRP20|source": [
+      {
+        "gap_pct": 18.526947036440216,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.65945912535843,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.801432883628767,
+        "count": 1
+      },
+      {
+        "gap_pct": 28.67961530676154,
+        "count": 1
+      }
+    ],
+    "VRP20|product": [
+      {
+        "gap_pct": 0.0,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.5900545121085463e-14,
+        "count": 4
+      },
+      {
+        "gap_pct": 0.4023045478347815,
+        "count": 1
+      },
+      {
+        "gap_pct": 1.995354278070623,
+        "count": 4
+      },
+      {
+        "gap_pct": 8.65103103745667,
+        "count": 2
+      },
+      {
+        "gap_pct": 8.651031037456683,
+        "count": 1
+      },
+      {
+        "gap_pct": 10.79362159843355,
+        "count": 3
+      },
+      {
+        "gap_pct": 12.332053593622112,
+        "count": 3
+      },
+      {
+        "gap_pct": 12.332053593622124,
+        "count": 3
+      },
+      {
+        "gap_pct": 12.807912559785075,
+        "count": 1
+      },
+      {
+        "gap_pct": 12.933459913838515,
+        "count": 2
+      },
+      {
+        "gap_pct": 13.507344849841118,
+        "count": 3
+      },
+      {
+        "gap_pct": 13.507344849841129,
+        "count": 1
+      },
+      {
+        "gap_pct": 13.632892203894572,
+        "count": 2
+      },
+      {
+        "gap_pct": 13.632892203894587,
+        "count": 2
+      },
+      {
+        "gap_pct": 15.263884841141524,
+        "count": 2
+      },
+      {
+        "gap_pct": 15.871702746976466,
+        "count": 1
+      },
+      {
+        "gap_pct": 17.406475402118417,
+        "count": 1
+      },
+      {
+        "gap_pct": 18.526947036440216,
+        "count": 6
+      },
+      {
+        "gap_pct": 20.983084631078807,
+        "count": 3
+      },
+      {
+        "gap_pct": 23.125675192055674,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.25651136908267,
+        "count": 2
+      },
+      {
+        "gap_pct": 24.382058723136126,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.500202189079477,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.50020218907949,
+        "count": 4
+      },
+      {
+        "gap_pct": 24.659459125358417,
+        "count": 1
+      },
+      {
+        "gap_pct": 24.80607860555813,
+        "count": 1
+      },
+      {
+        "gap_pct": 25.13980084012506,
+        "count": 4
+      },
+      {
+        "gap_pct": 26.0575064395751,
+        "count": 6
+      },
+      {
+        "gap_pct": 26.093251919315318,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.093251919315335,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.252508855594257,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.25250885559427,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.399128335794003,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.44080476367962,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.440804763679647,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.65481340342904,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.654813403429056,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.80143288362875,
+        "count": 1
+      },
+      {
+        "gap_pct": 28.67961530676154,
+        "count": 1
+      },
+      {
+        "gap_pct": 29.379047596817582,
+        "count": 1
+      },
+      {
+        "gap_pct": 30.859000630062344,
+        "count": 1
+      },
+      {
+        "gap_pct": 33.790831877581766,
+        "count": 1
+      },
+      {
+        "gap_pct": 35.93342243855863,
+        "count": 2
+      },
+      {
+        "gap_pct": 37.1899712829212,
+        "count": 1
+      },
+      {
+        "gap_pct": 37.889403572977244,
+        "count": 1
+      },
+      {
+        "gap_pct": 40.128214116059134,
+        "count": 6
+      },
+      {
+        "gap_pct": 50.752711044673774,
+        "count": 2
+      },
+      {
+        "gap_pct": 50.899330524873456,
+        "count": 1
+      },
+      {
+        "gap_pct": 51.05858746115244,
+        "count": 1
+      }
+    ],
+    "VRP20|shallow": [
+      {
+        "gap_pct": 1.5900545121085463e-14,
+        "count": 6
+      },
+      {
+        "gap_pct": 0.4023045478347815,
+        "count": 4
+      },
+      {
+        "gap_pct": 1.995354278070623,
+        "count": 7
+      },
+      {
+        "gap_pct": 5.719199789937259,
+        "count": 3
+      },
+      {
+        "gap_pct": 8.65103103745667,
+        "count": 3
+      },
+      {
+        "gap_pct": 8.651031037456683,
+        "count": 2
+      },
+      {
+        "gap_pct": 10.79362159843355,
+        "count": 4
+      },
+      {
+        "gap_pct": 12.332053593622112,
+        "count": 1
+      },
+      {
+        "gap_pct": 12.807912559785075,
+        "count": 2
+      },
+      {
+        "gap_pct": 12.933459913838515,
+        "count": 1
+      },
+      {
+        "gap_pct": 13.507344849841118,
+        "count": 5
+      },
+      {
+        "gap_pct": 13.507344849841129,
+        "count": 1
+      },
+      {
+        "gap_pct": 13.632892203894572,
+        "count": 2
+      },
+      {
+        "gap_pct": 13.632892203894587,
+        "count": 2
+      },
+      {
+        "gap_pct": 15.263884841141524,
+        "count": 11
+      },
+      {
+        "gap_pct": 15.263884841141548,
+        "count": 2
+      },
+      {
+        "gap_pct": 15.746155392923011,
+        "count": 2
+      },
+      {
+        "gap_pct": 15.871702746976466,
+        "count": 2
+      },
+      {
+        "gap_pct": 17.406475402118417,
+        "count": 4
+      },
+      {
+        "gap_pct": 18.526947036440216,
+        "count": 6
+      },
+      {
+        "gap_pct": 20.983084631078807,
+        "count": 3
+      },
+      {
+        "gap_pct": 23.125675192055674,
+        "count": 3
+      },
+      {
+        "gap_pct": 24.25651136908267,
+        "count": 4
+      },
+      {
+        "gap_pct": 24.382058723136126,
+        "count": 11
+      },
+      {
+        "gap_pct": 24.500202189079477,
+        "count": 6
+      },
+      {
+        "gap_pct": 24.50020218907949,
+        "count": 3
+      },
+      {
+        "gap_pct": 24.659459125358417,
+        "count": 3
+      },
+      {
+        "gap_pct": 24.65945912535843,
+        "count": 5
+      },
+      {
+        "gap_pct": 24.80607860555813,
+        "count": 2
+      },
+      {
+        "gap_pct": 24.806078605558163,
+        "count": 3
+      },
+      {
+        "gap_pct": 25.13980084012506,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.139800840125083,
+        "count": 2
+      },
+      {
+        "gap_pct": 26.0575064395751,
+        "count": 5
+      },
+      {
+        "gap_pct": 26.093251919315318,
+        "count": 2
+      },
+      {
+        "gap_pct": 26.093251919315335,
+        "count": 2
+      },
+      {
+        "gap_pct": 26.252508855594257,
+        "count": 7
+      },
+      {
+        "gap_pct": 26.25250885559427,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.39912833579397,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.399128335794003,
+        "count": 4
+      },
+      {
+        "gap_pct": 26.4955564671501,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.65481340342904,
+        "count": 5
+      },
+      {
+        "gap_pct": 26.654813403429056,
+        "count": 10
+      },
+      {
+        "gap_pct": 26.80143288362875,
+        "count": 6
+      },
+      {
+        "gap_pct": 28.679615306761512,
+        "count": 4
+      },
+      {
+        "gap_pct": 28.67961530676154,
+        "count": 5
+      },
+      {
+        "gap_pct": 29.379047596817582,
+        "count": 3
+      },
+      {
+        "gap_pct": 30.859000630062344,
+        "count": 2
+      },
+      {
+        "gap_pct": 33.790831877581766,
+        "count": 7
+      },
+      {
+        "gap_pct": 35.93342243855863,
+        "count": 8
+      },
+      {
+        "gap_pct": 37.1899712829212,
+        "count": 5
+      },
+      {
+        "gap_pct": 37.889403572977244,
+        "count": 9
+      },
+      {
+        "gap_pct": 40.128214116059134,
+        "count": 2
+      },
+      {
+        "gap_pct": 50.752711044673774,
+        "count": 4
+      },
+      {
+        "gap_pct": 50.899330524873456,
+        "count": 7
+      },
+      {
+        "gap_pct": 51.05858746115244,
+        "count": 7
+      }
+    ],
+    "VRP20|selected_native": [
+      {
+        "gap_pct": 0.0,
+        "count": 4
+      },
+      {
+        "gap_pct": 1.5900545121085463e-14,
+        "count": 4
+      },
+      {
+        "gap_pct": 0.4023045478347815,
+        "count": 5
+      },
+      {
+        "gap_pct": 1.995354278070623,
+        "count": 1
+      },
+      {
+        "gap_pct": 5.719199789937259,
+        "count": 2
+      },
+      {
+        "gap_pct": 8.65103103745667,
+        "count": 7
+      },
+      {
+        "gap_pct": 10.79362159843355,
+        "count": 6
+      },
+      {
+        "gap_pct": 12.332053593622124,
+        "count": 1
+      },
+      {
+        "gap_pct": 12.807912559785063,
+        "count": 3
+      },
+      {
+        "gap_pct": 12.807912559785075,
+        "count": 4
+      },
+      {
+        "gap_pct": 12.933459913838503,
+        "count": 4
+      },
+      {
+        "gap_pct": 13.507344849841118,
+        "count": 2
+      },
+      {
+        "gap_pct": 13.507344849841129,
+        "count": 3
+      },
+      {
+        "gap_pct": 13.632892203894572,
+        "count": 1
+      },
+      {
+        "gap_pct": 13.632892203894587,
+        "count": 1
+      },
+      {
+        "gap_pct": 15.263884841141524,
+        "count": 8
+      },
+      {
+        "gap_pct": 15.263884841141548,
+        "count": 2
+      },
+      {
+        "gap_pct": 15.746155392923011,
+        "count": 7
+      },
+      {
+        "gap_pct": 15.871702746976466,
+        "count": 3
+      },
+      {
+        "gap_pct": 17.406475402118417,
+        "count": 4
+      },
+      {
+        "gap_pct": 18.526947036440216,
+        "count": 4
+      },
+      {
+        "gap_pct": 20.983084631078807,
+        "count": 2
+      },
+      {
+        "gap_pct": 23.125675192055674,
+        "count": 9
+      },
+      {
+        "gap_pct": 24.25651136908267,
+        "count": 7
+      },
+      {
+        "gap_pct": 24.382058723136126,
+        "count": 11
+      },
+      {
+        "gap_pct": 24.500202189079477,
+        "count": 2
+      },
+      {
+        "gap_pct": 24.50020218907949,
+        "count": 7
+      },
+      {
+        "gap_pct": 24.659459125358417,
+        "count": 3
+      },
+      {
+        "gap_pct": 24.65945912535843,
+        "count": 3
+      },
+      {
+        "gap_pct": 24.80607860555813,
+        "count": 3
+      },
+      {
+        "gap_pct": 24.806078605558163,
+        "count": 3
+      },
+      {
+        "gap_pct": 25.13980084012506,
+        "count": 2
+      },
+      {
+        "gap_pct": 25.139800840125083,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.0575064395751,
+        "count": 4
+      },
+      {
+        "gap_pct": 26.093251919315318,
+        "count": 6
+      },
+      {
+        "gap_pct": 26.093251919315335,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.252508855594257,
+        "count": 5
+      },
+      {
+        "gap_pct": 26.25250885559427,
+        "count": 1
+      },
+      {
+        "gap_pct": 26.39912833579397,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.399128335794003,
+        "count": 9
+      },
+      {
+        "gap_pct": 26.44080476367962,
+        "count": 2
+      },
+      {
+        "gap_pct": 26.440804763679647,
+        "count": 3
+      },
+      {
+        "gap_pct": 26.65481340342904,
+        "count": 2
+      },
+      {
+        "gap_pct": 26.654813403429056,
+        "count": 6
+      },
+      {
+        "gap_pct": 26.80143288362875,
+        "count": 4
+      },
+      {
+        "gap_pct": 28.679615306761512,
+        "count": 11
+      },
+      {
+        "gap_pct": 28.67961530676154,
+        "count": 2
+      },
+      {
+        "gap_pct": 29.379047596817582,
+        "count": 2
+      },
+      {
+        "gap_pct": 30.859000630062344,
+        "count": 3
+      },
+      {
+        "gap_pct": 33.790831877581766,
+        "count": 9
+      },
+      {
+        "gap_pct": 35.93342243855863,
+        "count": 7
+      },
+      {
+        "gap_pct": 37.1899712829212,
+        "count": 11
+      },
+      {
+        "gap_pct": 37.889403572977244,
+        "count": 6
+      },
+      {
+        "gap_pct": 40.128214116059134,
+        "count": 9
+      },
+      {
+        "gap_pct": 50.752711044673774,
+        "count": 7
+      },
+      {
+        "gap_pct": 50.899330524873456,
+        "count": 4
+      },
+      {
+        "gap_pct": 51.05858746115244,
+        "count": 14
+      }
+    ],
+    "FLP42|source": [],
+    "FLP42|product": [
+      {
+        "gap_pct": 112.7659574468085,
+        "count": 1
+      },
+      {
+        "gap_pct": 153.19148936170214,
+        "count": 2
+      },
+      {
+        "gap_pct": 165.95744680851064,
+        "count": 1
+      },
+      {
+        "gap_pct": 189.36170212765958,
+        "count": 1
+      },
+      {
+        "gap_pct": 202.1276595744681,
+        "count": 1
+      },
+      {
+        "gap_pct": 208.51063829787236,
+        "count": 1
+      },
+      {
+        "gap_pct": 214.8936170212766,
+        "count": 1
+      },
+      {
+        "gap_pct": 217.02127659574467,
+        "count": 1
+      },
+      {
+        "gap_pct": 219.14893617021275,
+        "count": 1
+      },
+      {
+        "gap_pct": 227.6595744680851,
+        "count": 1
+      },
+      {
+        "gap_pct": 231.91489361702128,
+        "count": 2
+      },
+      {
+        "gap_pct": 236.17021276595747,
+        "count": 1
+      },
+      {
+        "gap_pct": 238.29787234042553,
+        "count": 1
+      },
+      {
+        "gap_pct": 242.55319148936172,
+        "count": 1
+      },
+      {
+        "gap_pct": 246.80851063829786,
+        "count": 1
+      },
+      {
+        "gap_pct": 251.06382978723403,
+        "count": 1
+      },
+      {
+        "gap_pct": 253.19148936170214,
+        "count": 1
+      },
+      {
+        "gap_pct": 257.4468085106383,
+        "count": 1
+      },
+      {
+        "gap_pct": 261.7021276595745,
+        "count": 1
+      },
+      {
+        "gap_pct": 272.3404255319149,
+        "count": 1
+      },
+      {
+        "gap_pct": 274.468085106383,
+        "count": 1
+      },
+      {
+        "gap_pct": 278.72340425531917,
+        "count": 1
+      },
+      {
+        "gap_pct": 280.8510638297872,
+        "count": 1
+      },
+      {
+        "gap_pct": 297.8723404255319,
+        "count": 1
+      },
+      {
+        "gap_pct": 323.4042553191489,
+        "count": 1
+      }
+    ],
+    "FLP42|shallow": [
+      {
+        "gap_pct": 165.95744680851064,
+        "count": 1
+      },
+      {
+        "gap_pct": 180.85106382978725,
+        "count": 1
+      },
+      {
+        "gap_pct": 182.9787234042553,
+        "count": 1
+      },
+      {
+        "gap_pct": 185.1063829787234,
+        "count": 1
+      },
+      {
+        "gap_pct": 193.61702127659575,
+        "count": 1
+      },
+      {
+        "gap_pct": 195.74468085106383,
+        "count": 1
+      },
+      {
+        "gap_pct": 200.0,
+        "count": 2
+      },
+      {
+        "gap_pct": 202.1276595744681,
+        "count": 2
+      },
+      {
+        "gap_pct": 204.25531914893617,
+        "count": 1
+      },
+      {
+        "gap_pct": 208.51063829787236,
+        "count": 1
+      },
+      {
+        "gap_pct": 225.531914893617,
+        "count": 1
+      },
+      {
+        "gap_pct": 229.78723404255322,
+        "count": 1
+      },
+      {
+        "gap_pct": 236.17021276595747,
+        "count": 1
+      },
+      {
+        "gap_pct": 240.4255319148936,
+        "count": 1
+      },
+      {
+        "gap_pct": 244.68085106382978,
+        "count": 1
+      },
+      {
+        "gap_pct": 246.80851063829786,
+        "count": 2
+      },
+      {
+        "gap_pct": 248.93617021276597,
+        "count": 1
+      },
+      {
+        "gap_pct": 255.31914893617022,
+        "count": 2
+      },
+      {
+        "gap_pct": 257.4468085106383,
+        "count": 3
+      },
+      {
+        "gap_pct": 259.5744680851064,
+        "count": 1
+      },
+      {
+        "gap_pct": 265.9574468085106,
+        "count": 2
+      },
+      {
+        "gap_pct": 282.97872340425533,
+        "count": 1
+      },
+      {
+        "gap_pct": 291.48936170212767,
+        "count": 1
+      },
+      {
+        "gap_pct": 293.6170212765957,
+        "count": 1
+      },
+      {
+        "gap_pct": 312.7659574468085,
+        "count": 1
+      }
+    ],
+    "FLP42|selected_native": [
+      {
+        "gap_pct": 176.59574468085106,
+        "count": 1
+      },
+      {
+        "gap_pct": 182.9787234042553,
+        "count": 1
+      },
+      {
+        "gap_pct": 195.74468085106383,
+        "count": 1
+      },
+      {
+        "gap_pct": 210.63829787234042,
+        "count": 2
+      },
+      {
+        "gap_pct": 221.27659574468086,
+        "count": 2
+      },
+      {
+        "gap_pct": 225.531914893617,
+        "count": 1
+      },
+      {
+        "gap_pct": 227.6595744680851,
+        "count": 1
+      },
+      {
+        "gap_pct": 229.78723404255322,
+        "count": 1
+      },
+      {
+        "gap_pct": 231.91489361702128,
+        "count": 2
+      },
+      {
+        "gap_pct": 240.4255319148936,
+        "count": 1
+      },
+      {
+        "gap_pct": 270.2127659574468,
+        "count": 1
+      },
+      {
+        "gap_pct": 276.5957446808511,
+        "count": 1
+      },
+      {
+        "gap_pct": 285.1063829787234,
+        "count": 1
+      },
+      {
+        "gap_pct": 287.2340425531915,
+        "count": 1
+      },
+      {
+        "gap_pct": 289.3617021276596,
+        "count": 1
+      }
+    ]
+  }
+}

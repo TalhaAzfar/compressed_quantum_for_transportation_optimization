@@ -1,0 +1,74 @@
+{
+  "schema_version": "contribution-hardware-verification-v1",
+  "output_dir": "outputs/contribution_hardware_verification_2026",
+  "blocks": 2,
+  "selector_shots_per_circuit_per_block": 6000,
+  "placement_shots_per_circuit_per_block": 4096,
+  "max_total_shots": 524288,
+  "max_jobs": 4,
+  "max_execution_seconds_per_job": 180,
+  "ordering_seed": 129091,
+  "selector_cases": [
+    "flp_c2_f2_seed51021",
+    "flp_c2_f2_seed51022",
+    "flp_c2_f2_seed51023",
+    "flp_c2_f3_seed52021",
+    "flp_c2_f3_seed52022",
+    "flp_c2_f3_seed52023",
+    "flp_c2_f4_seed53021",
+    "flp_c2_f4_seed53022",
+    "flp_c2_f4_seed53023"
+  ],
+  "placement_cases": [
+    "fresh20_0",
+    "fresh20_1",
+    "fresh20_2",
+    "fresh30_0",
+    "fresh30_1",
+    "fresh30_2"
+  ],
+  "placement_methods": [
+    "selected",
+    "baseline",
+    "warm_baseline",
+    "product"
+  ],
+  "primary_tests": [
+    {
+      "group": "selector",
+      "event": "good",
+      "treatment": "event_calibrated",
+      "control": "fidelity_calibrated"
+    },
+    {
+      "group": "selector",
+      "event": "good",
+      "treatment": "event_calibrated",
+      "control": "development_fixed"
+    },
+    {
+      "group": "placement",
+      "event": "feasible",
+      "treatment": "selected",
+      "control": "baseline"
+    },
+    {
+      "group": "placement",
+      "event": "feasible",
+      "treatment": "selected",
+      "control": "warm_baseline"
+    },
+    {
+      "group": "placement",
+      "event": "feasible",
+      "treatment": "selected",
+      "control": "product"
+    }
+  ],
+  "inference": "Five two-sided case-and-block-stratified conditional exact tests, one Holm family at 0.05. Report equal-case-weight mean probability differences and every case/block. Identical selector choices use the same measured circuit and contribute exactly zero difference, not fictitious independent observations. Tests concern these fixed instances and this acquisition, not an instance-population or independent-day claim.",
+  "secondary": "Case-level tests for all three events and declared treatment/control pairs form one separate Holm family, including both directions. Pointwise exact 95% binomial intervals, mean energy, CVaR, best feasible cost and all raw counts are descriptive. No postselection, repair, readout mitigation or shot extension after results.",
+  "selector": "Retain the frozen September 21 rule (event kappa 1, fidelity kappa 0.5, fixed native_full_l1), existing candidate circuits and patches. Refresh only calibration error sums from one September 29 live snapshot before choosing circuits. No retuning on new hardware. These nine cases were held out for rule fitting but their prior simulated test results are known. Deduplicate identical method choices within each case.",
+  "placement": "Execute all six archived fresh-cost cases with saved separately trained complete QAOA circuits, including original random-fit baseline, stronger product-initialized baseline, and zero-CZ product-prefix control. New primary endpoint is feasibility. The previous useful-event hardware gate remains failed and unchanged; this new pilot does not retroactively pass it. Useful/optimal counts are secondary and expected to be sparse. No new claim of hardware state fidelity.",
+  "execution": "IBM ibm_rensselaer Nighthawk revision 1, raw SamplerV2, explicit gate/measurement twirling and dynamical decoupling disabled. Two randomized PUB-order blocks per group, four jobs total. All choices and analysis are frozen before submission; all actual bitstrings retained.",
+  "scope": "Fill the missing prospective device evaluation of the selector and fresh-prefix complete samplers. Existing prefix, angle diagnostic and complete-compression contributions already have device evidence. Fitting fidelity itself remains an ideal numerical statement; no 42-qubit QPU run is planned because its useful-event support is negligible. This is a bounded verification pilot, not an a priori 80%-powered confirmation of every small treatment difference."
+}

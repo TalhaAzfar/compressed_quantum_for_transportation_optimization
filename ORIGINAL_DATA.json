@@ -1,0 +1,10 @@
+{
+  "archive": "hardware-aware-transport-qaoa-data.zip",
+  "sha256": "e16994e0e2d588563164ffbc8833d6afc5d09cbc68d9f4882c4c54e19499192c",
+  "archive_bytes": 101374317,
+  "compressed_records": 4251,
+  "expanded_bytes": 1689635076,
+  "extraction": "Extract into the code repository root to create recorded_data/.",
+  "download_url": null,
+  "purpose": "Optional original measurement records and circuit/experiment archive. Compact figure data are included in the code upload."
+}

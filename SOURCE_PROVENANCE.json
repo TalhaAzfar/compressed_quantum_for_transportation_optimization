@@ -1,0 +1,722 @@
+{
+  "description": "Original scientific source and public-copy hashes. Portability edits affect environment paths and IBM account selection, not the numerical algorithms. Historical frozen source hashes refer to original campaign files.",
+  "files": [
+    {
+      "path": "configs/aqc_cpu_execution.json",
+      "original_sha256": "ce25da7b32dd848c49e751918d7d561d3006eeda681c0513ead324e1e0cac4e6",
+      "public_sha256": "ce25da7b32dd848c49e751918d7d561d3006eeda681c0513ead324e1e0cac4e6",
+      "modified_for_portability": false
+    },
+    {
+      "path": "configs/aqc_steps_10_12.json",
+      "original_sha256": "96a54946b4f2b7592d1a5af3a9c3a8f92152b745e64777811b0dbc781a1cbecf",
+      "public_sha256": "4e157a7ce36f2c4dbcc5556c44ac11b3ec109b5e52e7bfa10e6b570a078dda26",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/aqc_steps_10_12_bounded.json",
+      "original_sha256": "1667cbc324aa41fe3ae86ddb7e31fdc01f186788f9cdf624aac070535a29019e",
+      "public_sha256": "117acc82a2c758f72e683bf4855e5247e5b8ecc5f83e99ccbfffbaf1f5ef9597",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/aqc_tensor_qaoa_v1.json",
+      "original_sha256": "079dc4b8905ab8dee64b69f34cbc38fe18a2e9ca36932f207c13b68d6aa5f709",
+      "public_sha256": "e78e552581564f2d916e4f8376e4b219aafff8acb77420385dbca6ddef594f47",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/aqc_tensor_qaoa_v2.json",
+      "original_sha256": "9f640d941a34c09494874e7d6fbe893513b227a3d2425f4e739ac2491ba63853",
+      "public_sha256": "f1ac9cb883dd55cd5c8bbe08f604d793162c4defc0d1b1b845cec786e04917ea",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/contribution_hardware_verification.json",
+      "original_sha256": "dc43b453f6ba60313e8fda5a483105fe9625be8800d80fc95d03e626ea5ccee4",
+      "public_sha256": "1017dc7c3ec9431bf6f688f8c0bd4b400ecb3eeb03452d3ec035bb30369f7714",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/corrected_study.json",
+      "original_sha256": "e962465d0983be0c0e50966d00d7bbde99edfc33ff8e3c667cace1eefd2f54d0",
+      "public_sha256": "f16871939ac76d3822be4d1cf45a3fc62b0faa79e20a2038e0e6f7446b3604f2",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/cost_adaptation_2026_10.json",
+      "original_sha256": "b47f56311a11b83863130cadd44c7b2d248f961036fbd2bcd49859c4ca7a6661",
+      "public_sha256": "3a2eb5990e72ab64c576614c40955a2a997ee641900b363247f00a61465bbbcf",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/cross_problem_transfer.json",
+      "original_sha256": "f85296ceee84154609e0bfc39c8bd0c6cfacbe01764d9ef1f99073587bd54f83",
+      "public_sha256": "7d162bd41ad0bcc484893e99a2fcabed521d4285e4335e1a966ff1ed2a412481",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/endpoint_selection.json",
+      "original_sha256": "cf476fef7efbb569b355aaaf081da1294b8db55683a4d7b3f3d8305f03f48209",
+      "public_sha256": "d8fbfa6d1cd914b61ca85393d92bf6bb223002c98dc59340ab4c10d96e87e5a4",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/flp42_depth_extension_2026_10.json",
+      "original_sha256": "4b90ba535305142d430c6ea425bcc5fad3e47673adf0ba25c6c0ccab8a81e08e",
+      "public_sha256": "c8b9c04a107888733f5b8c77d70ca256f63a8778ec826171606ace8c39dfd447",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/flp42_fidelity_parallel.json",
+      "original_sha256": "18c561027aa9883351ac80aff093e8279adefa27ed62ea6caa6f1c894024bf87",
+      "public_sha256": "8803bb0ffc62f45ecfb4eb433fb1bd4998296bc736850023ef3c6c157c95dd3f",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/flp42_scaling.json",
+      "original_sha256": "6241f2c0248a040c3765226a7bac340f22f5bfdc7e9b7bcb705aa4151c4c8ceb",
+      "public_sha256": "a7e93230e1bf30af6085d8a32d293f2ea5b4c823ab6bfe38359be6dc5f9c7f96",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/full_circuit_mitigation.json",
+      "original_sha256": "d95091f931e2a1aa976c2dc4876ae1ce36d7993ea610ac0e8ff36ced8fa02b3e",
+      "public_sha256": "04e42c824a185008f946d6fe62dfd72485b2e0fe5807395b2781978ff46dd9da",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/full_circuit_transfer.json",
+      "original_sha256": "9c8e4ba6575c6d5421d4c8ead510618323eb197be60f053ee992a1eab9f1e681",
+      "public_sha256": "3b88f28e17013c75681b40954fa319506f4b76339fa26b7151fa25babac737d0",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/hardware_width_sweep.json",
+      "original_sha256": "3823ee84689404df52daa7b9e48f1f7ba6427440c5130d72fa22582834be9d08",
+      "public_sha256": "de1d3e71b61121c6698a060705a694c7d6ef40cf9dec2f52464b65917795fea1",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/larger_width_feasibility_2026_10.json",
+      "original_sha256": "c4c99d346f289a7131bc8ed8f09cec3a157afb89add96f9ee444d8a700f6bfec",
+      "public_sha256": "9a10e60c0de71d0380b75aa88bc6c69ba2bd1e28f5de17277009025d95cfe124",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/long_anneal_hardware_2026_10.json",
+      "original_sha256": "cf0c5c7604ea2b8aabfe99b6466ce86e00ceecd0a806d69c35ca99e7c45c8e21",
+      "public_sha256": "0a79822e4fccc913683a53a36a94ec2249ffd66a63f6f0272226a69dbadf0fde",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/native_depth_refinement.json",
+      "original_sha256": "2bf459add93b36c1089e2672e2b7469a272af72c91d107f7a321193fa30ea9cc",
+      "public_sha256": "b8711b00540bf8cf2b000c458a9061f8db646275a6f27c61019b34d93d5d5732",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/nighthawk_validation.json",
+      "original_sha256": "fc92896228dd2637a54cab0fcb7d6418c6af7a9764065736048bddddd132cbad",
+      "public_sha256": "4a59f783990abeee4f2d7422fa64e7cfe0de5521e53242b654ec724ce43593b6",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/placement_prefix_study.json",
+      "original_sha256": "18be22ea4ad1e97b063fea6d48e3f46e8c0976482fd6faba77abd38254b7db16",
+      "public_sha256": "c58c3b97abba4396737669453535ba9e3ea1ea57a95f928f82adfec23beee3a9",
+      "modified_for_portability": true
+    },
+    {
+      "path": "configs/reproducibility_2026_10.json",
+      "original_sha256": "89f074e1997b1a8e2174dfc71240be2612179dc1dcb7676697ead432830f94be",
+      "public_sha256": "8e42e25a71f0c167b26666f6231ffc14bb746786b92fc0c028eee495f2c196bb",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/__init__.py",
+      "original_sha256": "81633502c910b43b7e64ed482d5dc70a33624615d8f7ee66aca709ff49ee31ca",
+      "public_sha256": "81633502c910b43b7e64ed482d5dc70a33624615d8f7ee66aca709ff49ee31ca",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/analyze_feasible_candidate_quality.py",
+      "original_sha256": "c18c7865bea666bba44771e93620d8497f81bf87eb1db6c00dd239c3d9ed2599",
+      "public_sha256": "c18c7865bea666bba44771e93620d8497f81bf87eb1db6c00dd239c3d9ed2599",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/analyze_full_circuit_mitigation.py",
+      "original_sha256": "d54e2c10bef587d354cd5fec3132e9b9ca9a24c18963279462dd4840b6368b7a",
+      "public_sha256": "d54e2c10bef587d354cd5fec3132e9b9ca9a24c18963279462dd4840b6368b7a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/analyze_nighthawk.py",
+      "original_sha256": "49187d4710c3ae94e5be5962114a46dc03e2a408fe57265fd85693f27da549b6",
+      "public_sha256": "49187d4710c3ae94e5be5962114a46dc03e2a408fe57265fd85693f27da549b6",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/analyze_tensor_prefix.py",
+      "original_sha256": "85b805b2c4898ae52cbab8fd9aab6a9fb7ca3c6d9defd1c400e43de70d62d5ec",
+      "public_sha256": "85b805b2c4898ae52cbab8fd9aab6a9fb7ca3c6d9defd1c400e43de70d62d5ec",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/aqc_workflow.py",
+      "original_sha256": "145ea86fec7db736d8d16cd1b38c22b26b4b4c049867f382f2e62b0b3a40cf1b",
+      "public_sha256": "145ea86fec7db736d8d16cd1b38c22b26b4b4c049867f382f2e62b0b3a40cf1b",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/audit_tensor_prefix_statistics.py",
+      "original_sha256": "754d8467d98ca709b2abe38b37970fbcf9a1a08b48cd1461bdd8668788477723",
+      "public_sha256": "754d8467d98ca709b2abe38b37970fbcf9a1a08b48cd1461bdd8668788477723",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/contribution_hardware_core.py",
+      "original_sha256": "5e29966710dd523997ac54917e1b88810a79e7c56859fde611963b97d101c5d2",
+      "public_sha256": "5e29966710dd523997ac54917e1b88810a79e7c56859fde611963b97d101c5d2",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/corrected_study.py",
+      "original_sha256": "162cbe4440e7e0c274fa554fdeec2e44db21f6df75e303f8d0652523e699fe5a",
+      "public_sha256": "162cbe4440e7e0c274fa554fdeec2e44db21f6df75e303f8d0652523e699fe5a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/cost_adaptation_hardware.py",
+      "original_sha256": "d93467e87771ebd7a64353c83811e745db9fe32947ed52ced5a856ae6c75e295",
+      "public_sha256": "d93467e87771ebd7a64353c83811e745db9fe32947ed52ced5a856ae6c75e295",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/cost_adaptation_study.py",
+      "original_sha256": "ea850ea64352fb95bd19bea23c50e39f4ddaccb5c8dabe2a85c141fd62342cb9",
+      "public_sha256": "96802ef71c79aa7287dcea7416dfee9714800b5e35ffd343fcbbac41cba755a3",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/cost_reuse_analysis.py",
+      "original_sha256": "ef213c82ed4a2c34db7fef929991f7e07a62ebc229b4f41ce21bc16f9b96cc5e",
+      "public_sha256": "ef213c82ed4a2c34db7fef929991f7e07a62ebc229b4f41ce21bc16f9b96cc5e",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/cpu_memory_guard.py",
+      "original_sha256": "3fce10a42446212c69872565ddf74654b39ff9292e78ff8ac4deaa383f14419a",
+      "public_sha256": "3fce10a42446212c69872565ddf74654b39ff9292e78ff8ac4deaa383f14419a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/depth200_native_cleanup.py",
+      "original_sha256": "4a4783fb4c729eb5142c34bc9a3b7dbb6835ca80cf91125789cdd3e1b93e44e5",
+      "public_sha256": "4a4783fb4c729eb5142c34bc9a3b7dbb6835ca80cf91125789cdd3e1b93e44e5",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/depth200_optimum_fit.py",
+      "original_sha256": "6a6acaf2d99761748bc356aa2d5ed4041b6b7c0bb20508598cddbd9ef14d7bef",
+      "public_sha256": "6a6acaf2d99761748bc356aa2d5ed4041b6b7c0bb20508598cddbd9ef14d7bef",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/depth200_optimum_hardware.py",
+      "original_sha256": "eb8069601cc8866e7d3fceaeb76fa5bf600868789994e47d5f3ce633105eb90f",
+      "public_sha256": "eb8069601cc8866e7d3fceaeb76fa5bf600868789994e47d5f3ce633105eb90f",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/depth200_optimum_report.py",
+      "original_sha256": "ac5682b85fd5a1ed891df7328531476b7fa0379f104f72c213f86bf1555becd8",
+      "public_sha256": "ac5682b85fd5a1ed891df7328531476b7fa0379f104f72c213f86bf1555becd8",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/depth200_optimum_screen.py",
+      "original_sha256": "911e91a1d2274e7119690b5ab97d3b323b7b5e1c4fd71efedc0c7bdcff1e8503",
+      "public_sha256": "dfef55cab7cded3b87427ca67d30103ebcf35fbae89b656382ac668dd887f86f",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/depth200_source_quality.py",
+      "original_sha256": "4766dcdb5c22f82060f7678a00509572cb8c34142b919753bef5532653370ba6",
+      "public_sha256": "4766dcdb5c22f82060f7678a00509572cb8c34142b919753bef5532653370ba6",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/endpoint_selection.py",
+      "original_sha256": "7b9eac6607c67647b8a59c67fbd9cf7ee3c8e0093cd419925363f64c9a20a5a1",
+      "public_sha256": "7b9eac6607c67647b8a59c67fbd9cf7ee3c8e0093cd419925363f64c9a20a5a1",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/flp42_depth_extension.py",
+      "original_sha256": "979ea107a81569140e8b5481c6ec83cec638ebd2b3a692438556c3401870c38d",
+      "public_sha256": "1cd877a3bcdbd90e8dbd8d37427c4e19cf72bbe0b69f8804b5f514fa22e734fd",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/flp42_depth_parallel.py",
+      "original_sha256": "c23214956ad250be5cce0507952839c4f60d1c998e9db32b6b6260b1072adf58",
+      "public_sha256": "c23214956ad250be5cce0507952839c4f60d1c998e9db32b6b6260b1072adf58",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/flp42_fidelity_parallel.py",
+      "original_sha256": "b02a8fa56a73afa1c02495914f7eaf9855c2bbe12895e234f29fc39f13973792",
+      "public_sha256": "4e964e9d8584a9e853e4341d37af22e265fe748d8b9b766bfc4a2e3801b3f85b",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/flp_mps_events.py",
+      "original_sha256": "7fafe3dfc6363396b1c84133b851f966fb51182eaf09c76b60ef2995d9f1624e",
+      "public_sha256": "7fafe3dfc6363396b1c84133b851f966fb51182eaf09c76b60ef2995d9f1624e",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/full_circuit_compression.py",
+      "original_sha256": "d553c1d993933933967a1e7a6f8929cba3c7a16f345a5ce3a3c674b9002d1134",
+      "public_sha256": "f475608dd1ede920a89cbd207fa7e8fcd4a83464237342c3d6ecb2f45a3dd4d9",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/full_circuit_explicit.py",
+      "original_sha256": "b75252e9541efe5fdb64733878aa0fc79a9e0a493c9182eac6eec1bdc6973503",
+      "public_sha256": "b75252e9541efe5fdb64733878aa0fc79a9e0a493c9182eac6eec1bdc6973503",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/full_circuit_hardware.py",
+      "original_sha256": "8aa38a18506aa6b5609895320bf4a4e99ee5f49936c3c9e605036911ac0b3cc0",
+      "public_sha256": "8aa38a18506aa6b5609895320bf4a4e99ee5f49936c3c9e605036911ac0b3cc0",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/hardware_width_figure.py",
+      "original_sha256": "f0a3efe997dde375b33c273b78a8ffeaee63764bb1f0bdd2f3437b89915ff2d2",
+      "public_sha256": "f0a3efe997dde375b33c273b78a8ffeaee63764bb1f0bdd2f3437b89915ff2d2",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/hardware_width_sweep.py",
+      "original_sha256": "92702f2671f329e7805f5a7d03f03aa66cc2147fbeb2cd489baf76b90c3cd94b",
+      "public_sha256": "7bc8cd771baf57ffd6399c7455b8e63c3a3b95db2d9976927300e74cbb07acf2",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/io.py",
+      "original_sha256": "0f2a98761accfd6addc77941a63548820c8ea1dc3effde0a6ae5a0ab724ff015",
+      "public_sha256": "0f2a98761accfd6addc77941a63548820c8ea1dc3effde0a6ae5a0ab724ff015",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/larger_width_feasibility.py",
+      "original_sha256": "9f150a39ad689a600da758a8d0598039fe1d2491d57177e727c7ceef71cb1538",
+      "public_sha256": "1dffff0f40157807670332c8eb465af6fc445f9c88a4cb984149a9022c4ee7d5",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/local_runner.py",
+      "original_sha256": "a278b2cbb4eb5c354c1fc9a3bb63ac67fca8d48480395d0f86ae8f039f645b22",
+      "public_sha256": "a278b2cbb4eb5c354c1fc9a3bb63ac67fca8d48480395d0f86ae8f039f645b22",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/long_anneal_hardware.py",
+      "original_sha256": "b918e7125f1665887238495302c78af1761f8561db36b3577ba8676073f72ff6",
+      "public_sha256": "b918e7125f1665887238495302c78af1761f8561db36b3577ba8676073f72ff6",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/long_anneal_study.py",
+      "original_sha256": "72d4cb2cb0187b8c9fbae596bb417e6515e0a625f6859580b90c45047a8a39f5",
+      "public_sha256": "6b151b3ee49d39277ddf6b4e52d528faf778aa7ae102772ef579140fff7bdf9f",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/memory_guard.py",
+      "original_sha256": "f35e92d6e4d90b0c8b5335c632af8518d6c9b1ea34e945bba3d28f33f617cf1d",
+      "public_sha256": "f35e92d6e4d90b0c8b5335c632af8518d6c9b1ea34e945bba3d28f33f617cf1d",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_aqc.py",
+      "original_sha256": "55ced95f1218eed650b138005b4dbc2350aa3a980ece8edb8ad226552b3dd125",
+      "public_sha256": "55ced95f1218eed650b138005b4dbc2350aa3a980ece8edb8ad226552b3dd125",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_analysis.py",
+      "original_sha256": "725b094389cdd2c96261769a8d6589d9001afd66ecf0169e8a828a8b15adf00d",
+      "public_sha256": "725b094389cdd2c96261769a8d6589d9001afd66ecf0169e8a828a8b15adf00d",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_benchmark.py",
+      "original_sha256": "8cecdc7e78ac79cffc9adbdf60b62904f302dc2d9b857b6285e425dc4bf4e251",
+      "public_sha256": "8cecdc7e78ac79cffc9adbdf60b62904f302dc2d9b857b6285e425dc4bf4e251",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_hardware.py",
+      "original_sha256": "889fccf98b8e24eeb7b292e2e1bcd258e3973035813bfd1490428e65d3a2dfe7",
+      "public_sha256": "889fccf98b8e24eeb7b292e2e1bcd258e3973035813bfd1490428e65d3a2dfe7",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_identity.py",
+      "original_sha256": "761cff213f32f60145b54d9d8ff9a4dc3577daf06fee47c29806f2a7996405f2",
+      "public_sha256": "761cff213f32f60145b54d9d8ff9a4dc3577daf06fee47c29806f2a7996405f2",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_objective.py",
+      "original_sha256": "0e72b4d92d53313ad9114ef28c84c32cfd07ae8a48c011330b2e92551882f642",
+      "public_sha256": "0e72b4d92d53313ad9114ef28c84c32cfd07ae8a48c011330b2e92551882f642",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_objective_v2.py",
+      "original_sha256": "bc87a5ee157166d9565bb5c5c9e63c6fc37cef7d2c64f0ca9b31f402d5e756e1",
+      "public_sha256": "bc87a5ee157166d9565bb5c5c9e63c6fc37cef7d2c64f0ca9b31f402d5e756e1",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/native_depth_refinement.py",
+      "original_sha256": "4ba2ea4454d7e5e7703e4bbd4436e447a5d0512fd16521ca80941cab1ee02d69",
+      "public_sha256": "f5feb57cdbe153a16c837fd1aeae48de59467e766b0df3f59b5d45088b39cdfb",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/native_depth_refinement_v2.py",
+      "original_sha256": "9ca068e643db5c6f81caeb7d599e387dd9b31e44c3e067fa26136ba409b12398",
+      "public_sha256": "9ca068e643db5c6f81caeb7d599e387dd9b31e44c3e067fa26136ba409b12398",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/nighthawk_study.py",
+      "original_sha256": "bacf43cb8721c6b51bac83cf0d0f0708a7eade71469efcc93706b442f0172358",
+      "public_sha256": "7b9c7ccf8da5c9028628716dc3dc4d9daf4eab9eabb02dc0cdb986eefb2154a2",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/placement_aer_reference.py",
+      "original_sha256": "03a3a31d809a8bc3c8e342a445340cbf1680abe45bb19d3773cbe83820680e5a",
+      "public_sha256": "03a3a31d809a8bc3c8e342a445340cbf1680abe45bb19d3773cbe83820680e5a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/placement_qaoa_core.py",
+      "original_sha256": "5cf59d97c077f0f8baff4f79e5b1e6c02aa697fb1d3f68d4611801ee070b6f70",
+      "public_sha256": "5cf59d97c077f0f8baff4f79e5b1e6c02aa697fb1d3f68d4611801ee070b6f70",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/placement_study_core.py",
+      "original_sha256": "03fcdbab1999f8302f82d22e5d03229f7237ad337213e19c0abff501db1bafed",
+      "public_sha256": "03fcdbab1999f8302f82d22e5d03229f7237ad337213e19c0abff501db1bafed",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/plot_tensor_prefix.py",
+      "original_sha256": "08b027bc84c72e63cdd108c288c5a3cf6a93dbdfa527c48b23f408a478f07f34",
+      "public_sha256": "08b027bc84c72e63cdd108c288c5a3cf6a93dbdfa527c48b23f408a478f07f34",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/prefix_diagnostic.py",
+      "original_sha256": "fc4581e0223743f066f6c17a4c94bf76334091cd3dc2b83d179759ee18468858",
+      "public_sha256": "bb8fdb17611fcfac7542387a01856f761c7178bc8a816406bd55717433a98f67",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/readout_indicator_mitigation.py",
+      "original_sha256": "dc0a383f2c524c4646c21d16bcd379e8a193a374e7e0736de1bba8f8e6d38552",
+      "public_sha256": "dc0a383f2c524c4646c21d16bcd379e8a193a374e7e0736de1bba8f8e6d38552",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/recover_full_circuit_deadline.py",
+      "original_sha256": "163fd5b8ba878e08ccac2811f32a1ef260866f7a2e7fa75eadb54608a7afb50c",
+      "public_sha256": "163fd5b8ba878e08ccac2811f32a1ef260866f7a2e7fa75eadb54608a7afb50c",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/reproducibility_diagnostics.py",
+      "original_sha256": "0842227fd23cc16969e151189bc3aa815ac3453f3f9acfd1f6e0cd2381103888",
+      "public_sha256": "0842227fd23cc16969e151189bc3aa815ac3453f3f9acfd1f6e0cd2381103888",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/reproducibility_hardware.py",
+      "original_sha256": "03538c13b582f769de4b84129869c12e84c876123154ad4c7cb42798ce3b4539",
+      "public_sha256": "03538c13b582f769de4b84129869c12e84c876123154ad4c7cb42798ce3b4539",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/reproducibility_reporting.py",
+      "original_sha256": "9a6cd6bb0e175a4704dda4a61fc5fb60f03a6b04707293671699279abbbeccfa",
+      "public_sha256": "9a6cd6bb0e175a4704dda4a61fc5fb60f03a6b04707293671699279abbbeccfa",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/reproducibility_study.py",
+      "original_sha256": "b7bbbaf2ed0c5e722b9342e1f6ef39888ab00c9a5f754aded9c1d388e2645070",
+      "public_sha256": "32e89a703d39017d528eedb04a26406c40c9b12ee385b1a481b7d799fd8be6f0",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/run_tensor_prefix_pilot.py",
+      "original_sha256": "cf3bfa8565117456575023f32a94071ec9e6ca6a51875fdecb6ca6ac639afc5f",
+      "public_sha256": "cf3bfa8565117456575023f32a94071ec9e6ca6a51875fdecb6ca6ac639afc5f",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/statistics.py",
+      "original_sha256": "46d66dc640546ae56311a1a52ca866ed7959390b9a7bda63018bcd4c7afcbaa5",
+      "public_sha256": "46d66dc640546ae56311a1a52ca866ed7959390b9a7bda63018bcd4c7afcbaa5",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/steps_native_sweep.py",
+      "original_sha256": "c9906d592d76bb89933ef714fbb621744a3888793101938a3036572b490d3415",
+      "public_sha256": "676eaaf9e6021ea49b0c2ddc44295396744197bee6013c2bfb5c1cb0e6a44183",
+      "modified_for_portability": true
+    },
+    {
+      "path": "revision/tensor_prefix_core.py",
+      "original_sha256": "775d998ade20643067ab133cf67f5dd523f488ae6f41e6b982f18cf964d302aa",
+      "public_sha256": "775d998ade20643067ab133cf67f5dd523f488ae6f41e6b982f18cf964d302aa",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/tensor_prefix_hardware.py",
+      "original_sha256": "f65ac36bb65c6ba82e86b907c4444c0abddc3a984618d807e89e91c4ebdd5c04",
+      "public_sha256": "f65ac36bb65c6ba82e86b907c4444c0abddc3a984618d807e89e91c4ebdd5c04",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/tensor_prefix_models.py",
+      "original_sha256": "d5a70b8f2515ceeb7fe0398bbba5984805808f61a85a9fbcfbff4f566346edce",
+      "public_sha256": "d5a70b8f2515ceeb7fe0398bbba5984805808f61a85a9fbcfbff4f566346edce",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/tensor_prefix_prepare.py",
+      "original_sha256": "5ca92e71e49a7ab98560bd228b2bc62954a14f68ab804f880e8b986d4acea20d",
+      "public_sha256": "5ca92e71e49a7ab98560bd228b2bc62954a14f68ab804f880e8b986d4acea20d",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/tensor_prefix_sabre.py",
+      "original_sha256": "6ae06c1f4d0ed99330471641ee4a0df4d00e7efbcc566c1f6c4cc0b712018adf",
+      "public_sha256": "6ae06c1f4d0ed99330471641ee4a0df4d00e7efbcc566c1f6c4cc0b712018adf",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/tensor_prefix_sabre_pilot.py",
+      "original_sha256": "d6722a8bea77395f56cad34a88775e43f5cf136a48fe3bf9f15187b2400e3ab8",
+      "public_sha256": "d6722a8bea77395f56cad34a88775e43f5cf136a48fe3bf9f15187b2400e3ab8",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/validate_cost_adaptation.py",
+      "original_sha256": "efdef7c231f72863d23895cc39d94da3fdd58b8405baacff8d8b3f327d124b4e",
+      "public_sha256": "efdef7c231f72863d23895cc39d94da3fdd58b8405baacff8d8b3f327d124b4e",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/validate_cost_reuse_analysis.py",
+      "original_sha256": "b4ec9d4045ffd6e209406f1ff775531fa49c594a38891c55cf37ed8c068f010c",
+      "public_sha256": "b4ec9d4045ffd6e209406f1ff775531fa49c594a38891c55cf37ed8c068f010c",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/validate_tensor_prefix.py",
+      "original_sha256": "5de15c4a1b88cd2c6b75895c4414b227fbf44ba58ea947e9b50b770b27eec9f9",
+      "public_sha256": "5de15c4a1b88cd2c6b75895c4414b227fbf44ba58ea947e9b50b770b27eec9f9",
+      "modified_for_portability": false
+    },
+    {
+      "path": "revision/width_sweep_models.py",
+      "original_sha256": "be33d55ee5861ace2f16a837fdd7cb89c59d36f42f1079e586c66e06c14705a0",
+      "public_sha256": "be33d55ee5861ace2f16a837fdd7cb89c59d36f42f1079e586c66e06c14705a0",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_cost_adaptation.py",
+      "original_sha256": "225310ca2ddca71bc001cf675963d2ef94dc72fde4eb144f3f5e743a358f41ac",
+      "public_sha256": "225310ca2ddca71bc001cf675963d2ef94dc72fde4eb144f3f5e743a358f41ac",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_cpu_memory_guard.py",
+      "original_sha256": "e22a6c9514078eba5ca0f2db35fd024b52cc2a0267c0f35ff32ccafddb7c5a0b",
+      "public_sha256": "e22a6c9514078eba5ca0f2db35fd024b52cc2a0267c0f35ff32ccafddb7c5a0b",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_depth200_native_cleanup.py",
+      "original_sha256": "8ec28b308f0e8ad9704711252116bcf30f47ffa7a8d1c1105719886473a82a50",
+      "public_sha256": "8ec28b308f0e8ad9704711252116bcf30f47ffa7a8d1c1105719886473a82a50",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_depth200_optimum_fit.py",
+      "original_sha256": "864d103a2eb617d71b1415b47e6e68523842d487cc6dbe1ef523dae7d10df09a",
+      "public_sha256": "864d103a2eb617d71b1415b47e6e68523842d487cc6dbe1ef523dae7d10df09a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_depth200_optimum_hardware.py",
+      "original_sha256": "a81fa3fee303b6da78399184040fcb05f971ea23fd7591052b5769f8413d4d6e",
+      "public_sha256": "a81fa3fee303b6da78399184040fcb05f971ea23fd7591052b5769f8413d4d6e",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_depth200_optimum_screen.py",
+      "original_sha256": "4007e1bb7486ba88aa0f82e0facfffedad2dfe670594474e33d6a45289bb49e9",
+      "public_sha256": "4007e1bb7486ba88aa0f82e0facfffedad2dfe670594474e33d6a45289bb49e9",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_flp42_depth_extension.py",
+      "original_sha256": "8896a51099e6b59aa1e0e8fd8bce3437fa5309bf77acd248aeaf7e964b1891b6",
+      "public_sha256": "8896a51099e6b59aa1e0e8fd8bce3437fa5309bf77acd248aeaf7e964b1891b6",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_flp42_depth_parallel.py",
+      "original_sha256": "11056666bf03d6f31a171dd19ef1dd7e95f1c05e333dffa964069b4af5bdab94",
+      "public_sha256": "11056666bf03d6f31a171dd19ef1dd7e95f1c05e333dffa964069b4af5bdab94",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_flp_mps_events.py",
+      "original_sha256": "28615e2d8aad66dbae3d3941f912173c51e5838a7b5d1be3baa694a4dffd0393",
+      "public_sha256": "28615e2d8aad66dbae3d3941f912173c51e5838a7b5d1be3baa694a4dffd0393",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_full_circuit_mitigation.py",
+      "original_sha256": "71714abe91dbb546f1ec1ef22be6b42cc4317bc3365959499c43916d408ae982",
+      "public_sha256": "71714abe91dbb546f1ec1ef22be6b42cc4317bc3365959499c43916d408ae982",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_larger_width_feasibility.py",
+      "original_sha256": "cb13b5cdfc29a347daace8d9dd4a6baabafb32f688341712fb5b3e0646b878af",
+      "public_sha256": "cb13b5cdfc29a347daace8d9dd4a6baabafb32f688341712fb5b3e0646b878af",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_long_anneal_hardware.py",
+      "original_sha256": "edbde8c75d9b4cb13d4a9174ce3d778a3dc92fe442a66c3d50c352fc2665fbaa",
+      "public_sha256": "edbde8c75d9b4cb13d4a9174ce3d778a3dc92fe442a66c3d50c352fc2665fbaa",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_long_anneal_study.py",
+      "original_sha256": "da67c4ddda105ab40ac31480c211c22cc241751e3da86a00baf9169aaab7309d",
+      "public_sha256": "5179c84d0f526b578e44b42b40247ca035a1f181a067e4b0abdfc52de3bfa7a4",
+      "modified_for_portability": true,
+      "change_reason": "Marks full original-campaign source-hash validation as an opt-in campaign test."
+    },
+    {
+      "path": "tests/test_memory_guard.py",
+      "original_sha256": "ab03247fb66b1bbda18d9342d0f3e0016144cc8c8b02309e53edf5f8655cd034",
+      "public_sha256": "ab03247fb66b1bbda18d9342d0f3e0016144cc8c8b02309e53edf5f8655cd034",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_memory_guard_rss.py",
+      "original_sha256": "e80e4b38e4eaf122cb6baca52cecf11368394e06b9ee95ca99bf51ee19dd9277",
+      "public_sha256": "e80e4b38e4eaf122cb6baca52cecf11368394e06b9ee95ca99bf51ee19dd9277",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_native_aqc.py",
+      "original_sha256": "3336742c78db0843855f232ba9723fb8213ba440f6bd9a48b84d00fa76a1cb26",
+      "public_sha256": "3336742c78db0843855f232ba9723fb8213ba440f6bd9a48b84d00fa76a1cb26",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_native_depth_hardware.py",
+      "original_sha256": "3687bbff89b2ad7d1b0863b82cc5f1fb56d239e5bafd10aec54217ae6abb8976",
+      "public_sha256": "3687bbff89b2ad7d1b0863b82cc5f1fb56d239e5bafd10aec54217ae6abb8976",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_native_depth_identity.py",
+      "original_sha256": "7a43b7336e90afec405c9a1092d7a4069d709fa089d7af3f48cbf4297ee810e6",
+      "public_sha256": "7a43b7336e90afec405c9a1092d7a4069d709fa089d7af3f48cbf4297ee810e6",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_native_depth_planning_v2.py",
+      "original_sha256": "813a808b064d5055be4d0b4889db0b2cd4134499503e44f2f5e8b825140e5980",
+      "public_sha256": "813a808b064d5055be4d0b4889db0b2cd4134499503e44f2f5e8b825140e5980",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_native_depth_refinement.py",
+      "original_sha256": "17ec6493c3a5b4c6039590c0e8d380b7a245fdd8ba0cd855b4cfd9b97e7027d2",
+      "public_sha256": "17ec6493c3a5b4c6039590c0e8d380b7a245fdd8ba0cd855b4cfd9b97e7027d2",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_nighthawk_statistics.py",
+      "original_sha256": "7c2cd6d91e0db8a6605f3256e6c11c55087ff82b9ff903888b1d5d568194f2ea",
+      "public_sha256": "7c2cd6d91e0db8a6605f3256e6c11c55087ff82b9ff903888b1d5d568194f2ea",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_prefix_diagnostic.py",
+      "original_sha256": "09ebe1084bf4aa63bf944cfc057bb484391bae0e6a97be8ef04ad55b36abf1e4",
+      "public_sha256": "09ebe1084bf4aa63bf944cfc057bb484391bae0e6a97be8ef04ad55b36abf1e4",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_reproducibility.py",
+      "original_sha256": "309e798e880e78ad7311a9f986ca0c8d40c01e4ee02d37bd420e32ea348e1ae5",
+      "public_sha256": "309e798e880e78ad7311a9f986ca0c8d40c01e4ee02d37bd420e32ea348e1ae5",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_reproducibility_hardware.py",
+      "original_sha256": "12aac7bb3a7089e3bffc68276dfa97fc269858717f7484351678196360ea8a0e",
+      "public_sha256": "12aac7bb3a7089e3bffc68276dfa97fc269858717f7484351678196360ea8a0e",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_tensor_prefix.py",
+      "original_sha256": "05896fd5c6e02fd8d0c52f3232f6289272d998d68c275606ad44e96c107f74da",
+      "public_sha256": "713d07b600e17361340415c96c3c30b317f31833e94a558149a3c512181883eb",
+      "modified_for_portability": true,
+      "change_reason": "Release test uses an untruncated MPS for its exact-state gradient comparison."
+    },
+    {
+      "path": "tests/test_tensor_prefix_statistics.py",
+      "original_sha256": "4d191c42290e223c15a0d73125f3d40b411dd3ca5db10ad74175db2e31b014de",
+      "public_sha256": "4d191c42290e223c15a0d73125f3d40b411dd3ca5db10ad74175db2e31b014de",
+      "modified_for_portability": false
+    },
+    {
+      "path": "tests/test_width_sweep.py",
+      "original_sha256": "a677b1a30dfa6f6169e5ef0b692235962e32d9392c47d3ebb50d818a9662e21c",
+      "public_sha256": "a677b1a30dfa6f6169e5ef0b692235962e32d9392c47d3ebb50d818a9662e21c",
+      "modified_for_portability": false
+    }
+  ],
+  "portability_notes": [
+    "Author-specific extra-site paths replaced with an empty optional path. Dependencies come from the selected Python environment.",
+    "IBM connection selectors can come from environment variables or the default saved Runtime account. Configured processor-family checks remain enforced.",
+    "Public configurations omit personal account selectors.",
+    "The exact-state gradient test uses an untruncated MPS. tests/conftest.py enables the same double precision as the original runner.",
+    "One full historical workspace hash test is marked campaign and remains available as an opt-in check."
+  ]
+}

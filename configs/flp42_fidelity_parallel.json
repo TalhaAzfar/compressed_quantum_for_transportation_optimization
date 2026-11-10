@@ -1,0 +1,51 @@
+{
+  "output_dir": "outputs/flp42_fidelity_parallel",
+  "parent_dir": "outputs/flp42_scaling",
+  "target_snapshot": "outputs/aqc_steps_10_12_bounded/preflight/target_snapshot.pkl",
+  "case": "flp42",
+  "physical_cores": 4,
+  "numerical_threads": 1,
+  "aggregate_rss_gib": 40,
+  "system_reserve_gib": 8,
+  "process_address_gib": 32,
+  "half_layers": [
+    6,
+    10
+  ],
+  "full_layers": [
+    6
+  ],
+  "starts": 4,
+  "fit_seconds_6": 900,
+  "fit_seconds_10": 1200,
+  "fit_maxiter": 120,
+  "fit_max_evaluations": 100,
+  "fit_bond": 128,
+  "check_bond": 256,
+  "fit_cutoff": 1e-12,
+  "check_cutoff": 1e-13,
+  "objective_tolerance": 2e-05,
+  "convergence_min": 0.999,
+  "fit_threshold": 0.98,
+  "full_target_bonds": [
+    128,
+    256,
+    512
+  ],
+  "target_seconds_per_bond": 1800,
+  "half_reference_check_bond": 256,
+  "seed": 99201,
+  "perturbations": [
+    0.0,
+    0.005,
+    0.02,
+    0.02
+  ],
+  "scope": "Post-baseline optimization-budget follow-up on the same 42-qubit six-facility/six-customer instance and native Nighthawk patch. Existing outcomes are known. No population scaling claim or replacement of earlier fixed-budget results.",
+  "half_target": "Keep the exact same accepted half-target MPS as the primary fitting reference. Construct a bond-256 tighter-cutoff target separately and report overlap/fidelity sensitivity for the baseline and selected new fits.",
+  "initialization": "Half L6: continue the archived L6 best exactly, perturb it by 0.005 and 0.02, and extend/perturb the archived L2 fit. Half L10: four identity extensions of the best verified L6 among archived and new fits, with the declared perturbations. Full L6: best half-L6 exactly/perturbed for starts 0/1, and the independently fitted full product exactly/perturbed for starts 2/3.",
+  "full_target": "Construct bond-128/256/512 references independently with cutoff 1e-12, retaining each checkpoint and failure. Accept the smallest adjacent pair with overlap >=0.999. No full fitting if no pair qualifies. This tests numerical convergence, not an exact-state certificate.",
+  "acceptance": "Independent ansatz bond overlap >=0.999 and objective/independent-overlap discrepancy <2e-5. Keep every completed evaluation checkpoint and every failed/unverified attempt. The 0.98 primary accuracy threshold is unchanged.",
+  "parallelism": "At most four independent workers, one physical core and one numerical thread each, under one aggregate 40 GiB RSS watchdog and 8 GiB system reserve. Each worker inherits a 32 GiB address cap. Depth dependencies remain sequential.",
+  "hardware": "This follow-up measures classical fitting fidelity. No QPU submissions are part of this protocol. Report any >=0.98 circuit as eligible for a separately specified device validation."
+}

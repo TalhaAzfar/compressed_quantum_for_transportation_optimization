@@ -1,0 +1,90 @@
+{
+  "schema_version": "aqc-tensor-qaoa-prefix-v2-verified-sabre",
+  "output_dir": "outputs/aqc_tensor_qaoa_v2",
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "cases": [
+    {
+      "id": "flp20",
+      "problem": "flp",
+      "customers": 4,
+      "facilities": 4,
+      "seed": 82021
+    },
+    {
+      "id": "tsp16",
+      "problem": "tsp",
+      "nodes": 5,
+      "seed": 83021
+    },
+    {
+      "id": "flp30",
+      "problem": "flp",
+      "customers": 5,
+      "facilities": 5,
+      "seed": 82022
+    },
+    {
+      "id": "tsp25",
+      "problem": "tsp",
+      "nodes": 6,
+      "seed": 83022
+    }
+  ],
+  "target_duration": 2.0,
+  "target_steps": 8,
+  "target_endpoints": [
+    0.5,
+    1.0
+  ],
+  "target_bonds": [
+    32,
+    64,
+    128
+  ],
+  "target_convergence_fidelity_minimum": 0.999,
+  "prefix_candidates": [
+    {
+      "graph": "path",
+      "layers": 1
+    },
+    {
+      "graph": "path",
+      "layers": 3
+    },
+    {
+      "graph": "patch",
+      "layers": 1
+    }
+  ],
+  "fit_maxiter": 40,
+  "fit_seed": 81002,
+  "fit_target_fidelity": 0.98,
+  "qaoa_train_maxeval": 24,
+  "qaoa_train_bond": 64,
+  "qaoa_gamma_bounds": [
+    -0.6,
+    0.6
+  ],
+  "qaoa_beta_bounds": [
+    -0.8,
+    0.8
+  ],
+  "hardware_screen_shots": 2048,
+  "spsa_steps": 3,
+  "spsa_shots": 2048,
+  "spsa_a": 0.08,
+  "spsa_c": 0.1,
+  "spsa_seed": 84021,
+  "final_blocks": 2,
+  "final_shots": 8192,
+  "max_execution_seconds_per_job": 180,
+  "max_jobs": 6,
+  "max_total_shots": 650000,
+  "refinement_objective": "CVaR at alpha 0.2 of original penalized cost, normalized by the fixed QUBO scale; feasibility and within-5-percent-optimum success reported separately",
+  "selection_rule": "For each endpoint retain shallowest candidate with converged-target fidelity at least .98, otherwise highest fidelity and explicitly mark threshold unmet. Hardware screening chooses the endpoint by lowest prefixed-QAOA CVaR. Three equal-budget SPSA updates refine QAOA angles for selected prefix and standard p=1. Final two randomized blocks evaluate untouched screening parameters and final updated parameters, plus standard p=2, shallow-prefix, and matched uncompressed-prefix controls. No final outcomes used for tuning.",
+  "scope": "Bounded exploratory hardware pilot, one independent instance at each model/size, no population or quantum-advantage claim. AQC-Tensor uses normalized MPS targets and physical-edge shallow ansatzes. QAOA retains full problem interactions and can require routing. No repair or postselection. Final measurement evaluation separated from screening and tuning.",
+  "routing_amendment": "Preserve all v1 numerical choices; recompile with gatewise-verified seeded SABRE before acquisition. Original queued screen cancelled without execution or QPU usage."
+}

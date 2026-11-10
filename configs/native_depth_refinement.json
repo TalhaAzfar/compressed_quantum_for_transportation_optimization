@@ -1,0 +1,245 @@
+{
+  "account": null,
+  "instance_name": null,
+  "backend": "ibm_rensselaer",
+  "processor_family_required": "Nighthawk",
+  "cases": [
+    {
+      "id": "flp6_r1",
+      "problem": "flp",
+      "seed": 100101,
+      "customers": 2,
+      "facilities": 2
+    },
+    {
+      "id": "flp6_r2",
+      "problem": "flp",
+      "seed": 100102,
+      "customers": 2,
+      "facilities": 2
+    },
+    {
+      "id": "flp6_r3",
+      "problem": "flp",
+      "seed": 100103,
+      "customers": 2,
+      "facilities": 2
+    },
+    {
+      "id": "flp10_r1",
+      "problem": "flp",
+      "seed": 100201,
+      "customers": 4,
+      "facilities": 2
+    },
+    {
+      "id": "flp10_r2",
+      "problem": "flp",
+      "seed": 100202,
+      "customers": 4,
+      "facilities": 2
+    },
+    {
+      "id": "flp10_r3",
+      "problem": "flp",
+      "seed": 100203,
+      "customers": 4,
+      "facilities": 2
+    },
+    {
+      "id": "flp14_r1",
+      "problem": "flp",
+      "seed": 100301,
+      "customers": 6,
+      "facilities": 2
+    },
+    {
+      "id": "flp14_r2",
+      "problem": "flp",
+      "seed": 100302,
+      "customers": 6,
+      "facilities": 2
+    },
+    {
+      "id": "flp14_r3",
+      "problem": "flp",
+      "seed": 100303,
+      "customers": 6,
+      "facilities": 2
+    },
+    {
+      "id": "flp20_r1",
+      "problem": "flp",
+      "seed": 100401,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "flp20_r2",
+      "problem": "flp",
+      "seed": 100402,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "flp20_r3",
+      "problem": "flp",
+      "seed": 100403,
+      "customers": 4,
+      "facilities": 4
+    },
+    {
+      "id": "tsp9_r1",
+      "problem": "tsp",
+      "seed": 100501,
+      "nodes": 4
+    },
+    {
+      "id": "tsp9_r2",
+      "problem": "tsp",
+      "seed": 100502,
+      "nodes": 4
+    },
+    {
+      "id": "tsp9_r3",
+      "problem": "tsp",
+      "seed": 100503,
+      "nodes": 4
+    },
+    {
+      "id": "tsp16_r1",
+      "problem": "tsp",
+      "seed": 100601,
+      "nodes": 5
+    },
+    {
+      "id": "tsp16_r2",
+      "problem": "tsp",
+      "seed": 100602,
+      "nodes": 5
+    },
+    {
+      "id": "tsp16_r3",
+      "problem": "tsp",
+      "seed": 100603,
+      "nodes": 5
+    },
+    {
+      "id": "tsp25_r1",
+      "problem": "tsp",
+      "seed": 100701,
+      "nodes": 6
+    },
+    {
+      "id": "tsp25_r2",
+      "problem": "tsp",
+      "seed": 100702,
+      "nodes": 6
+    },
+    {
+      "id": "tsp25_r3",
+      "problem": "tsp",
+      "seed": 100703,
+      "nodes": 6
+    },
+    {
+      "id": "vrp12_r1",
+      "problem": "vrp",
+      "seed": 100801,
+      "nodes": 4,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp12_r2",
+      "problem": "vrp",
+      "seed": 100802,
+      "nodes": 4,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp12_r3",
+      "problem": "vrp",
+      "seed": 100803,
+      "nodes": 4,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp20_r1",
+      "problem": "vrp",
+      "seed": 100901,
+      "nodes": 5,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp20_r2",
+      "problem": "vrp",
+      "seed": 100902,
+      "nodes": 5,
+      "vehicles": 2
+    },
+    {
+      "id": "vrp20_r3",
+      "problem": "vrp",
+      "seed": 100903,
+      "nodes": 5,
+      "vehicles": 2
+    }
+  ],
+  "output_dir": "outputs/native_depth_refinement_2026_10",
+  "parent_dir": "outputs/hardware_width_sweep_2026",
+  "new_native_depth_caps": [
+    32,
+    64
+  ],
+  "refine_existing_two_layers": true,
+  "product_starts": 3,
+  "native_starts": 3,
+  "fit_max_evaluations": 500,
+  "fit_maxiter": 400,
+  "fit_ftol": 1e-11,
+  "fit_gtol": 1e-06,
+  "fit_seconds_small": 1800,
+  "fit_seconds_large": 7200,
+  "minimum_evaluations_if_not_converged": 100,
+  "fitting_objective": "AQC-Tensor complete-state fidelity with the same full 12-step annealing target",
+  "exact_output_validation": true,
+  "minimum_target_fidelity": 0.999,
+  "parameter_seed": 101001,
+  "ordering_seed": 101002,
+  "contraction_repeats": 16,
+  "max_tensor_bytes": 268435456,
+  "max_slice_write_bytes": 1500000000,
+  "max_slices": 1024,
+  "aggregate_rss_limit_bytes": 35000000000,
+  "worker_address_gib": 12,
+  "worker_rss_limit_bytes": 9000000000,
+  "system_reserve_bytes": 8000000000,
+  "parallel_workers": 3,
+  "physical_cores_per_worker": 6,
+  "numerical_threads_per_worker": 4,
+  "start_perturbations": [
+    0,
+    0.03,
+    0.1
+  ],
+  "hardware_screen_blocks": 2,
+  "hardware_screen_shots_per_circuit": 2048,
+  "hardware_confirmation_blocks": 2,
+  "hardware_confirmation_shots_per_circuit": 4096,
+  "hardware_max_jobs": 12,
+  "hardware_max_total_shots": 1880064,
+  "hardware_max_execution_seconds_per_job": 300,
+  "screen_candidates": "Refined product, original source, frozen old L2, and up to two native candidates per new depth (highest exact fidelity and highest exact ideal feasibility among completed start endpoints and preserved shallower alternatives). Deduplicate identical circuits.",
+  "selection_rule": "Choose the native candidate with the largest screening feasibility Wilson lower 95% confidence bound; ties choose smaller CZ depth then CZ count then fixed candidate id. The primary validation is a separate fresh confirmation acquisition; optimum is reported separately.",
+  "confirmation_methods": [
+    "selected_native",
+    "old_aqc_l2",
+    "refined_product",
+    "source"
+  ],
+  "confirmation_tests": "162 primary tests: 27 instances x two events (feasible/optimal) x selected_native versus each of the three references, block-conditional exact two-sided, Holm jointly. Screening ranks are exploratory and excluded from confirmation inference.",
+  "interpretation": "Best among searched circuits and declared budgets; no global optimizer certificate or population-level scaling law. Prior width-sweep hardware outcomes known; new selection and confirmation acquisitions are separate.",
+  "cpu_note": "Separate worker processes receive disjoint physical cores; aggregate RSS and available-memory guards include descendants.",
+  "target_construction": "Validated exact-reference-assisted MPS at every tested width; same original complete-anneal circuits; no end-to-end tensor-network scalability claim.",
+  "native_depth_note": "Refine the existing two-layer architecture first. The 32/64 CZ limits use complete native entangling rounds, with realized depths reported explicitly; some smaller patches give 30/60."
+}

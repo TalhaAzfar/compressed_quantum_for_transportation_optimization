@@ -1,0 +1,123 @@
+{
+  "output_dir": "outputs/placement_prefix_study",
+  "target_snapshot": "outputs/aqc_steps_10_12_bounded/preflight/target_snapshot.pkl",
+  "development_case": "outputs/flp42_scaling/cases/flp20.json",
+  "development_target": "outputs/flp42_scaling/targets/flp20_half.pkl",
+  "physical_cores": 4,
+  "aggregate_rss_gib": 40,
+  "process_address_gib": 16,
+  "system_reserve_gib": 8,
+  "layers": 2,
+  "starts": 2,
+  "fit_seconds": 180,
+  "fit_maxiter": 120,
+  "fit_max_evaluations": 160,
+  "fit_bond": 64,
+  "check_bond": 128,
+  "fit_cutoff": 1e-12,
+  "check_cutoff": 1e-13,
+  "convergence_min": 0.999,
+  "objective_tolerance": 2e-05,
+  "fit_threshold": 0.98,
+  "seed": 100001,
+  "steps": 12,
+  "endpoint": 0.5,
+  "duration": 2.0,
+  "mapping_restarts": 8,
+  "mapping_proposals": 4000,
+  "designs": [
+    {
+      "id": "original_ryrz_random",
+      "placement": "original",
+      "architecture": "ryrz",
+      "initialization": "random",
+      "selectable": true
+    },
+    {
+      "id": "informed_ryrz_random",
+      "placement": "informed",
+      "architecture": "ryrz",
+      "initialization": "random",
+      "selectable": true
+    },
+    {
+      "id": "random0_ryrz_random",
+      "placement": "random0",
+      "architecture": "ryrz",
+      "initialization": "random",
+      "selectable": false
+    },
+    {
+      "id": "random1_ryrz_random",
+      "placement": "random1",
+      "architecture": "ryrz",
+      "initialization": "random",
+      "selectable": false
+    },
+    {
+      "id": "original_euler_random",
+      "placement": "original",
+      "architecture": "euler",
+      "initialization": "random",
+      "selectable": true
+    },
+    {
+      "id": "informed_euler_random",
+      "placement": "informed",
+      "architecture": "euler",
+      "initialization": "random",
+      "selectable": true
+    },
+    {
+      "id": "original_euler_projected",
+      "placement": "original",
+      "architecture": "euler",
+      "initialization": "projected",
+      "selectable": true
+    },
+    {
+      "id": "informed_euler_projected",
+      "placement": "informed",
+      "architecture": "euler",
+      "initialization": "projected",
+      "selectable": true
+    }
+  ],
+  "validation_seeds_20": [
+    100101,
+    100102,
+    100103
+  ],
+  "validation_seeds_30": [
+    100201,
+    100202,
+    100203
+  ],
+  "target_bonds": [
+    64,
+    128,
+    256
+  ],
+  "target_seconds": 600,
+  "qaoa_max_evaluations": 48,
+  "qaoa_seconds": 240,
+  "qaoa_train_bond": 64,
+  "qaoa_check_bonds": [
+    128,
+    256
+  ],
+  "qaoa_energy_tolerance": 0.0001,
+  "event_relative_tolerance": 0.05,
+  "selection": "Mean verified target fidelity over BOTH starts on the known development case. Both starts must pass. Highest mean among selectable designs; ties within 1e-6 prefer original_ryrz_random, then lexicographic ID. Random placements are diagnostic controls only. Lock selected rule before creating fresh models.",
+  "budget": "Same two native RZZ layers and therefore exactly twice the same edge count per layer in compiled CZ gates. Single-qubit parameter counts differ and are reported. Charge placement-search and parameter-initialization time against each affected fit's 180-second allowance; shared target construction is reported separately. Completed-evaluation boundary and outer deadline apply.",
+  "targets": "Complete unchanged Hamiltonian, 12 digitization steps, duration parameter 2, endpoint 0.5. Native projection is only an initializer; it never replaces the target. Logical state and decoding are held fixed under placement changes. Statevectors limited to 20 qubits.",
+  "scope": "Separate known-instance development ablation followed by locked-rule, fresh-instance validation. No new algorithmic-priority claim, no general scaling claim from one case. Preserve earlier studies and thresholds.",
+  "hardware_backend": "ibm_rensselaer",
+  "hardware_max_total_shots": 131072,
+  "hardware_methods": 4,
+  "hardware_days": 2,
+  "hardware_blocks_per_day": 2,
+  "hardware_shots_per_block": 8192,
+  "hardware_gate": "Before hardware, assess ideal useful-event comparison of the selected method against product QAOA on fresh 20-qubit cases. Require at least 10 expected useful events in each arm per day (16384 shots), positive improvement, and prospective one-sided exact-test power >=0.8 at alpha .05/6 for the declared three comparisons on two days. Ideal power is an optimistic screen, not a noise guarantee. If no case passes, retain the failed gate and do not acquire an uninformative hardware pilot. If a case passes, freeze four circuits, randomized blocks, primary useful event and secondary feasibility, and execute on Nighthawk on two independent acquisition days at least 24 hours apart. No retroactive change to the earlier 0.98 accuracy gate.",
+  "extension42": "Only if development mean fidelity improves >=0.005 and the selected rule improves mean fidelity and wins at least two of three paired cases at BOTH fresh widths, test it and the original rule on the archived 42-qubit case at the same new budgets. Otherwise record the extension as not warranted by the prespecified development/validation gate."
+}
