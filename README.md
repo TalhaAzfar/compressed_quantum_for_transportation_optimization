@@ -4,7 +4,6 @@ Research code for **Hardware-Native Compression of Quantum Annealing States for 
 
 The study fits shallow circuits to digitized annealing states and evaluates the resulting transportation candidates on superconducting hardware. It includes facility location (FLP), the traveling salesperson problem (TSP), and vehicle routing (VRP). The principal outcome is measured feasible-sample probability, with transportation costs, optimality gaps, approximation fidelity, and executed two-qubit depth as complementary measures. The method is a compilation strategy, rather than a complete transportation solver or a claim of quantum computational advantage.
 
-This lightweight folder can replace the code at <https://github.com/TalhaAzfar/hardware-aware-transport-qaoa>. It contains the study code, tests, configurations, and compact data needed to reproduce the paper figures. Original experiment records are distributed separately as `hardware-aware-transport-qaoa-data.zip`. The manuscript itself is maintained separately.
 
 ## Quick start
 
